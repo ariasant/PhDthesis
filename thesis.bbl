@@ -28,16 +28,49 @@
 Abadi M.,  et~al., 2015, {TensorFlow}: Large-Scale Machine Learning on
   Heterogeneous Systems, \url {https://www.tensorflow.org/}
 
+\bibitem[\protect\citeauthoryear{{Abdurro'uf} et~al.,}{{Abdurro'uf}
+  et~al.}{2022}]{apogeedr17}
+{Abdurro'uf} et~al., 2022, \mn@doi [\apjs] {10.3847/1538-4365/ac4414}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022ApJS..259...35A} {259, 35}
+
 \bibitem[\protect\citeauthoryear{{Agarwal}, {Aggarwal}, {Burke-Spolaor},
   {Lorimer}  \& {Garver-Daniels}}{{Agarwal} et~al.}{2020}]{agarwal_fetch_2020}
 {Agarwal} D.,  {Aggarwal} K.,  {Burke-Spolaor} S.,  {Lorimer} D.~R.,
   {Garver-Daniels} N.,  2020, \mn@doi [\mnras] {10.1093/mnras/staa1856}, \href
   {https://ui.adsabs.harvard.edu/abs/2020MNRAS.497.1661A} {497, 1661}
 
+\bibitem[\protect\citeauthoryear{Akiba, Sano, Yanase, Ohta  \& Koyama}{Akiba
+  et~al.}{2019a}]{optuna_2019}
+Akiba T.,  Sano S.,  Yanase T.,  Ohta T.,   Koyama M.,  2019a, in Proceedings
+  of the 25th {ACM} {SIGKDD} International Conference on Knowledge Discovery
+  and Data Mining.
+
+\bibitem[\protect\citeauthoryear{Akiba, Sano, Yanase, Ohta  \& Koyama}{Akiba
+  et~al.}{2019b}]{akiba_Optuna_2019}
+Akiba T.,  Sano S.,  Yanase T.,  Ohta T.,   Koyama M.,  2019b, Optuna: A
+  Next-generation Hyperparameter Optimization Framework (\mn@eprint {arXiv}
+  {1907.10902})
+
+\bibitem[\protect\citeauthoryear{{Amarante}, {Debattista}, {Beraldo e Silva},
+  {Laporte}  \& {Deg}}{{Amarante} et~al.}{2022}]{amarante_2022}
+{Amarante} J. A.~S.,  {Debattista} V.~P.,  {Beraldo e Silva} L.,  {Laporte} C.
+  F.~P.,   {Deg} N.,  2022, \mn@doi [\apj] {10.3847/1538-4357/ac8b0d}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022ApJ...937...12A} {937, 12}
+
 \bibitem[\protect\citeauthoryear{{Anders} et~al.,}{{Anders}
   et~al.}{2023}]{anders2023}
 {Anders} F.,  et~al., 2023, \mn@doi [\aap] {10.1051/0004-6361/202346666}, \href
   {https://ui.adsabs.harvard.edu/abs/2023A&A...678A.158A} {678, A158}
+
+\bibitem[\protect\citeauthoryear{Ankerst, Breunig, Kriegel  \& Sander}{Ankerst
+  et~al.}{1999}]{optics}
+Ankerst M.,  Breunig M.~M.,  Kriegel H.-P.,   Sander J.,  1999, SIGMOD record,
+  28, 49
+
+\bibitem[\protect\citeauthoryear{{Arentsen} et~al.,}{{Arentsen}
+  et~al.}{2020}]{Arentsen_PIGS_2020}
+{Arentsen} A.,  et~al., 2020, \mn@doi [\mnras] {10.1093/mnrasl/slz156}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020MNRAS.491L..11A} {491, L11}
 
 \bibitem[\protect\citeauthoryear{{Balbinot}, {Santiago}, {da Costa}, {Makler}
   \& {Maia}}{{Balbinot} et~al.}{2011}]{Balbinot2011}
@@ -51,15 +84,51 @@ Abadi M.,  et~al., 2015, {TensorFlow}: Large-Scale Machine Learning on
   \href {https://ui.adsabs.harvard.edu/abs/2012ApJ...746...34B} {746, 34}
 
 \bibitem[\protect\citeauthoryear{{Belokurov} \& {Kravtsov}}{{Belokurov} \&
-  {Kravtsov}}{2023}]{belokurov_-situ_2023}
-{Belokurov} V.,  {Kravtsov} A.,  2023, \mn@doi [arXiv e-prints]
+  {Kravtsov}}{2022a}]{Belokurov2022}
+{Belokurov} V.,  {Kravtsov} A.,  2022a, \mn@doi [\mnras]
+  {10.1093/mnras/stac1267}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022MNRAS.514..689B} {514, 689}
+
+\bibitem[\protect\citeauthoryear{{Belokurov} \& {Kravtsov}}{{Belokurov} \&
+  {Kravtsov}}{2022b}]{Belokurov_aurora_2022}
+{Belokurov} V.,  {Kravtsov} A.,  2022b, \mn@doi [\mnras]
+  {10.1093/mnras/stac1267}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022MNRAS.514..689B} {514, 689}
+
+\bibitem[\protect\citeauthoryear{{Belokurov} \& {Kravtsov}}{{Belokurov} \&
+  {Kravtsov}}{2023a}]{belokurov_-situ_2023}
+{Belokurov} V.,  {Kravtsov} A.,  2023a, \mn@doi [arXiv e-prints]
   {10.48550/arXiv.2309.15902}, \href
   {https://ui.adsabs.harvard.edu/abs/2023arXiv230915902B} {p. arXiv:2309.15902}
 
+\bibitem[\protect\citeauthoryear{{Belokurov} \& {Kravtsov}}{{Belokurov} \&
+  {Kravtsov}}{2023b}]{belokurov_2023}
+{Belokurov} V.,  {Kravtsov} A.,  2023b, \mn@doi [\mnras]
+  {10.1093/mnras/stad2241}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.4456B} {525, 4456}
+
 \bibitem[\protect\citeauthoryear{{Belokurov}, {Erkal}, {Evans}, {Koposov}  \&
-  {Deason}}{{Belokurov} et~al.}{2018}]{belokurov_co-formation_2018}
+  {Deason}}{{Belokurov} et~al.}{2018a}]{belokurov_co-formation_2018}
 {Belokurov} V.,  {Erkal} D.,  {Evans} N.~W.,  {Koposov} S.~E.,   {Deason}
-  A.~J.,  2018, \mn@doi [\mnras] {10.1093/mnras/sty982}, \href
+  A.~J.,  2018a, \mn@doi [\mnras] {10.1093/mnras/sty982}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018MNRAS.478..611B} {478, 611}
+
+\bibitem[\protect\citeauthoryear{{Belokurov}, {Erkal}, {Evans}, {Koposov}  \&
+  {Deason}}{{Belokurov} et~al.}{2018b}]{Belokurov2018}
+{Belokurov} V.,  {Erkal} D.,  {Evans} N.~W.,  {Koposov} S.~E.,   {Deason}
+  A.~J.,  2018b, \mn@doi [\mnras] {10.1093/mnras/sty982}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018MNRAS.478..611B} {478, 611}
+
+\bibitem[\protect\citeauthoryear{{Belokurov}, {Erkal}, {Evans}, {Koposov}  \&
+  {Deason}}{{Belokurov} et~al.}{2018c}]{Belokurov_GSE_2018}
+{Belokurov} V.,  {Erkal} D.,  {Evans} N.~W.,  {Koposov} S.~E.,   {Deason}
+  A.~J.,  2018c, \mn@doi [\mnras] {10.1093/mnras/sty982}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018MNRAS.478..611B} {478, 611}
+
+\bibitem[\protect\citeauthoryear{{Belokurov}, {Erkal}, {Evans}, {Koposov}  \&
+  {Deason}}{{Belokurov} et~al.}{2018d}]{belokurov_2018}
+{Belokurov} V.,  {Erkal} D.,  {Evans} N.~W.,  {Koposov} S.~E.,   {Deason}
+  A.~J.,  2018d, \mn@doi [\mnras] {10.1093/mnras/sty982}, \href
   {https://ui.adsabs.harvard.edu/abs/2018MNRAS.478..611B} {478, 611}
 
 \bibitem[\protect\citeauthoryear{{Belokurov}, {Sanders}, {Fattahi}, {Smith},
@@ -70,19 +139,63 @@ Abadi M.,  et~al., 2015, {TensorFlow}: Large-Scale Machine Learning on
   {10.1093/mnras/staa876}, \href
   {https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.3880B} {494, 3880}
 
+\bibitem[\protect\citeauthoryear{{Bennett} \& {Bovy}}{{Bennett} \&
+  {Bovy}}{2019}]{bennet_2019}
+{Bennett} M.,  {Bovy} J.,  2019, \mn@doi [\mnras] {10.1093/mnras/sty2813},
+  \href {https://ui.adsabs.harvard.edu/abs/2019MNRAS.482.1417B} {482, 1417}
+
+\bibitem[\protect\citeauthoryear{{Bignone}, {Helmi}  \& {Tissera}}{{Bignone}
+  et~al.}{2019}]{Bignone_2019}
+{Bignone} L.~A.,  {Helmi} A.,   {Tissera} P.~B.,  2019, \mn@doi [\apjl]
+  {10.3847/2041-8213/ab3e0e}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019ApJ...883L...5B} {883, L5}
+
 \bibitem[\protect\citeauthoryear{{Binney} \& {Tremaine}}{{Binney} \&
-  {Tremaine}}{2008}]{Binney2008}
-{Binney} J.,  {Tremaine} S.,  2008, {Galactic Dynamics: Second Edition}
+  {Tremaine}}{2008a}]{Binney2008}
+{Binney} J.,  {Tremaine} S.,  2008a, {Galactic Dynamics: Second Edition}
+
+\bibitem[\protect\citeauthoryear{{Binney} \& {Tremaine}}{{Binney} \&
+  {Tremaine}}{2008b}]{BinneyTremaine2008}
+{Binney} J.,  {Tremaine} S.,  2008b, {Galactic Dynamics: Second Edition}
 
 \bibitem[\protect\citeauthoryear{{Bland-Hawthorn} \&
-  {Gerhard}}{{Bland-Hawthorn} \& {Gerhard}}{2016}]{Bland-Hawthorn2016}
-{Bland-Hawthorn} J.,  {Gerhard} O.,  2016, \mn@doi [\araa]
+  {Gerhard}}{{Bland-Hawthorn} \& {Gerhard}}{2016a}]{Bland-Hawthorn2016}
+{Bland-Hawthorn} J.,  {Gerhard} O.,  2016a, \mn@doi [\araa]
   {10.1146/annurev-astro-081915-023441}, \href
   {https://ui.adsabs.harvard.edu/abs/2016ARA&A..54..529B} {54, 529}
 
+\bibitem[\protect\citeauthoryear{{Bland-Hawthorn} \&
+  {Gerhard}}{{Bland-Hawthorn} \& {Gerhard}}{2016b}]{BlandHawthorn2016}
+{Bland-Hawthorn} J.,  {Gerhard} O.,  2016b, \mn@doi [\araa]
+  {10.1146/annurev-astro-081915-023441}, \href
+  {https://ui.adsabs.harvard.edu/abs/2016ARA&A..54..529B} {54, 529}
+
+\bibitem[\protect\citeauthoryear{{Bonaca} \& {Price-Whelan}}{{Bonaca} \&
+  {Price-Whelan}}{2025a}]{Bonaca_streamsrev_2025}
+{Bonaca} A.,  {Price-Whelan} A.~M.,  2025a, \mn@doi [\nar]
+  {10.1016/j.newar.2024.101713}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025NewAR.10001713B} {100, 101713}
+
+\bibitem[\protect\citeauthoryear{{Bonaca} \& {Price-Whelan}}{{Bonaca} \&
+  {Price-Whelan}}{2025b}]{Bonaca_APW_2025}
+{Bonaca} A.,  {Price-Whelan} A.~M.,  2025b, \mn@doi [\nar]
+  {10.1016/j.newar.2024.101713}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025NewAR.10001713B} {100, 101713}
+
+\bibitem[\protect\citeauthoryear{{Bonaca} et~al.,}{{Bonaca}
+  et~al.}{2020}]{bonaca_2020}
+{Bonaca} A.,  et~al., 2020, \mn@doi [\apjl] {10.3847/2041-8213/ab9caa}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020ApJ...897L..18B} {897, L18}
+
 \bibitem[\protect\citeauthoryear{{Borsato}, {Martell}  \& {Simpson}}{{Borsato}
-  et~al.}{2020}]{borsato_identifying_2020}
-{Borsato} N.~W.,  {Martell} S.~L.,   {Simpson} J.~D.,  2020, \mn@doi [\mnras]
+  et~al.}{2020a}]{borsato_identifying_2020}
+{Borsato} N.~W.,  {Martell} S.~L.,   {Simpson} J.~D.,  2020a, \mn@doi [\mnras]
+  {10.1093/mnras/stz3479}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.1370B} {492, 1370}
+
+\bibitem[\protect\citeauthoryear{{Borsato}, {Martell}  \& {Simpson}}{{Borsato}
+  et~al.}{2020b}]{Borsato2020}
+{Borsato} N.~W.,  {Martell} S.~L.,   {Simpson} J.~D.,  2020b, \mn@doi [\mnras]
   {10.1093/mnras/stz3479}, \href
   {https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.1370B} {492, 1370}
 
@@ -97,11 +210,49 @@ Abadi M.,  et~al., 2015, {TensorFlow}: Large-Scale Machine Learning on
   {10.1111/j.1365-2966.2012.21948.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2012MNRAS.427..127B} {427, 127}
 
+\bibitem[\protect\citeauthoryear{{Brook}, {Kawata}, {Gibson}  \&
+  {Flynn}}{{Brook} et~al.}{2003}]{brook_2003}
+{Brook} C.~B.,  {Kawata} D.,  {Gibson} B.~K.,   {Flynn} C.,  2003, \mn@doi
+  [\apjl] {10.1086/374306}, \href
+  {https://ui.adsabs.harvard.edu/abs/2003ApJ...585L.125B} {585, L125}
+
+\bibitem[\protect\citeauthoryear{{Brook}, {Di Cintio}, {Knebe},
+  {Gottl{\"o}ber}, {Hoffman}, {Yepes}  \& {Garrison-Kimmel}}{{Brook}
+  et~al.}{2014}]{Brook_smhm_2014}
+{Brook} C.~B.,  {Di Cintio} A.,  {Knebe} A.,  {Gottl{\"o}ber} S.,  {Hoffman}
+  Y.,  {Yepes} G.,   {Garrison-Kimmel} S.,  2014, \mn@doi [\apjl]
+  {10.1088/2041-8205/784/1/L14}, \href
+  {https://ui.adsabs.harvard.edu/abs/2014ApJ...784L..14B} {784, L14}
+
 \bibitem[\protect\citeauthoryear{{Brook}, {Kawata}, {Gibson}, {Gallart}  \&
   {Vicente}}{{Brook} et~al.}{2020}]{Brook2020}
 {Brook} C.~B.,  {Kawata} D.,  {Gibson} B.~K.,  {Gallart} C.,   {Vicente} A.,
   2020, \mn@doi [\mnras] {10.1093/mnras/staa992}, \href
   {https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.2645B} {495, 2645}
+
+\bibitem[\protect\citeauthoryear{{Brown}, {Vel{\'a}zquez}  \&
+  {Aguilar}}{{Brown} et~al.}{2005}]{Brown2005}
+{Brown} A. G.~A.,  {Vel{\'a}zquez} H.~M.,   {Aguilar} L.~A.,  2005, \mn@doi
+  [\mnras] {10.1111/j.1365-2966.2005.09013.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2005MNRAS.359.1287B} {359, 1287}
+
+\bibitem[\protect\citeauthoryear{{Buck}}{{Buck}}{2020}]{buck_nihao_2020}
+{Buck} T.,  2020, \mn@doi [\mnras] {10.1093/mnras/stz3289}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.5435B} {491, 5435}
+
+\bibitem[\protect\citeauthoryear{{Buder} et~al.,}{{Buder}
+  et~al.}{2021a}]{Buder2021}
+{Buder} S.,  et~al., 2021a, \mn@doi [\mnras] {10.1093/mnras/stab1242}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021MNRAS.506..150B} {506, 150}
+
+\bibitem[\protect\citeauthoryear{{Buder} et~al.,}{{Buder}
+  et~al.}{2021b}]{Galah_2021}
+{Buder} S.,  et~al., 2021b, \mn@doi [\mnras] {10.1093/mnras/stab1242}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021MNRAS.506..150B} {506, 150}
+
+\bibitem[\protect\citeauthoryear{{Buder} et~al.,}{{Buder} et~al.}{2025}]{galah}
+{Buder} S.,  et~al., 2025, \mn@doi [\pasa] {10.1017/pasa.2025.26}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025PASA...42...51B} {42, e051}
 
 \bibitem[\protect\citeauthoryear{{Bullock} \& {Johnston}}{{Bullock} \&
   {Johnston}}{2005}]{bullock_tracing_2005}
@@ -111,6 +262,18 @@ Abadi M.,  et~al., 2015, {TensorFlow}: Large-Scale Machine Learning on
 \bibitem[\protect\citeauthoryear{{Busso} et~al.,}{{Busso}
   et~al.}{2022}]{gaiaDR3_doc}
 {Busso} G.,  et~al., 2022, {Gaia DR3 documentation Chapter 5: Photometric data}
+
+\bibitem[\protect\citeauthoryear{{Callingham}, {Cautun}, {Deason}, {Frenk},
+  {Grand}  \& {Marinacci}}{{Callingham} et~al.}{2022}]{Callingham_2022}
+{Callingham} T.~M.,  {Cautun} M.,  {Deason} A.~J.,  {Frenk} C.~S.,  {Grand} R.
+  J.~J.,   {Marinacci} F.,  2022, \mn@doi [\mnras] {10.1093/mnras/stac1145},
+  \href {https://ui.adsabs.harvard.edu/abs/2022MNRAS.513.4107C} {513, 4107}
+
+\bibitem[\protect\citeauthoryear{Campello, Moulavi  \& Sander}{Campello
+  et~al.}{2013}]{Campello_hdbscan_2013}
+Campello R. J. G.~B.,  Moulavi D.,   Sander J.,  2013, in Pei J.,  Tseng V.~S.,
+   Cao L.,  Motoda H.,   Xu G.,  eds, Advances in Knowledge Discovery and Data
+  Mining. Springer Berlin Heidelberg, Berlin, Heidelberg, pp 160--172
 
 \bibitem[\protect\citeauthoryear{{Carollo} et~al.,}{{Carollo}
   et~al.}{2007}]{Carollo2007}
@@ -122,8 +285,34 @@ Abadi M.,  et~al., 2015, {TensorFlow}: Large-Scale Machine Learning on
 {Carollo} D.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/712/1/692},
   \href {https://ui.adsabs.harvard.edu/abs/2010ApJ...712..692C} {712, 692}
 
-\bibitem[\protect\citeauthoryear{{Chabrier}}{{Chabrier}}{2003}]{Chabrier2003}
-{Chabrier} G.,  2003, \mn@doi [\pasp] {10.1086/376392}, \href
+\bibitem[\protect\citeauthoryear{{Carrillo}, {Deason}, {Fattahi}, {Callingham}
+  \& {Grand}}{{Carrillo} et~al.}{2024}]{Carrillo_2024}
+{Carrillo} A.,  {Deason} A.~J.,  {Fattahi} A.,  {Callingham} T.~M.,   {Grand}
+  R. J.~J.,  2024, \mn@doi [\mnras] {10.1093/mnras/stad3274}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.2165C} {527, 2165}
+
+\bibitem[\protect\citeauthoryear{{Ceccarelli} et~al.,}{{Ceccarelli}
+  et~al.}{2024}]{ceccarelli_2024}
+{Ceccarelli} E.,  et~al., 2024, \mn@doi [\aap] {10.1051/0004-6361/202348332},
+  \href {https://ui.adsabs.harvard.edu/abs/2024A&A...684A..37C} {684, A37}
+
+\bibitem[\protect\citeauthoryear{{Ceccarelli}, {Massari}, {Palla},
+  {Mucciarelli}, {Bellazzini}  \& {Helmi}}{{Ceccarelli}
+  et~al.}{2025}]{ceccarelli2025}
+{Ceccarelli} E.,  {Massari} D.,  {Palla} M.,  {Mucciarelli} A.,  {Bellazzini}
+  M.,   {Helmi} A.,  2025, \mn@doi [\aap] {10.1051/0004-6361/202556685}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025A&A...704A.180C} {704, A180}
+
+\bibitem[\protect\citeauthoryear{{Chabrier}}{{Chabrier}}{2003a}]{Chabrier2003}
+{Chabrier} G.,  2003a, \mn@doi [\pasp] {10.1086/376392}, \href
+  {https://ui.adsabs.harvard.edu/abs/2003PASP..115..763C} {115, 763}
+
+\bibitem[\protect\citeauthoryear{{Chabrier}}{{Chabrier}}{2003b}]{Chabrier_imf_2003}
+{Chabrier} G.,  2003b, \mn@doi [\pasp] {10.1086/376392}, \href
+  {https://ui.adsabs.harvard.edu/abs/2003PASP..115..763C} {115, 763}
+
+\bibitem[\protect\citeauthoryear{{Chabrier}}{{Chabrier}}{2003c}]{Chabrier_2003}
+{Chabrier} G.,  2003c, \mn@doi [\pasp] {10.1086/376392}, \href
   {https://ui.adsabs.harvard.edu/abs/2003PASP..115..763C} {115, 763}
 
 \bibitem[\protect\citeauthoryear{Chen \& Guestrin}{Chen \&
@@ -139,17 +328,36 @@ ACM, New York, NY, USA, p. 785–794, \mn@doi{10.1145/2939672.2939785}
   {10.1093/mnras/stab2994}, \href
   {https://ui.adsabs.harvard.edu/abs/2022MNRAS.509.1227C} {509, 1227}
 
+\bibitem[\protect\citeauthoryear{{Chiba} \& {Beers}}{{Chiba} \&
+  {Beers}}{2000}]{chiba&beers_2000}
+{Chiba} M.,  {Beers} T.~C.,  2000, \mn@doi [\aj] {10.1086/301409}, \href
+  {https://ui.adsabs.harvard.edu/abs/2000AJ....119.2843C} {119, 2843}
+
 \bibitem[\protect\citeauthoryear{{{\'C}iprijanovi{\'c}}, {Snyder}, {Nord}  \&
   {Peek}}{{{\'C}iprijanovi{\'c}} et~al.}{2020}]{ciprijanovic_deepmerge_2020}
 {{\'C}iprijanovi{\'c}} A.,  {Snyder} G.~F.,  {Nord} B.,   {Peek} J.~E.~G.,
   2020, \mn@doi [Astron. Comput.] {10.1016/j.ascom.2020.100390}, \href
   {https://ui.adsabs.harvard.edu/abs/2020A&C....3200390C} {32, 100390}
 
+\bibitem[\protect\citeauthoryear{{Ciuc{\u{a}}} et~al.,}{{Ciuc{\u{a}}}
+  et~al.}{2024}]{Ciuca_GES_2024}
+{Ciuc{\u{a}}} I.,  et~al., 2024, \mn@doi [\mnras] {10.1093/mnrasl/slad033},
+  \href {https://ui.adsabs.harvard.edu/abs/2024MNRAS.528L.122C} {528, L122}
+
 \bibitem[\protect\citeauthoryear{{Clarke}, {Scaife}, {Greenhalgh}  \&
   {Griguta}}{{Clarke} et~al.}{2020}]{clarke_identifying_2020}
 {Clarke} A.~O.,  {Scaife} A.~M.~M.,  {Greenhalgh} R.,   {Griguta} V.,  2020,
   \mn@doi [\aap] {10.1051/0004-6361/201936770}, \href
   {https://ui.adsabs.harvard.edu/abs/2020A&A...639A..84C} {639, A84}
+
+\bibitem[\protect\citeauthoryear{{Conroy} et~al.,}{{Conroy}
+  et~al.}{2019a}]{Conroy2019}
+{Conroy} C.,  et~al., 2019a, \mn@doi [\apj] {10.3847/1538-4357/ab38b8}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019ApJ...883..107C} {883, 107}
+
+\bibitem[\protect\citeauthoryear{{Conroy} et~al.,}{{Conroy} et~al.}{2019b}]{H3}
+{Conroy} C.,  et~al., 2019b, \mn@doi [\apj] {10.3847/1538-4357/ab38b8}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019ApJ...883..107C} {883, 107}
 
 \bibitem[\protect\citeauthoryear{{Cooper} et~al.,}{{Cooper}
   et~al.}{2010}]{Cooper2010}
@@ -167,6 +375,29 @@ ACM, New York, NY, USA, p. 785–794, \mn@doi{10.1145/2939672.2939785}
   et~al.}{2015}]{Crain2015}
 {Crain} R.~A.,  et~al., 2015, \mn@doi [\mnras] {10.1093/mnras/stv725}, \href
   {https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.1937C} {450, 1937}
+
+\bibitem[\protect\citeauthoryear{{Cranmer}, {Brehmer}  \& {Louppe}}{{Cranmer}
+  et~al.}{2020a}]{Cranmer_sbi_review_2020}
+{Cranmer} K.,  {Brehmer} J.,   {Louppe} G.,  2020a, \mn@doi [PNAS]
+  {10.1073/pnas.1912789117}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020PNAS..11730055C} {117, 30055}
+
+\bibitem[\protect\citeauthoryear{{Cranmer}, {Brehmer}  \& {Louppe}}{{Cranmer}
+  et~al.}{2020b}]{Cranmer_2020}
+{Cranmer} K.,  {Brehmer} J.,   {Louppe} G.,  2020b, \mn@doi [PNAS]
+  {10.1073/pnas.1912789117}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020PNAS..11730055C} {117, 30055}
+
+\bibitem[\protect\citeauthoryear{{Cui} et~al.,}{{Cui}
+  et~al.}{2012}]{LAMOST_2012}
+{Cui} X.-Q.,  et~al., 2012, \mn@doi [Res. Astron. Astrophys.]
+  {10.1088/1674-4527/12/9/003}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012RAA....12.1197C} {12, 1197}
+
+\bibitem[\protect\citeauthoryear{{Cunningham} et~al.,}{{Cunningham}
+  et~al.}{2022}]{Cunningham_CARDS_2022}
+{Cunningham} E.~C.,  et~al., 2022, \mn@doi [\apj] {10.3847/1538-4357/ac78ea},
+  \href {https://ui.adsabs.harvard.edu/abs/2022ApJ...934..172C} {934, 172}
 
 \bibitem[\protect\citeauthoryear{{Dalton} et~al.,}{{Dalton}
   et~al.}{2014}]{dalton_project_2014}
@@ -186,11 +417,60 @@ ACM, New York, NY, USA, p. 785–794, \mn@doi{10.1145/2939672.2939785}
 {De Silva} G.~M.,  et~al., 2015, \mn@doi [\mnras] {10.1093/mnras/stv327}, \href
   {https://ui.adsabs.harvard.edu/abs/2015MNRAS.449.2604D} {449, 2604}
 
+\bibitem[\protect\citeauthoryear{{Deason} \& {Belokurov}}{{Deason} \&
+  {Belokurov}}{2024a}]{Deason2024}
+{Deason} A.~J.,  {Belokurov} V.,  2024a, \mn@doi [\nar]
+  {10.1016/j.newar.2024.101706}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024NewAR..9901706D} {99, 101706}
+
+\bibitem[\protect\citeauthoryear{{Deason} \& {Belokurov}}{{Deason} \&
+  {Belokurov}}{2024b}]{Deason_2024}
+{Deason} A.~J.,  {Belokurov} V.,  2024b, \mn@doi [\nar]
+  {10.1016/j.newar.2024.101706}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024NewAR..9901706D} {99, 101706}
+
+\bibitem[\protect\citeauthoryear{{Deason}, {Belokurov}  \& {Sanders}}{{Deason}
+  et~al.}{2019}]{Deason2019}
+{Deason} A.~J.,  {Belokurov} V.,   {Sanders} J.~L.,  2019, \mn@doi [\mnras]
+  {10.1093/mnras/stz2793}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.3426D} {490, 3426}
+
+\bibitem[\protect\citeauthoryear{{Di Matteo}, {Haywood}, {Lehnert}, {Katz},
+  {Khoperskov}, {Snaith}, {G{\'o}mez}  \& {Robichon}}{{Di Matteo}
+  et~al.}{2019}]{DiMatteo2019}
+{Di Matteo} P.,  {Haywood} M.,  {Lehnert} M.~D.,  {Katz} D.,  {Khoperskov} S.,
+  {Snaith} O.~N.,  {G{\'o}mez} A.,   {Robichon} N.,  2019, \mn@doi [\aap]
+  {10.1051/0004-6361/201834929}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019A&A...632A...4D} {632, A4}
+
 \bibitem[\protect\citeauthoryear{{Dillamore}, {Belokurov}, {Font}  \&
   {McCarthy}}{{Dillamore} et~al.}{2022}]{dillamore_merger-induced_2022}
 {Dillamore} A.~M.,  {Belokurov} V.,  {Font} A.~S.,   {McCarthy} I.~G.,  2022,
   \mn@doi [\mnras] {10.1093/mnras/stac1038}, \href
   {https://ui.adsabs.harvard.edu/abs/2022MNRAS.513.1867D} {513, 1867}
+
+\bibitem[\protect\citeauthoryear{{Dodd}, {Callingham}, {Helmi}, {Matsuno},
+  {Ruiz-Lara}, {Balbinot}  \& {L{\"o}vdal}}{{Dodd} et~al.}{2023a}]{Dodd2023}
+{Dodd} E.,  {Callingham} T.~M.,  {Helmi} A.,  {Matsuno} T.,  {Ruiz-Lara} T.,
+  {Balbinot} E.,   {L{\"o}vdal} S.,  2023a, \mn@doi [\aap]
+  {10.1051/0004-6361/202244546}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023A&A...670L...2D} {670, L2}
+
+\bibitem[\protect\citeauthoryear{{Dodd}, {Callingham}, {Helmi}, {Matsuno},
+  {Ruiz-Lara}, {Balbinot}  \& {L{\"o}vdal}}{{Dodd}
+  et~al.}{2023b}]{Dodd_catalogue_2023}
+{Dodd} E.,  {Callingham} T.~M.,  {Helmi} A.,  {Matsuno} T.,  {Ruiz-Lara} T.,
+  {Balbinot} E.,   {L{\"o}vdal} S.,  2023b, \mn@doi [\aap]
+  {10.1051/0004-6361/202244546}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023A&A...670L...2D} {670, L2}
+
+\bibitem[\protect\citeauthoryear{{Dodd}, {Ruiz-Lara}, {Helmi}, {Gallart},
+  {Callingham}, {Cassisi}, {Fern{\'a}ndez-Alvar}  \& {Surot}}{{Dodd}
+  et~al.}{2025}]{dodd_2024}
+{Dodd} E.,  {Ruiz-Lara} T.,  {Helmi} A.,  {Gallart} C.,  {Callingham} T.~M.,
+  {Cassisi} S.,  {Fern{\'a}ndez-Alvar} E.,   {Surot} F.,  2025, \mn@doi [\aap]
+  {10.1051/0004-6361/202451978}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025A&A...698A.277D} {698, A277}
 
 \bibitem[\protect\citeauthoryear{{Dom{\'\i}nguez S{\'a}nchez},
   {Huertas-Company}, {Bernardi}, {Tuccillo}  \& {Fischer}}{{Dom{\'\i}nguez
@@ -200,11 +480,56 @@ ACM, New York, NY, USA, p. 785–794, \mn@doi{10.1145/2939672.2939785}
   {10.1093/mnras/sty338}, \href
   {https://ui.adsabs.harvard.edu/abs/2018MNRAS.476.3661D} {476, 3661}
 
+\bibitem[\protect\citeauthoryear{{Eggen}, {Lynden-Bell}  \& {Sandage}}{{Eggen}
+  et~al.}{1962}]{Eggen_1962}
+{Eggen} O.~J.,  {Lynden-Bell} D.,   {Sandage} A.~R.,  1962, \mn@doi [\apj]
+  {10.1086/147433}, \href
+  {https://ui.adsabs.harvard.edu/abs/1962ApJ...136..748E} {136, 748}
+
 \bibitem[\protect\citeauthoryear{{Ester}, {Kriegel}, {Sander}  \& {Xu}}{{Ester}
-  et~al.}{1996}]{Ester1996}
-{Ester} M.,  {Kriegel} H.-P.,  {Sander} J.,   {Xu} X.,  1996, in Second
+  et~al.}{1996a}]{Ester1996}
+{Ester} M.,  {Kriegel} H.-P.,  {Sander} J.,   {Xu} X.,  1996a, in Second
   International Conference on Knowledge Discovery and Data Mining (KDD'96).
   Proceedings of a conference held August 2-4. pp 226--331
+
+\bibitem[\protect\citeauthoryear{Ester, Kriegel, Sander  \& Xu}{Ester
+  et~al.}{1996b}]{dbscan}
+Ester M.,  Kriegel H.-P.,  Sander J.,   Xu X.,  1996b, in Proc. of 2nd
+  International Conference on Knowledge Discovery and. pp 226--231
+
+\bibitem[\protect\citeauthoryear{{Evans}, {Fattahi}, {Deason}  \&
+  {Frenk}}{{Evans} et~al.}{2020}]{Tilly_2020}
+{Evans} T.~A.,  {Fattahi} A.,  {Deason} A.~J.,   {Frenk} C.~S.,  2020, \mn@doi
+  [\mnras] {10.1093/mnras/staa2202}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020MNRAS.497.4311E} {497, 4311}
+
+\bibitem[\protect\citeauthoryear{{Fakhouri}, {Ma}  \&
+  {Boylan-Kolchin}}{{Fakhouri} et~al.}{2010}]{Fakhouri_mergerrates_2010}
+{Fakhouri} O.,  {Ma} C.-P.,   {Boylan-Kolchin} M.,  2010, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2010.16859.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2010MNRAS.406.2267F} {406, 2267}
+
+\bibitem[\protect\citeauthoryear{{Fattahi} et~al.,}{{Fattahi}
+  et~al.}{2019a}]{Fattahi_2019}
+{Fattahi} A.,  et~al., 2019a, \mn@doi [\mnras] {10.1093/mnras/stz159}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.4471F} {484, 4471}
+
+\bibitem[\protect\citeauthoryear{{Fattahi} et~al.,}{{Fattahi}
+  et~al.}{2019b}]{Fattahi_aurigagse_2019}
+{Fattahi} A.,  et~al., 2019b, \mn@doi [\mnras] {10.1093/mnras/stz159}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.4471F} {484, 4471}
+
+\bibitem[\protect\citeauthoryear{{Faucher-Gigu{\`e}re}, {Lidz}, {Zaldarriaga}
+  \& {Hernquist}}{{Faucher-Gigu{\`e}re} et~al.}{2009}]{Faucher-Giguere_2009}
+{Faucher-Gigu{\`e}re} C.-A.,  {Lidz} A.,  {Zaldarriaga} M.,   {Hernquist} L.,
+  2009, \mn@doi [\apj] {10.1088/0004-637X/703/2/1416}, \href
+  {https://ui.adsabs.harvard.edu/abs/2009ApJ...703.1416F} {703, 1416}
+
+\bibitem[\protect\citeauthoryear{{Feuillet}, {Feltzing}, {Sahlholdt}  \&
+  {Casagrande}}{{Feuillet} et~al.}{2020}]{feuillet_2020}
+{Feuillet} D.~K.,  {Feltzing} S.,  {Sahlholdt} C.~L.,   {Casagrande} L.,  2020,
+  \mn@doi [\mnras] {10.1093/mnras/staa1888}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020MNRAS.497..109F} {497, 109}
 
 \bibitem[\protect\citeauthoryear{{Font}, {Johnston}, {Bullock}  \&
   {Robertson}}{{Font} et~al.}{2006a}]{Font2006a}
@@ -213,16 +538,35 @@ ACM, New York, NY, USA, p. 785–794, \mn@doi{10.1145/2939672.2939785}
   {https://ui.adsabs.harvard.edu/abs/2006ApJ...638..585F} {638, 585}
 
 \bibitem[\protect\citeauthoryear{{Font}, {Johnston}, {Bullock}  \&
-  {Robertson}}{{Font} et~al.}{2006b}]{Font2006b}
+  {Robertson}}{{Font} et~al.}{2006b}]{Font_2006a}
 {Font} A.~S.,  {Johnston} K.~V.,  {Bullock} J.~S.,   {Robertson} B.~E.,  2006b,
+  \mn@doi [\apj] {10.1086/498970}, \href
+  {https://ui.adsabs.harvard.edu/abs/2006ApJ...638..585F} {638, 585}
+
+\bibitem[\protect\citeauthoryear{{Font}, {Johnston}, {Bullock}  \&
+  {Robertson}}{{Font} et~al.}{2006c}]{Font_2006}
+{Font} A.~S.,  {Johnston} K.~V.,  {Bullock} J.~S.,   {Robertson} B.~E.,  2006c,
+  \mn@doi [\apj] {10.1086/498970}, \href
+  {https://ui.adsabs.harvard.edu/abs/2006ApJ...638..585F} {638, 585}
+
+\bibitem[\protect\citeauthoryear{{Font}, {Johnston}, {Bullock}  \&
+  {Robertson}}{{Font} et~al.}{2006d}]{Font2006b}
+{Font} A.~S.,  {Johnston} K.~V.,  {Bullock} J.~S.,   {Robertson} B.~E.,  2006d,
   \mn@doi [\apj] {10.1086/505131}, \href
   {https://ui.adsabs.harvard.edu/abs/2006ApJ...646..886F} {646, 886}
 
 \bibitem[\protect\citeauthoryear{{Font}, {McCarthy}, {Crain}, {Theuns},
   {Schaye}, {Wiersma}  \& {Dalla Vecchia}}{{Font}
-  et~al.}{2011}]{font_cosmological_2011}
+  et~al.}{2011a}]{font_cosmological_2011}
 {Font} A.~S.,  {McCarthy} I.~G.,  {Crain} R.~A.,  {Theuns} T.,  {Schaye} J.,
-  {Wiersma} R.~P.~C.,   {Dalla Vecchia} C.,  2011, \mn@doi [\mnras]
+  {Wiersma} R.~P.~C.,   {Dalla Vecchia} C.,  2011a, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2011.19227.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2011MNRAS.416.2802F} {416, 2802}
+
+\bibitem[\protect\citeauthoryear{{Font}, {McCarthy}, {Crain}, {Theuns},
+  {Schaye}, {Wiersma}  \& {Dalla Vecchia}}{{Font} et~al.}{2011b}]{Font2011}
+{Font} A.~S.,  {McCarthy} I.~G.,  {Crain} R.~A.,  {Theuns} T.,  {Schaye} J.,
+  {Wiersma} R.~P.~C.,   {Dalla Vecchia} C.,  2011b, \mn@doi [\mnras]
   {10.1111/j.1365-2966.2011.19227.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2011MNRAS.416.2802F} {416, 2802}
 
@@ -243,23 +587,90 @@ ACM, New York, NY, USA, p. 785–794, \mn@doi{10.1145/2939672.2939785}
   {10.1093/mnras/stab1332}, \href
   {https://ui.adsabs.harvard.edu/abs/2021MNRAS.505..783F} {505, 783}
 
+\bibitem[\protect\citeauthoryear{{Font}, {McCarthy}, {Belokurov}, {Brown}  \&
+  {Stafford}}{{Font} et~al.}{2022}]{Font_quenching_2022}
+{Font} A.~S.,  {McCarthy} I.~G.,  {Belokurov} V.,  {Brown} S.~T.,   {Stafford}
+  S.~G.,  2022, \mn@doi [\mnras] {10.1093/mnras/stac183}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.1544F} {511, 1544}
+
+\bibitem[\protect\citeauthoryear{{Fraix-Burnet} \& {Davoust}}{{Fraix-Burnet} \&
+  {Davoust}}{2015}]{Fraix-Burnet2015}
+{Fraix-Burnet} D.,  {Davoust} E.,  2015, \mn@doi [\mnras]
+  {10.1093/mnras/stv791}, \href
+  {https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.3431F} {450, 3431}
+
 \bibitem[\protect\citeauthoryear{{Freeman} \& {Bland-Hawthorn}}{{Freeman} \&
-  {Bland-Hawthorn}}{2002}]{Freeman2002}
-{Freeman} K.,  {Bland-Hawthorn} J.,  2002, \mn@doi [\araa]
+  {Bland-Hawthorn}}{2002a}]{Freeman2002}
+{Freeman} K.,  {Bland-Hawthorn} J.,  2002a, \mn@doi [\araa]
+  {10.1146/annurev.astro.40.060401.093840}, \href
+  {https://ui.adsabs.harvard.edu/abs/2002ARA&A..40..487F} {40, 487}
+
+\bibitem[\protect\citeauthoryear{{Freeman} \& {Bland-Hawthorn}}{{Freeman} \&
+  {Bland-Hawthorn}}{2002b}]{FreemanBlandHawthorn_2002}
+{Freeman} K.,  {Bland-Hawthorn} J.,  2002b, \mn@doi [\araa]
   {10.1146/annurev.astro.40.060401.093840}, \href
   {https://ui.adsabs.harvard.edu/abs/2002ARA&A..40..487F} {40, 487}
 
 \bibitem[\protect\citeauthoryear{Friedman}{Friedman}{2001}]{friedman_greedy_2001}
 Friedman J.~H.,  2001, \mn@doi [Ann. Stat.] {10.1214/aos/1013203451}, 29, 1189
 
-\bibitem[\protect\citeauthoryear{{Gaia Collaboration} et~al.,}{{Gaia
-  Collaboration} et~al.}{2018}]{gaia_collaboration_gaia_2018}
-{Gaia Collaboration} et~al., 2018, \mn@doi [A&A] {10.1051/0004-6361/201833051},
-  616, A1
+\bibitem[\protect\citeauthoryear{{Funakoshi}, {Kawata}, {Sanders},
+  {Ciuc{\u{a}}}, {Grand}  \& {Zh{\={a}}ng}}{{Funakoshi}
+  et~al.}{2025}]{fukanoshi2025}
+{Funakoshi} N.,  {Kawata} D.,  {Sanders} J.~L.,  {Ciuc{\u{a}}} I.,  {Grand} R.
+  J.~J.,   {Zh{\={a}}ng} H.,  2025, \mn@doi [\mnras] {10.1093/mnras/staf1632},
+  \href {https://ui.adsabs.harvard.edu/abs/2025MNRAS.543.2275F} {543, 2275}
+
+\bibitem[\protect\citeauthoryear{{GRAVITY Collaboration} et~al.,}{{GRAVITY
+  Collaboration} et~al.}{2019}]{GravityCollab_2019}
+{GRAVITY Collaboration} et~al., 2019, \mn@doi [\aap]
+  {10.1051/0004-6361/201935656}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019A&A...625L..10G} {625, L10}
 
 \bibitem[\protect\citeauthoryear{{Gaia Collaboration} et~al.,}{{Gaia
-  Collaboration} et~al.}{2023}]{Gaia2023}
-{Gaia Collaboration} et~al., 2023, \mn@doi [\aap]
+  Collaboration} et~al.}{2016a}]{Gaia2016}
+{Gaia Collaboration} et~al., 2016a, \mn@doi [\aap]
+  {10.1051/0004-6361/201629272}, \href
+  {https://ui.adsabs.harvard.edu/abs/2016A&A...595A...1G} {595, A1}
+
+\bibitem[\protect\citeauthoryear{{Gaia Collaboration} et~al.,}{{Gaia
+  Collaboration} et~al.}{2016b}]{Gaia_DR1_2016}
+{Gaia Collaboration} et~al., 2016b, \mn@doi [\aap]
+  {10.1051/0004-6361/201629512}, \href
+  {https://ui.adsabs.harvard.edu/abs/2016A&A...595A...2G} {595, A2}
+
+\bibitem[\protect\citeauthoryear{{Gaia Collaboration} et~al.,}{{Gaia
+  Collaboration} et~al.}{2018a}]{gaia_collaboration_gaia_2018}
+{Gaia Collaboration} et~al., 2018a, \mn@doi [A&A]
+  {10.1051/0004-6361/201833051}, 616, A1
+
+\bibitem[\protect\citeauthoryear{{Gaia Collaboration} et~al.,}{{Gaia
+  Collaboration} et~al.}{2018b}]{Gaia_DR2_2018}
+{Gaia Collaboration} et~al., 2018b, \mn@doi [\aap]
+  {10.1051/0004-6361/201833051}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018A&A...616A...1G} {616, A1}
+
+\bibitem[\protect\citeauthoryear{{Gaia Collaboration} et~al.,}{{Gaia
+  Collaboration} et~al.}{2018c}]{GaiaDR2}
+{Gaia Collaboration} et~al., 2018c, \mn@doi [\aap]
+  {10.1051/0004-6361/201833051}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018A&A...616A...1G} {616, A1}
+
+\bibitem[\protect\citeauthoryear{{Gaia Collaboration} et~al.,}{{Gaia
+  Collaboration} et~al.}{2021}]{Gaia_edr3}
+{Gaia Collaboration} et~al., 2021, \mn@doi [\aap]
+  {10.1051/0004-6361/202039657}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021A&A...649A...1G} {649, A1}
+
+\bibitem[\protect\citeauthoryear{{Gaia Collaboration} et~al.,}{{Gaia
+  Collaboration} et~al.}{2023a}]{GaiaDR3}
+{Gaia Collaboration} et~al., 2023a, \mn@doi [\aap]
+  {10.1051/0004-6361/202243940}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023A&A...674A...1G} {674, A1}
+
+\bibitem[\protect\citeauthoryear{{Gaia Collaboration} et~al.,}{{Gaia
+  Collaboration} et~al.}{2023b}]{Gaia2023}
+{Gaia Collaboration} et~al., 2023b, \mn@doi [\aap]
   {10.1051/0004-6361/202243511}, \href
   {https://ui.adsabs.harvard.edu/abs/2023A&A...674A..38G} {674, A38}
 
@@ -269,11 +680,60 @@ Friedman J.~H.,  2001, \mn@doi [Ann. Stat.] {10.1214/aos/1013203451}, 29, 1189
   {10.1146/annurev.astro.43.072103.150608}, \href
   {https://ui.adsabs.harvard.edu/abs/2005ARA&A..43..387G} {43, 387}
 
+\bibitem[\protect\citeauthoryear{{Gallart}, {Bernard}, {Brook}, {Ruiz-Lara},
+  {Cassisi}, {Hill}  \& {Monelli}}{{Gallart} et~al.}{2019}]{gallart_2019}
+{Gallart} C.,  {Bernard} E.~J.,  {Brook} C.~B.,  {Ruiz-Lara} T.,  {Cassisi} S.,
+   {Hill} V.,   {Monelli} M.,  2019, \mn@doi [Nat. Astron.]
+  {10.1038/s41550-019-0829-5}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019NatAs...3..932G} {3, 932}
+
+\bibitem[\protect\citeauthoryear{{Gallart} et~al.,}{{Gallart}
+  et~al.}{2024}]{Gallart_cmdfitting_2024}
+{Gallart} C.,  et~al., 2024, \mn@doi [\aap] {10.1051/0004-6361/202349078},
+  \href {https://ui.adsabs.harvard.edu/abs/2024A&A...687A.168G} {687, A168}
+
+\bibitem[\protect\citeauthoryear{{Garc{\'\i}a-Bethencourt}, {Brook}, {Grand}
+  \& {Kawata}}{{Garc{\'\i}a-Bethencourt}
+  et~al.}{2023a}]{GarciaBethencourt_2023}
+{Garc{\'\i}a-Bethencourt} G.,  {Brook} C.~B.,  {Grand} R. J.~J.,   {Kawata} D.,
+   2023a, \mn@doi [\mnras] {10.1093/mnras/stad2832}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.1190G} {526, 1190}
+
+\bibitem[\protect\citeauthoryear{{Garc{\'\i}a-Bethencourt}, {Brook}, {Grand}
+  \& {Kawata}}{{Garc{\'\i}a-Bethencourt}
+  et~al.}{2023b}]{Gaucimara-bethencourt2023}
+{Garc{\'\i}a-Bethencourt} G.,  {Brook} C.~B.,  {Grand} R. J.~J.,   {Kawata} D.,
+   2023b, \mn@doi [\mnras] {10.1093/mnras/stad2832}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.1190G} {526, 1190}
+
+\bibitem[\protect\citeauthoryear{{Garc{\'\i}a P{\'e}rez} et~al.,}{{Garc{\'\i}a
+  P{\'e}rez} et~al.}{2016}]{GarciaPerez_2016}
+{Garc{\'\i}a P{\'e}rez} A.~E.,  et~al., 2016, \mn@doi [\aj]
+  {10.3847/0004-6256/151/6/144}, \href
+  {https://ui.adsabs.harvard.edu/abs/2016AJ....151..144G} {151, 144}
+
+\bibitem[\protect\citeauthoryear{{Garcia} et~al.,}{{Garcia}
+  et~al.}{2024}]{garcia_2024}
+{Garcia} A.~M.,  et~al., 2024, \mn@doi [\mnras] {10.1093/mnras/stae737}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.3342G} {529, 3342}
+
+\bibitem[\protect\citeauthoryear{Germain, Gregor, Murray  \&
+  Larochelle}{Germain et~al.}{2015}]{Germain_MADE_2015}
+Germain M.,  Gregor K.,  Murray I.,   Larochelle H.,  2015, in Bach F.,  Blei
+  D.,  eds,  Proceedings of Machine Learning Research Vol. 37, Proceedings of
+  the 32nd International Conference on Machine Learning. PMLR, Lille, France,
+  pp 881--889
+
 \bibitem[\protect\citeauthoryear{{Gilbert}, {Font}, {Johnston}  \&
   {Guhathakurta}}{{Gilbert} et~al.}{2009}]{Gilbert2009}
 {Gilbert} K.~M.,  {Font} A.~S.,  {Johnston} K.~V.,   {Guhathakurta} P.,  2009,
   \mn@doi [\apj] {10.1088/0004-637X/701/1/776}, \href
   {https://ui.adsabs.harvard.edu/abs/2009ApJ...701..776G} {701, 776}
+
+\bibitem[\protect\citeauthoryear{{Gilmore} et~al.,}{{Gilmore}
+  et~al.}{2012}]{Gilmore2012}
+{Gilmore} G.,  et~al., 2012, The Messenger, \href
+  {https://ui.adsabs.harvard.edu/abs/2012Msngr.147...25G} {147, 25}
 
 \bibitem[\protect\citeauthoryear{{G{\'o}mez}, {Helmi}, {Brown}  \&
   {Li}}{{G{\'o}mez} et~al.}{2010}]{Gomez2010}
@@ -281,23 +741,81 @@ Friedman J.~H.,  2001, \mn@doi [Ann. Stat.] {10.1214/aos/1013203451}, 29, 1189
   [\mnras] {10.1111/j.1365-2966.2010.17225.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2010MNRAS.408..935G} {408, 935}
 
-\bibitem[\protect\citeauthoryear{{Grand} et~al.,}{{Grand}
-  et~al.}{2017}]{grand_auriga_2017}
-{Grand} R. J.~J.,  et~al., 2017, \mn@doi [\mnras] {10.1093/mnras/stx071}, \href
-  {https://ui.adsabs.harvard.edu/abs/2017MNRAS.467..179G} {467, 179}
+\bibitem[\protect\citeauthoryear{{G{\'o}mez}, {Helmi}, {Cooper}, {Frenk},
+  {Navarro}  \& {White}}{{G{\'o}mez} et~al.}{2013}]{Gomez2013}
+{G{\'o}mez} F.~A.,  {Helmi} A.,  {Cooper} A.~P.,  {Frenk} C.~S.,  {Navarro}
+  J.~F.,   {White} S. D.~M.,  2013, \mn@doi [\mnras] {10.1093/mnras/stt1838},
+  \href {https://ui.adsabs.harvard.edu/abs/2013MNRAS.436.3602G} {436, 3602}
+
+\bibitem[\protect\citeauthoryear{{Gonz{\'a}lez-Koda}
+  et~al.,}{{Gonz{\'a}lez-Koda} et~al.}{2025}]{gonzalez-koda_2025}
+{Gonz{\'a}lez-Koda} Y.~K.,  et~al., 2025, \mn@doi [\aap]
+  {10.1051/0004-6361/202554272}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025A&A...704A.259G} {704, A259}
 
 \bibitem[\protect\citeauthoryear{{Grand} et~al.,}{{Grand}
-  et~al.}{2018}]{grand_origin_2018}
-{Grand} R. J.~J.,  et~al., 2018, \mn@doi [\mnras] {10.1093/mnras/stx3025},
+  et~al.}{2017a}]{grand_auriga_2017}
+{Grand} R. J.~J.,  et~al., 2017a, \mn@doi [\mnras] {10.1093/mnras/stx071},
+  \href {https://ui.adsabs.harvard.edu/abs/2017MNRAS.467..179G} {467, 179}
+
+\bibitem[\protect\citeauthoryear{{Grand} et~al.,}{{Grand}
+  et~al.}{2017b}]{Grand_2017}
+{Grand} R. J.~J.,  et~al., 2017b, \mn@doi [\mnras] {10.1093/mnras/stx071},
+  \href {https://ui.adsabs.harvard.edu/abs/2017MNRAS.467..179G} {467, 179}
+
+\bibitem[\protect\citeauthoryear{{Grand} et~al.,}{{Grand}
+  et~al.}{2018a}]{grand_origin_2018}
+{Grand} R. J.~J.,  et~al., 2018a, \mn@doi [\mnras] {10.1093/mnras/stx3025},
   \href {https://ui.adsabs.harvard.edu/abs/2018MNRAS.474.3629G} {474, 3629}
+
+\bibitem[\protect\citeauthoryear{{Grand} et~al.,}{{Grand}
+  et~al.}{2018b}]{Grand2018}
+{Grand} R. J.~J.,  et~al., 2018b, \mn@doi [\mnras] {10.1093/mnras/stx3025},
+  \href {https://ui.adsabs.harvard.edu/abs/2018MNRAS.474.3629G} {474, 3629}
+
+\bibitem[\protect\citeauthoryear{{Grand} et~al.,}{{Grand}
+  et~al.}{2020}]{Grand_GES_2020}
+{Grand} R. J.~J.,  et~al., 2020, \mn@doi [\mnras] {10.1093/mnras/staa2057},
+  \href {https://ui.adsabs.harvard.edu/abs/2020MNRAS.497.1603G} {497, 1603}
+
+\bibitem[\protect\citeauthoryear{{Grand} et~al.,}{{Grand}
+  et~al.}{2021}]{Grand_2021}
+{Grand} R. J.~J.,  et~al., 2021, \mn@doi [\mnras] {10.1093/mnras/stab2492},
+  \href {https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.4953G} {507, 4953}
 
 \bibitem[\protect\citeauthoryear{{Grand}, {Fragkoudi}, {G{\'o}mez}, {Jenkins},
   {Marinacci}, {Pakmor}  \& {Springel}}{{Grand}
-  et~al.}{2024}]{grand_data_release_2024}
+  et~al.}{2024a}]{grand_data_release_2024}
 {Grand} R. J.~J.,  {Fragkoudi} F.,  {G{\'o}mez} F.~A.,  {Jenkins} A.,
-  {Marinacci} F.,  {Pakmor} R.,   {Springel} V.,  2024, \mn@doi [arXiv
+  {Marinacci} F.,  {Pakmor} R.,   {Springel} V.,  2024a, \mn@doi [arXiv
   e-prints] {10.48550/arXiv.2401.08750}, \href
   {https://ui.adsabs.harvard.edu/abs/2024arXiv240108750G} {p. arXiv:2401.08750}
+
+\bibitem[\protect\citeauthoryear{{Grand}, {Fragkoudi}, {G{\'o}mez}, {Jenkins},
+  {Marinacci}, {Pakmor}  \& {Springel}}{{Grand} et~al.}{2024b}]{Grand_2024}
+{Grand} R. J.~J.,  {Fragkoudi} F.,  {G{\'o}mez} F.~A.,  {Jenkins} A.,
+  {Marinacci} F.,  {Pakmor} R.,   {Springel} V.,  2024b, \mn@doi [\mnras]
+  {10.1093/mnras/stae1598}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.1814G} {532, 1814}
+
+\bibitem[\protect\citeauthoryear{{Grand}, {Fragkoudi}, {G{\'o}mez}, {Jenkins},
+  {Marinacci}, {Pakmor}  \& {Springel}}{{Grand} et~al.}{2024c}]{Grand_dr_2024}
+{Grand} R. J.~J.,  {Fragkoudi} F.,  {G{\'o}mez} F.~A.,  {Jenkins} A.,
+  {Marinacci} F.,  {Pakmor} R.,   {Springel} V.,  2024c, \mn@doi [\mnras]
+  {10.1093/mnras/stae1598}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.1814G} {532, 1814}
+
+\bibitem[\protect\citeauthoryear{{Green}, {Simpson}  \& {Gair}}{{Green}
+  et~al.}{2020}]{green_sbiexample_2020}
+{Green} S.~R.,  {Simpson} C.,   {Gair} J.,  2020, \mn@doi [\prd]
+  {10.1103/PhysRevD.102.104057}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020PhRvD.102j4057G} {102, 104057}
+
+\bibitem[\protect\citeauthoryear{{Greene}, {Strader}  \& {Ho}}{{Greene}
+  et~al.}{2020}]{Greene_IMBHscalingrelations_2020}
+{Greene} J.~E.,  {Strader} J.,   {Ho} L.~C.,  2020, \mn@doi [\araa]
+  {10.1146/annurev-astro-032620-021835}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020ARA&A..58..257G} {58, 257}
 
 \bibitem[\protect\citeauthoryear{{Grillmair}, {Freeman}, {Irwin}  \&
   {Quinn}}{{Grillmair} et~al.}{1995}]{Grillmair1995}
@@ -311,6 +829,49 @@ Friedman J.~H.,  2001, \mn@doi [Ann. Stat.] {10.1214/aos/1013203451}, 29, 1189
   e-prints] {10.48550/arXiv.2401.04182}, \href
   {https://ui.adsabs.harvard.edu/abs/2024arXiv240104182G} {p. arXiv:2401.04182}
 
+\bibitem[\protect\citeauthoryear{{H{\"a}berle} et~al.,}{{H{\"a}berle}
+  et~al.}{2024}]{Haberle_IMBH_2024}
+{H{\"a}berle} M.,  et~al., 2024, \mn@doi [\nat] {10.1038/s41586-024-07511-z},
+  \href {https://ui.adsabs.harvard.edu/abs/2024Natur.631..285H} {631, 285}
+
+\bibitem[\protect\citeauthoryear{{Hahn} \& {Melchior}}{{Hahn} \&
+  {Melchior}}{2022}]{Hahn_SEDfitting_2022}
+{Hahn} C.,  {Melchior} P.,  2022, \mn@doi [\apj] {10.3847/1538-4357/ac7b84},
+  \href {https://ui.adsabs.harvard.edu/abs/2022ApJ...938...11H} {938, 11}
+
+\bibitem[\protect\citeauthoryear{{Hahn} et~al.,}{{Hahn}
+  et~al.}{2023}]{Hahn_simbig_2023}
+{Hahn} C.,  et~al., 2023, \mn@doi [\jcap] {10.1088/1475-7516/2023/04/010},
+  \href {https://ui.adsabs.harvard.edu/abs/2023JCAP...04..010H} {2023, 010}
+
+\bibitem[\protect\citeauthoryear{{Hammer}, {Puech}, {Chemin}, {Flores}  \&
+  {Lehnert}}{{Hammer} et~al.}{2007}]{Hammer_2007}
+{Hammer} F.,  {Puech} M.,  {Chemin} L.,  {Flores} H.,   {Lehnert} M.~D.,  2007,
+  \mn@doi [\apj] {10.1086/516727}, \href
+  {https://ui.adsabs.harvard.edu/abs/2007ApJ...662..322H} {662, 322}
+
+\bibitem[\protect\citeauthoryear{{Hammer} et~al.,}{{Hammer}
+  et~al.}{2024}]{Hammer_2024}
+{Hammer} F.,  et~al., 2024, \mn@doi [\aap] {10.1051/0004-6361/202451381}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024A&A...692L...1H} {692, L1}
+
+\bibitem[\protect\citeauthoryear{{Han} et~al.,}{{Han} et~al.}{2022}]{han_2022}
+{Han} J.~J.,  et~al., 2022, \mn@doi [\aj] {10.3847/1538-3881/ac97e9}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022AJ....164..249H} {164, 249}
+
+\bibitem[\protect\citeauthoryear{{Harmsen}, {Monachesi}, {Bell}, {de Jong},
+  {Bailin}, {Radburn-Smith}  \& {Holwerda}}{{Harmsen}
+  et~al.}{2017}]{Harmsen_massmetallicity_2017}
+{Harmsen} B.,  {Monachesi} A.,  {Bell} E.~F.,  {de Jong} R.~S.,  {Bailin} J.,
+  {Radburn-Smith} D.~J.,   {Holwerda} B.~W.,  2017, \mn@doi [\mnras]
+  {10.1093/mnras/stw2992}, \href
+  {https://ui.adsabs.harvard.edu/abs/2017MNRAS.466.1491H} {466, 1491}
+
+\bibitem[\protect\citeauthoryear{{Hasselquist} et~al.,}{{Hasselquist}
+  et~al.}{2021}]{Hasselquist_2021}
+{Hasselquist} S.,  et~al., 2021, \mn@doi [\apj] {10.3847/1538-4357/ac25f9},
+  \href {https://ui.adsabs.harvard.edu/abs/2021ApJ...923..172H} {923, 172}
+
 \bibitem[\protect\citeauthoryear{{Hawkins}, {Jofr{\'e}}, {Gilmore}  \&
   {Masseron}}{{Hawkins} et~al.}{2014}]{Hawkins2014}
 {Hawkins} K.,  {Jofr{\'e}} P.,  {Gilmore} G.,   {Masseron} T.,  2014, \mn@doi
@@ -322,49 +883,189 @@ Friedman J.~H.,  2001, \mn@doi [Ann. Stat.] {10.1214/aos/1013203451}, 29, 1189
 {Hawkins} K.,  et~al., 2015, \mn@doi [\mnras] {10.1093/mnras/stu2574}, \href
   {https://ui.adsabs.harvard.edu/abs/2015MNRAS.447.2046H} {447, 2046}
 
-\bibitem[\protect\citeauthoryear{{Helmi}}{{Helmi}}{2020}]{Helmi2020}
-{Helmi} A.,  2020, \mn@doi [\araa] {10.1146/annurev-astro-032620-021917}, \href
-  {https://ui.adsabs.harvard.edu/abs/2020ARA&A..58..205H} {58, 205}
+\bibitem[\protect\citeauthoryear{{Haywood}, {Di Matteo}, {Lehnert}, {Snaith},
+  {Khoperskov}  \& {G{\'o}mez}}{{Haywood} et~al.}{2018}]{Haywood2018}
+{Haywood} M.,  {Di Matteo} P.,  {Lehnert} M.~D.,  {Snaith} O.,  {Khoperskov}
+  S.,   {G{\'o}mez} A.,  2018, \mn@doi [\apj] {10.3847/1538-4357/aad235}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018ApJ...863..113H} {863, 113}
+
+\bibitem[\protect\citeauthoryear{{Helmi}}{{Helmi}}{2020a}]{Helmi2020}
+{Helmi} A.,  2020a, \mn@doi [\araa] {10.1146/annurev-astro-032620-021917},
+  \href {https://ui.adsabs.harvard.edu/abs/2020ARA&A..58..205H} {58, 205}
+
+\bibitem[\protect\citeauthoryear{{Helmi}}{{Helmi}}{2020b}]{Helmi_2020}
+{Helmi} A.,  2020b, \mn@doi [\araa] {10.1146/annurev-astro-032620-021917},
+  \href {https://ui.adsabs.harvard.edu/abs/2020ARA&A..58..205H} {58, 205}
 
 \bibitem[\protect\citeauthoryear{{Helmi} \& {White}}{{Helmi} \&
-  {White}}{1999}]{helmi_building_1999}
-{Helmi} A.,  {White} S. D.~M.,  1999, \mn@doi [\mnras]
+  {White}}{1999a}]{helmi_building_1999}
+{Helmi} A.,  {White} S. D.~M.,  1999a, \mn@doi [\mnras]
   {10.1046/j.1365-8711.1999.02616.x}, \href
   {https://ui.adsabs.harvard.edu/abs/1999MNRAS.307..495H} {307, 495}
 
+\bibitem[\protect\citeauthoryear{{Helmi} \& {White}}{{Helmi} \&
+  {White}}{1999b}]{Helmi_1999}
+{Helmi} A.,  {White} S. D.~M.,  1999b, \mn@doi [\mnras]
+  {10.1046/j.1365-8711.1999.02616.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/1999MNRAS.307..495H} {307, 495}
+
+\bibitem[\protect\citeauthoryear{{Helmi} \& {de Zeeuw}}{{Helmi} \& {de
+  Zeeuw}}{2000}]{Helmi2000}
+{Helmi} A.,  {de Zeeuw} P.~T.,  2000, \mn@doi [\mnras]
+  {10.1046/j.1365-8711.2000.03895.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2000MNRAS.319..657H} {319, 657}
+
+\bibitem[\protect\citeauthoryear{{Helmi}, {White}, {de Zeeuw}  \&
+  {Zhao}}{{Helmi} et~al.}{1999a}]{Helmi_1999b}
+{Helmi} A.,  {White} S. D.~M.,  {de Zeeuw} P.~T.,   {Zhao} H.,  1999a, \mn@doi
+  [\nat] {10.1038/46980}, \href
+  {https://ui.adsabs.harvard.edu/abs/1999Natur.402...53H} {402, 53}
+
+\bibitem[\protect\citeauthoryear{{Helmi}, {White}, {de Zeeuw}  \&
+  {Zhao}}{{Helmi} et~al.}{1999b}]{Helmi_streams_1999}
+{Helmi} A.,  {White} S. D.~M.,  {de Zeeuw} P.~T.,   {Zhao} H.,  1999b, \mn@doi
+  [\nat] {10.1038/46980}, \href
+  {https://ui.adsabs.harvard.edu/abs/1999Natur.402...53H} {402, 53}
+
+\bibitem[\protect\citeauthoryear{{Helmi}, {White}, {de Zeeuw}  \&
+  {Zhao}}{{Helmi} et~al.}{1999c}]{helmi_1999_streams}
+{Helmi} A.,  {White} S. D.~M.,  {de Zeeuw} P.~T.,   {Zhao} H.,  1999c, \mn@doi
+  [\nat] {10.1038/46980}, \href
+  {https://ui.adsabs.harvard.edu/abs/1999Natur.402...53H} {402, 53}
+
 \bibitem[\protect\citeauthoryear{{Helmi}, {Babusiaux}, {Koppelman}, {Massari},
-  {Veljanoski}  \& {Brown}}{{Helmi} et~al.}{2018}]{helmi_merger_2018}
+  {Veljanoski}  \& {Brown}}{{Helmi} et~al.}{2018a}]{helmi_merger_2018}
 {Helmi} A.,  {Babusiaux} C.,  {Koppelman} H.~H.,  {Massari} D.,  {Veljanoski}
-  J.,   {Brown} A. G.~A.,  2018, \mn@doi [\nat] {10.1038/s41586-018-0625-x},
+  J.,   {Brown} A. G.~A.,  2018a, \mn@doi [\nat] {10.1038/s41586-018-0625-x},
   \href {https://ui.adsabs.harvard.edu/abs/2018Natur.563...85H} {563, 85}
+
+\bibitem[\protect\citeauthoryear{{Helmi}, {Babusiaux}, {Koppelman}, {Massari},
+  {Veljanoski}  \& {Brown}}{{Helmi} et~al.}{2018b}]{Helmi2018}
+{Helmi} A.,  {Babusiaux} C.,  {Koppelman} H.~H.,  {Massari} D.,  {Veljanoski}
+  J.,   {Brown} A. G.~A.,  2018b, \mn@doi [\nat] {10.1038/s41586-018-0625-x},
+  \href {https://ui.adsabs.harvard.edu/abs/2018Natur.563...85H} {563, 85}
+
+\bibitem[\protect\citeauthoryear{{Helmi}, {Babusiaux}, {Koppelman}, {Massari},
+  {Veljanoski}  \& {Brown}}{{Helmi} et~al.}{2018c}]{Helmi_GSE_2018}
+{Helmi} A.,  {Babusiaux} C.,  {Koppelman} H.~H.,  {Massari} D.,  {Veljanoski}
+  J.,   {Brown} A. G.~A.,  2018c, \mn@doi [\nat] {10.1038/s41586-018-0625-x},
+  \href {https://ui.adsabs.harvard.edu/abs/2018Natur.563...85H} {563, 85}
+
+\bibitem[\protect\citeauthoryear{{Helmi}, {Babusiaux}, {Koppelman}, {Massari},
+  {Veljanoski}  \& {Brown}}{{Helmi} et~al.}{2018d}]{helmi_2018}
+{Helmi} A.,  {Babusiaux} C.,  {Koppelman} H.~H.,  {Massari} D.,  {Veljanoski}
+  J.,   {Brown} A. G.~A.,  2018d, \mn@doi [\nat] {10.1038/s41586-018-0625-x},
+  \href {https://ui.adsabs.harvard.edu/abs/2018Natur.563...85H} {563, 85}
+
+\bibitem[\protect\citeauthoryear{{Hern{\'a}ndez-Mart{\'\i}nez}, {Genel},
+  {Villaescusa-Navarro}, {Steinwandel}, {Lee}, {Lau}  \&
+  {Spergel}}{{Hern{\'a}ndez-Mart{\'\i}nez}
+  et~al.}{2024}]{HernandezMartinez_sbicamels_2024}
+{Hern{\'a}ndez-Mart{\'\i}nez} E.,  {Genel} S.,  {Villaescusa-Navarro} F.,
+  {Steinwandel} U.~P.,  {Lee} M.~E.,  {Lau} E.~T.,   {Spergel} D.~N.,  2024,
+  \mn@doi [arXiv e-prints] {10.48550/arXiv.2410.10942}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024arXiv241010942H} {p. arXiv:2410.10942}
 
 \bibitem[\protect\citeauthoryear{{Hinshaw} et~al.,}{{Hinshaw}
   et~al.}{2013}]{hinshaw2013}
 {Hinshaw} G.,  et~al., 2013, \mn@doi [\apjs] {10.1088/0067-0049/208/2/19},
   \href {https://ui.adsabs.harvard.edu/abs/2013ApJS..208...19H} {208, 19}
 
+\bibitem[\protect\citeauthoryear{Ho et~al.,}{Ho et~al.}{2024a}]{Ho_LTUILI_2024}
+Ho M.,  et~al., 2024a, \mn@doi [Open J. of Astrophysics]
+  {10.33232/001c.120559}, 7
+
+\bibitem[\protect\citeauthoryear{Ho et~al.,}{Ho et~al.}{2024b}]{Ho_2024}
+Ho M.,  et~al., 2024b, \mn@doi [Open J. of Astrophysics]
+  {10.33232/001c.120559}, 7
+
 \bibitem[\protect\citeauthoryear{{Horta} et~al.,}{{Horta}
-  et~al.}{2023}]{horta_chemical_2023}
-{Horta} D.,  et~al., 2023, \mn@doi [\mnras] {10.1093/mnras/stac3179}, \href
+  et~al.}{2021a}]{Horta_heracles_2021}
+{Horta} D.,  et~al., 2021a, \mn@doi [\mnras] {10.1093/mnras/staa2987}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.1385H} {500, 1385}
+
+\bibitem[\protect\citeauthoryear{{Horta} et~al.,}{{Horta}
+  et~al.}{2021b}]{horta_2021}
+{Horta} D.,  et~al., 2021b, \mn@doi [\mnras] {10.1093/mnras/staa2987}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.1385H} {500, 1385}
+
+\bibitem[\protect\citeauthoryear{{Horta} et~al.,}{{Horta}
+  et~al.}{2023a}]{horta_chemical_2023}
+{Horta} D.,  et~al., 2023a, \mn@doi [\mnras] {10.1093/mnras/stac3179}, \href
   {https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.5671H} {520, 5671}
+
+\bibitem[\protect\citeauthoryear{{Horta} et~al.,}{{Horta}
+  et~al.}{2023b}]{Horta2023}
+{Horta} D.,  et~al., 2023b, \mn@doi [\mnras] {10.1093/mnras/stac3179}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.5671H} {520, 5671}
+
+\bibitem[\protect\citeauthoryear{{Horta} et~al.,}{{Horta}
+  et~al.}{2023c}]{Horta_substructures_2023}
+{Horta} D.,  et~al., 2023c, \mn@doi [\mnras] {10.1093/mnras/stac3179}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.5671H} {520, 5671}
+
+\bibitem[\protect\citeauthoryear{{Horta} et~al.,}{{Horta}
+  et~al.}{2023d}]{Horta_2023}
+{Horta} D.,  et~al., 2023d, \mn@doi [\mnras] {10.1093/mnras/stac3179}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.5671H} {520, 5671}
+
+\bibitem[\protect\citeauthoryear{{Horta}, {Price-Whelan}, {Hogg}, {Ness}  \&
+  {Casey}}{{Horta} et~al.}{2025}]{horta_2025}
+{Horta} D.,  {Price-Whelan} A.~M.,  {Hogg} D.~W.,  {Ness} M.~K.,   {Casey}
+  A.~R.,  2025, \mn@doi [\aj] {10.3847/1538-3881/adcc20}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025AJ....169..314H} {169, 314}
 
 \bibitem[\protect\citeauthoryear{Huertas-Company \& Lanusse}{Huertas-Company \&
   Lanusse}{2023}]{huertas-company_dawes_2023}
 Huertas-Company M.,  Lanusse F.,  2023, \mn@doi [\pasa] {10.1017/pasa.2022.55},
   40, e001
 
+\bibitem[\protect\citeauthoryear{{Ibata}, {Gilmore}  \& {Irwin}}{{Ibata}
+  et~al.}{1994}]{Ibata_1994}
+{Ibata} R.~A.,  {Gilmore} G.,   {Irwin} M.~J.,  1994, \mn@doi [\nat]
+  {10.1038/370194a0}, \href
+  {https://ui.adsabs.harvard.edu/abs/1994Natur.370..194I} {370, 194}
+
 \bibitem[\protect\citeauthoryear{{Jayasinghe} et~al.,}{{Jayasinghe}
   et~al.}{2019}]{jayasinghe_asas-sn_2019}
 {Jayasinghe} T.,  et~al., 2019, \mn@doi [\mnras] {10.1093/mnras/stz844}, \href
   {https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.1907J} {486, 1907}
+
+\bibitem[\protect\citeauthoryear{{Jean-Baptiste}, {Di Matteo}, {Haywood},
+  {G{\'o}mez}, {Montuori}, {Combes}  \& {Semelin}}{{Jean-Baptiste}
+  et~al.}{2017a}]{Jean-Baptiste2017}
+{Jean-Baptiste} I.,  {Di Matteo} P.,  {Haywood} M.,  {G{\'o}mez} A.,
+  {Montuori} M.,  {Combes} F.,   {Semelin} B.,  2017a, \mn@doi [\aap]
+  {10.1051/0004-6361/201629691}, \href
+  {https://ui.adsabs.harvard.edu/abs/2017A&A...604A.106J} {604, A106}
+
+\bibitem[\protect\citeauthoryear{{Jean-Baptiste}, {Di Matteo}, {Haywood},
+  {G{\'o}mez}, {Montuori}, {Combes}  \& {Semelin}}{{Jean-Baptiste}
+  et~al.}{2017b}]{Jean-Baptiste_2017}
+{Jean-Baptiste} I.,  {Di Matteo} P.,  {Haywood} M.,  {G{\'o}mez} A.,
+  {Montuori} M.,  {Combes} F.,   {Semelin} B.,  2017b, \mn@doi [\aap]
+  {10.1051/0004-6361/201629691}, \href
+  {https://ui.adsabs.harvard.edu/abs/2017A&A...604A.106J} {604, A106}
+
+\bibitem[\protect\citeauthoryear{{Jeffrey}, {Alsing}  \& {Lanusse}}{{Jeffrey}
+  et~al.}{2021}]{Jeffrey_sbiweallensing_2021}
+{Jeffrey} N.,  {Alsing} J.,   {Lanusse} F.,  2021, \mn@doi [\mnras]
+  {10.1093/mnras/staa3594}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021MNRAS.501..954J} {501, 954}
 
 \bibitem[\protect\citeauthoryear{{Ji} et~al.,}{{Ji} et~al.}{2020}]{Ji2020}
 {Ji} A.~P.,  et~al., 2020, \mn@doi [\aj] {10.3847/1538-3881/abacb6}, \href
   {https://ui.adsabs.harvard.edu/abs/2020AJ....160..181J} {160, 181}
 
 \bibitem[\protect\citeauthoryear{{Johnston}, {Hernquist}  \&
-  {Bolte}}{{Johnston} et~al.}{1996}]{Johnston1996}
-{Johnston} K.~V.,  {Hernquist} L.,   {Bolte} M.,  1996, \mn@doi [\apj]
+  {Bolte}}{{Johnston} et~al.}{1996a}]{Johnston1996}
+{Johnston} K.~V.,  {Hernquist} L.,   {Bolte} M.,  1996a, \mn@doi [\apj]
+  {10.1086/177418}, \href
+  {https://ui.adsabs.harvard.edu/abs/1996ApJ...465..278J} {465, 278}
+
+\bibitem[\protect\citeauthoryear{{Johnston}, {Hernquist}  \&
+  {Bolte}}{{Johnston} et~al.}{1996b}]{Johnston_1996}
+{Johnston} K.~V.,  {Hernquist} L.,   {Bolte} M.,  1996b, \mn@doi [\apj]
   {10.1086/177418}, \href
   {https://ui.adsabs.harvard.edu/abs/1996ApJ...465..278J} {465, 278}
 
@@ -375,10 +1076,40 @@ Huertas-Company M.,  Lanusse F.,  2023, \mn@doi [\pasa] {10.1017/pasa.2022.55},
   {https://ui.adsabs.harvard.edu/abs/2002ApJ...570..656J} {570, 656}
 
 \bibitem[\protect\citeauthoryear{{Johnston}, {Bullock}, {Sharma}, {Font},
-  {Robertson}  \& {Leitner}}{{Johnston} et~al.}{2008}]{Johnston2008}
+  {Robertson}  \& {Leitner}}{{Johnston} et~al.}{2008a}]{Johnston2008}
 {Johnston} K.~V.,  {Bullock} J.~S.,  {Sharma} S.,  {Font} A.,  {Robertson}
-  B.~E.,   {Leitner} S.~N.,  2008, \mn@doi [\apj] {10.1086/592228}, \href
+  B.~E.,   {Leitner} S.~N.,  2008a, \mn@doi [\apj] {10.1086/592228}, \href
   {https://ui.adsabs.harvard.edu/abs/2008ApJ...689..936J} {689, 936}
+
+\bibitem[\protect\citeauthoryear{{Johnston}, {Bullock}, {Sharma}, {Font},
+  {Robertson}  \& {Leitner}}{{Johnston} et~al.}{2008b}]{johnston_2008}
+{Johnston} K.~V.,  {Bullock} J.~S.,  {Sharma} S.,  {Font} A.,  {Robertson}
+  B.~E.,   {Leitner} S.~N.,  2008b, \mn@doi [\apj] {10.1086/592228}, \href
+  {https://ui.adsabs.harvard.edu/abs/2008ApJ...689..936J} {689, 936}
+
+\bibitem[\protect\citeauthoryear{{Karakas}}{{Karakas}}{2010}]{Karakas_2010}
+{Karakas} A.~I.,  2010, \mn@doi [\mnras] {10.1111/j.1365-2966.2009.16198.x},
+  \href {https://ui.adsabs.harvard.edu/abs/2010MNRAS.403.1413K} {403, 1413}
+
+\bibitem[\protect\citeauthoryear{{Kawata} \& {Mulchaey}}{{Kawata} \&
+  {Mulchaey}}{2008}]{Kawata_2008}
+{Kawata} D.,  {Mulchaey} J.~S.,  2008, \mn@doi [\apjl] {10.1086/526544}, \href
+  {https://ui.adsabs.harvard.edu/abs/2008ApJ...672L.103K} {672, L103}
+
+\bibitem[\protect\citeauthoryear{{Kawata}, {Grand}, {Hunt}  \&
+  {Ciuc{\u{a}}}}{{Kawata} et~al.}{2024}]{Kawata_MWdisk_2024}
+{Kawata} D.,  {Grand} R. J.~J.,  {Hunt} J. A.~S.,   {Ciuc{\u{a}}} I.,  2024,
+  \mn@doi [arXiv e-prints] {10.48550/arXiv.2412.12252}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024arXiv241212252K} {p. arXiv:2412.12252}
+
+\bibitem[\protect\citeauthoryear{{Kepley} et~al.,}{{Kepley}
+  et~al.}{2007}]{kepley_2007}
+{Kepley} A.~A.,  et~al., 2007, \mn@doi [\aj] {10.1086/521429}, \href
+  {https://ui.adsabs.harvard.edu/abs/2007AJ....134.1579K} {134, 1579}
+
+\bibitem[\protect\citeauthoryear{{Kim} et~al.,}{{Kim} et~al.}{2025}]{Kim2025}
+{Kim} B.,  et~al., 2025, \mn@doi [\mnras] {10.1093/mnras/staf705}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025MNRAS.540..264K} {540, 264}
 
 \bibitem[\protect\citeauthoryear{{Kingma} \& {Ba}}{{Kingma} \&
   {Ba}}{2014}]{kingma_adam_2017}
@@ -386,11 +1117,51 @@ Huertas-Company M.,  Lanusse F.,  2023, \mn@doi [\pasa] {10.1017/pasa.2022.55},
   {10.48550/arXiv.1412.6980}, \href
   {https://ui.adsabs.harvard.edu/abs/2014arXiv1412.6980K} {p. arXiv:1412.6980}
 
+\bibitem[\protect\citeauthoryear{Kingma \& Ba}{Kingma \&
+  Ba}{2017}]{kingma_2017}
+Kingma D.~P.,  Ba J.,  2017, Adam: A Method for Stochastic Optimization
+  (\mn@eprint {arXiv} {1412.6980})
+
+\bibitem[\protect\citeauthoryear{{Kingma}, {Salimans}, {Jozefowicz}, {Chen},
+  {Sutskever}  \& {Welling}}{{Kingma} et~al.}{2016}]{Kingma2016}
+{Kingma} D.~P.,  {Salimans} T.,  {Jozefowicz} R.,  {Chen} X.,  {Sutskever} I.,
+   {Welling} M.,  2016, in Lee D.,  Sugiyama M.,  Luxburg U.,  Guyon I.,
+  Garnett R.,  eds,  NeurIPS Proceedings Vol. 29, Advances in Neural
+  Information Processing Systems 29 (NeurIPS 2016). Curran Associates, Inc.
+
+\bibitem[\protect\citeauthoryear{{Kirby}, {Cohen}, {Guhathakurta}, {Cheng},
+  {Bullock}  \& {Gallazzi}}{{Kirby} et~al.}{2013}]{kirby_2013}
+{Kirby} E.~N.,  {Cohen} J.~G.,  {Guhathakurta} P.,  {Cheng} L.,  {Bullock}
+  J.~S.,   {Gallazzi} A.,  2013, \mn@doi [\apj] {10.1088/0004-637X/779/2/102},
+  \href {https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K} {779, 102}
+
+\bibitem[\protect\citeauthoryear{{Kizhuprakkat} et~al.,}{{Kizhuprakkat}
+  et~al.}{2024}]{Kizhuprakkat2024}
+{Kizhuprakkat} N.,  et~al., 2024, \mn@doi [\mnras] {10.1093/mnras/stae1415},
+  \href {https://ui.adsabs.harvard.edu/abs/2024MNRAS.531.4108K} {531, 4108}
+
 \bibitem[\protect\citeauthoryear{{Klambauer}, {Unterthiner}, {Mayr}  \&
   {Hochreiter}}{{Klambauer} et~al.}{2017}]{klambauer_self-normalizing_2017}
 {Klambauer} G.,  {Unterthiner} T.,  {Mayr} A.,   {Hochreiter} S.,  2017,
   \mn@doi [arXiv e-prints] {10.48550/arXiv.1706.02515}, \href
   {https://ui.adsabs.harvard.edu/abs/2017arXiv170602515K} {p. arXiv:1706.02515}
+
+\bibitem[\protect\citeauthoryear{{Klement} et~al.,}{{Klement}
+  et~al.}{2009}]{Klement2009}
+{Klement} R.,  et~al., 2009, \mn@doi [\apj] {10.1088/0004-637X/698/1/865},
+  \href {https://ui.adsabs.harvard.edu/abs/2009ApJ...698..865K} {698, 865}
+
+\bibitem[\protect\citeauthoryear{{Knebe}, {Gill}, {Kawata}  \&
+  {Gibson}}{{Knebe} et~al.}{2005a}]{Knebe2005}
+{Knebe} A.,  {Gill} S. P.~D.,  {Kawata} D.,   {Gibson} B.~K.,  2005a, \mn@doi
+  [\mnras] {10.1111/j.1745-3933.2005.08666.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2005MNRAS.357L..35K} {357, L35}
+
+\bibitem[\protect\citeauthoryear{{Knebe}, {Gill}, {Kawata}  \&
+  {Gibson}}{{Knebe} et~al.}{2005b}]{Knebe_2005}
+{Knebe} A.,  {Gill} S. P.~D.,  {Kawata} D.,   {Gibson} B.~K.,  2005b, \mn@doi
+  [\mnras] {10.1111/j.1745-3933.2005.08666.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2005MNRAS.357L..35K} {357, L35}
 
 \bibitem[\protect\citeauthoryear{{Koppelman} \& {Helmi}}{{Koppelman} \&
   {Helmi}}{2021}]{Koppelman2021}
@@ -405,33 +1176,187 @@ Huertas-Company M.,  Lanusse F.,  2023, \mn@doi [\pasa] {10.1017/pasa.2022.55},
   {https://ui.adsabs.harvard.edu/abs/2018ApJ...860L..11K} {860, L11}
 
 \bibitem[\protect\citeauthoryear{{Koppelman}, {Helmi}, {Massari},
-  {Price-Whelan}  \& {Starkenburg}}{{Koppelman} et~al.}{2019}]{Koppelman2019}
+  {Price-Whelan}  \& {Starkenburg}}{{Koppelman} et~al.}{2019a}]{Koppelman2019}
 {Koppelman} H.~H.,  {Helmi} A.,  {Massari} D.,  {Price-Whelan} A.~M.,
-  {Starkenburg} T.~K.,  2019, \mn@doi [\aap] {10.1051/0004-6361/201936738},
+  {Starkenburg} T.~K.,  2019a, \mn@doi [\aap] {10.1051/0004-6361/201936738},
   \href {https://ui.adsabs.harvard.edu/abs/2019A&A...631L...9K} {631, L9}
 
+\bibitem[\protect\citeauthoryear{{Koppelman}, {Helmi}, {Massari},
+  {Price-Whelan}  \& {Starkenburg}}{{Koppelman} et~al.}{2019b}]{Koppelman_2019}
+{Koppelman} H.~H.,  {Helmi} A.,  {Massari} D.,  {Price-Whelan} A.~M.,
+  {Starkenburg} T.~K.,  2019b, \mn@doi [\aap] {10.1051/0004-6361/201936738},
+  \href {https://ui.adsabs.harvard.edu/abs/2019A&A...631L...9K} {631, L9}
+
+\bibitem[\protect\citeauthoryear{{Koppelman}, {Helmi}, {Massari},
+  {Price-Whelan}  \& {Starkenburg}}{{Koppelman}
+  et~al.}{2019c}]{koppelman_2019_b}
+{Koppelman} H.~H.,  {Helmi} A.,  {Massari} D.,  {Price-Whelan} A.~M.,
+  {Starkenburg} T.~K.,  2019c, \mn@doi [\aap] {10.1051/0004-6361/201936738},
+  \href {https://ui.adsabs.harvard.edu/abs/2019A&A...631L...9K} {631, L9}
+
+\bibitem[\protect\citeauthoryear{{Koppelman}, {Bos}  \& {Helmi}}{{Koppelman}
+  et~al.}{2020}]{koppelman_2020}
+{Koppelman} H.~H.,  {Bos} R. O.~Y.,   {Helmi} A.,  2020, \mn@doi [\aap]
+  {10.1051/0004-6361/202038652}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020A&A...642L..18K} {642, L18}
+
+\bibitem[\protect\citeauthoryear{{Kruijssen}, {Pfeffer}, {Crain}  \&
+  {Bastian}}{{Kruijssen} et~al.}{2019a}]{Kruijssen_emosaics_2019}
+{Kruijssen} J.~M.~D.,  {Pfeffer} J.~L.,  {Crain} R.~A.,   {Bastian} N.,  2019a,
+  \mn@doi [\mnras] {10.1093/mnras/stz968}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.3134K} {486, 3134}
+
+\bibitem[\protect\citeauthoryear{{Kruijssen}, {Pfeffer}, {Crain}  \&
+  {Bastian}}{{Kruijssen} et~al.}{2019b}]{Kruijssen_2019}
+{Kruijssen} J.~M.~D.,  {Pfeffer} J.~L.,  {Crain} R.~A.,   {Bastian} N.,  2019b,
+  \mn@doi [\mnras] {10.1093/mnras/stz968}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.3134K} {486, 3134}
+
 \bibitem[\protect\citeauthoryear{{Kruijssen}, {Pfeffer}, {Reina-Campos},
-  {Crain}  \& {Bastian}}{{Kruijssen} et~al.}{2019}]{Kruijssen2019}
+  {Crain}  \& {Bastian}}{{Kruijssen} et~al.}{2019c}]{Kruijssen2019}
 {Kruijssen} J.~M.~D.,  {Pfeffer} J.~L.,  {Reina-Campos} M.,  {Crain} R.~A.,
-  {Bastian} N.,  2019, \mn@doi [\mnras] {10.1093/mnras/sty1609}, \href
+  {Bastian} N.,  2019c, \mn@doi [\mnras] {10.1093/mnras/sty1609}, \href
   {https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.3180K} {486, 3180}
+
+\bibitem[\protect\citeauthoryear{{Kruijssen}, {Pfeffer}, {Reina-Campos},
+  {Crain}  \& {Bastian}}{{Kruijssen} et~al.}{2019d}]{Kruijssen_kraken_2019}
+{Kruijssen} J.~M.~D.,  {Pfeffer} J.~L.,  {Reina-Campos} M.,  {Crain} R.~A.,
+  {Bastian} N.,  2019d, \mn@doi [\mnras] {10.1093/mnras/sty1609}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.3180K} {486, 3180}
+
+\bibitem[\protect\citeauthoryear{{Kruijssen} et~al.,}{{Kruijssen}
+  et~al.}{2020}]{Kruijssen_2020}
+{Kruijssen} J.~M.~D.,  et~al., 2020, \mn@doi [\mnras] {10.1093/mnras/staa2452},
+  \href {https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.2472K} {498, 2472}
+
+\bibitem[\protect\citeauthoryear{{L'Huillier}, {Combes}  \&
+  {Semelin}}{{L'Huillier} et~al.}{2012}]{L'Huillier_massgrowth_2012}
+{L'Huillier} B.,  {Combes} F.,   {Semelin} B.,  2012, \mn@doi [\aap]
+  {10.1051/0004-6361/201117924}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012A&A...544A..68L} {544, A68}
+
+\bibitem[\protect\citeauthoryear{{Lane}, {Bovy}  \& {Mackereth}}{{Lane}
+  et~al.}{2023a}]{Lane_massdebris_2023}
+{Lane} J. M.~M.,  {Bovy} J.,   {Mackereth} J.~T.,  2023a, \mn@doi [\mnras]
+  {10.1093/mnras/stad2834}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.1209L} {526, 1209}
+
+\bibitem[\protect\citeauthoryear{{Lane}, {Bovy}  \& {Mackereth}}{{Lane}
+  et~al.}{2023b}]{Lane_2023}
+{Lane} J. M.~M.,  {Bovy} J.,   {Mackereth} J.~T.,  2023b, \mn@doi [\mnras]
+  {10.1093/mnras/stad2834}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.1209L} {526, 1209}
+
+\bibitem[\protect\citeauthoryear{{Lemos}, {Coogan}, {Hezaveh}  \&
+  {Perreault-Levasseur}}{{Lemos} et~al.}{2023}]{Lemos_2023}
+{Lemos} P.,  {Coogan} A.,  {Hezaveh} Y.,   {Perreault-Levasseur} L.,  2023,
+  \mn@doi [40th International Conference on Machine Learning]
+  {10.48550/arXiv.2302.03026}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023PMLR..20219256L} {202, 19256}
+
+\bibitem[\protect\citeauthoryear{{Leung} \& {Bovy}}{{Leung} \&
+  {Bovy}}{2019}]{leung_2019}
+{Leung} H.~W.,  {Bovy} J.,  2019, \mn@doi [\mnras] {10.1093/mnras/stz2245},
+  \href {https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2079L} {489, 2079}
+
+\bibitem[\protect\citeauthoryear{Lewandowski, Kurowicka  \& Joe}{Lewandowski
+  et~al.}{2009}]{LKJ_prior}
+Lewandowski D.,  Kurowicka D.,   Joe H.,  2009, \mn@doi [J. Multivar. Anal.]
+  {https://doi.org/10.1016/j.jmva.2009.04.008}, 100, 1989
+
+\bibitem[\protect\citeauthoryear{{Libeskind} et~al.,}{{Libeskind}
+  et~al.}{2020}]{Libeskind_2020}
+{Libeskind} N.~I.,  et~al., 2020, \mn@doi [\mnras] {10.1093/mnras/staa2541},
+  \href {https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.2968L} {498, 2968}
+
+\bibitem[\protect\citeauthoryear{{Limberg}}{{Limberg}}{2024}]{Limberg_2024}
+{Limberg} G.,  2024, \mn@doi [\apjl] {10.3847/2041-8213/ad9384}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024ApJ...977L...2L} {977, L2}
+
+\bibitem[\protect\citeauthoryear{{Limberg}, {Souza}, {P{\'e}rez-Villegas},
+  {Rossi}, {Perottoni}  \& {Santucci}}{{Limberg} et~al.}{2022}]{Limberg_2022}
+{Limberg} G.,  {Souza} S.~O.,  {P{\'e}rez-Villegas} A.,  {Rossi} S.,
+  {Perottoni} H.~D.,   {Santucci} R.~M.,  2022, \mn@doi [\apj]
+  {10.3847/1538-4357/ac8159}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022ApJ...935..109L} {935, 109}
 
 \bibitem[\protect\citeauthoryear{{L{\"o}vdal}, {Ruiz-Lara}, {Koppelman},
   {Matsuno}, {Dodd}  \& {Helmi}}{{L{\"o}vdal}
-  et~al.}{2022}]{lovdal_substructure_2022}
+  et~al.}{2022a}]{lovdal_substructure_2022}
 {L{\"o}vdal} S.~S.,  {Ruiz-Lara} T.,  {Koppelman} H.~H.,  {Matsuno} T.,  {Dodd}
-  E.,   {Helmi} A.,  2022, \mn@doi [\aap] {10.1051/0004-6361/202243060}, \href
+  E.,   {Helmi} A.,  2022a, \mn@doi [\aap] {10.1051/0004-6361/202243060}, \href
   {https://ui.adsabs.harvard.edu/abs/2022A&A...665A..57L} {665, A57}
 
+\bibitem[\protect\citeauthoryear{{L{\"o}vdal}, {Ruiz-Lara}, {Koppelman},
+  {Matsuno}, {Dodd}  \& {Helmi}}{{L{\"o}vdal} et~al.}{2022b}]{Lovdal_2022}
+{L{\"o}vdal} S.~S.,  {Ruiz-Lara} T.,  {Koppelman} H.~H.,  {Matsuno} T.,  {Dodd}
+  E.,   {Helmi} A.,  2022b, \mn@doi [\aap] {10.1051/0004-6361/202243060}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022A&A...665A..57L} {665, A57}
+
+\bibitem[\protect\citeauthoryear{{Ma}, {Hopkins}, {Faucher-Gigu{\`e}re},
+  {Zolman}, {Muratov}, {Kere{\v{s}}}  \& {Quataert}}{{Ma}
+  et~al.}{2016}]{ma_2016}
+{Ma} X.,  {Hopkins} P.~F.,  {Faucher-Gigu{\`e}re} C.-A.,  {Zolman} N.,
+  {Muratov} A.~L.,  {Kere{\v{s}}} D.,   {Quataert} E.,  2016, \mn@doi [\mnras]
+  {10.1093/mnras/stv2659}, \href
+  {https://ui.adsabs.harvard.edu/abs/2016MNRAS.456.2140M} {456, 2140}
+
+\bibitem[\protect\citeauthoryear{MacQueen}{MacQueen}{1967}]{Kmeans}
+MacQueen J.,  1967, in Proceedings ofthe 5th Berkeley Symposium on Mathematical
+  Statisticsand Probability. pp 281--297
+
+\bibitem[\protect\citeauthoryear{{Mackereth} \& {Bovy}}{{Mackereth} \&
+  {Bovy}}{2020a}]{MackerethBovy_massdebris_2020}
+{Mackereth} J.~T.,  {Bovy} J.,  2020a, \mn@doi [\mnras]
+  {10.1093/mnras/staa047}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.3631M} {492, 3631}
+
+\bibitem[\protect\citeauthoryear{{Mackereth} \& {Bovy}}{{Mackereth} \&
+  {Bovy}}{2020b}]{Mackereth_2020}
+{Mackereth} J.~T.,  {Bovy} J.,  2020b, \mn@doi [\mnras]
+  {10.1093/mnras/staa047}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.3631M} {492, 3631}
+
 \bibitem[\protect\citeauthoryear{{Mackereth} et~al.,}{{Mackereth}
-  et~al.}{2019}]{mackereth_dynamical_2019}
-{Mackereth} J.~T.,  et~al., 2019, \mn@doi [\mnras] {10.1093/mnras/stz1521},
+  et~al.}{2019a}]{Mackereth2019}
+{Mackereth} J.~T.,  et~al., 2019a, \mn@doi [\mnras] {10.1093/mnras/sty2955},
+  \href {https://ui.adsabs.harvard.edu/abs/2019MNRAS.482.3426M} {482, 3426}
+
+\bibitem[\protect\citeauthoryear{{Mackereth} et~al.,}{{Mackereth}
+  et~al.}{2019b}]{Mackereth_2019}
+{Mackereth} J.~T.,  et~al., 2019b, \mn@doi [\mnras] {10.1093/mnras/sty2955},
+  \href {https://ui.adsabs.harvard.edu/abs/2019MNRAS.482.3426M} {482, 3426}
+
+\bibitem[\protect\citeauthoryear{{Mackereth} et~al.,}{{Mackereth}
+  et~al.}{2019c}]{mackereth_dynamical_2019}
+{Mackereth} J.~T.,  et~al., 2019c, \mn@doi [\mnras] {10.1093/mnras/stz1521},
   \href {https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..176M} {489, 176}
 
 \bibitem[\protect\citeauthoryear{{Majewski} et~al.,}{{Majewski}
-  et~al.}{2017}]{majewski_apache_2017}
-{Majewski} S.~R.,  et~al., 2017, \mn@doi [\aj] {10.3847/1538-3881/aa784d},
+  et~al.}{2017a}]{majewski_apache_2017}
+{Majewski} S.~R.,  et~al., 2017a, \mn@doi [\aj] {10.3847/1538-3881/aa784d},
   \href {https://ui.adsabs.harvard.edu/abs/2017AJ....154...94M} {154, 94}
+
+\bibitem[\protect\citeauthoryear{{Majewski} et~al.,}{{Majewski}
+  et~al.}{2017b}]{Apogee}
+{Majewski} S.~R.,  et~al., 2017b, \mn@doi [\aj] {10.3847/1538-3881/aa784d},
+  \href {https://ui.adsabs.harvard.edu/abs/2017AJ....154...94M} {154, 94}
+
+\bibitem[\protect\citeauthoryear{{Majewski} et~al.,}{{Majewski}
+  et~al.}{2017c}]{Apogee_2017}
+{Majewski} S.~R.,  et~al., 2017c, \mn@doi [\aj] {10.3847/1538-3881/aa784d},
+  \href {https://ui.adsabs.harvard.edu/abs/2017AJ....154...94M} {154, 94}
+
+\bibitem[\protect\citeauthoryear{{Majewski} et~al.,}{{Majewski}
+  et~al.}{2017d}]{Majewski_2017}
+{Majewski} S.~R.,  et~al., 2017d, \mn@doi [\aj] {10.3847/1538-3881/aa784d},
+  \href {https://ui.adsabs.harvard.edu/abs/2017AJ....154...94M} {154, 94}
+
+\bibitem[\protect\citeauthoryear{{Makinen}, {Alsing}  \& {Wandelt}}{{Makinen}
+  et~al.}{2023}]{Makinen_2023}
+{Makinen} T.~L.,  {Alsing} J.,   {Wandelt} B.~D.,  2023, \mn@doi [arXiv
+  e-prints] {10.48550/arXiv.2310.03812}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023arXiv231003812M} {p. arXiv:2310.03812}
 
 \bibitem[\protect\citeauthoryear{{Malhan} \& {Ibata}}{{Malhan} \&
   {Ibata}}{2018}]{malhan_streamfinder_2018}
@@ -439,9 +1364,30 @@ Huertas-Company M.,  Lanusse F.,  2023, \mn@doi [\pasa] {10.1017/pasa.2022.55},
   \href {https://ui.adsabs.harvard.edu/abs/2018MNRAS.477.4063M} {477, 4063}
 
 \bibitem[\protect\citeauthoryear{{Malhan} \& {Rix}}{{Malhan} \&
-  {Rix}}{2024}]{malhan_shiva_shakti_2024}
-{Malhan} K.,  {Rix} H.-W.,  2024, \mn@doi [\apj] {10.3847/1538-4357/ad1885},
+  {Rix}}{2024a}]{malhan_shiva_shakti_2024}
+{Malhan} K.,  {Rix} H.-W.,  2024a, \mn@doi [\apj] {10.3847/1538-4357/ad1885},
   \href {https://ui.adsabs.harvard.edu/abs/2024ApJ...964..104M} {964, 104}
+
+\bibitem[\protect\citeauthoryear{{Malhan} \& {Rix}}{{Malhan} \&
+  {Rix}}{2024b}]{Malhan2024}
+{Malhan} K.,  {Rix} H.-W.,  2024b, \mn@doi [\apj] {10.3847/1538-4357/ad1885},
+  \href {https://ui.adsabs.harvard.edu/abs/2024ApJ...964..104M} {964, 104}
+
+\bibitem[\protect\citeauthoryear{{Malhan} \& {Rix}}{{Malhan} \&
+  {Rix}}{2024c}]{Malhan_shiva_2024}
+{Malhan} K.,  {Rix} H.-W.,  2024c, \mn@doi [\apj] {10.3847/1538-4357/ad1885},
+  \href {https://ui.adsabs.harvard.edu/abs/2024ApJ...964..104M} {964, 104}
+
+\bibitem[\protect\citeauthoryear{{Malhan} \& {Rix}}{{Malhan} \&
+  {Rix}}{2024d}]{Malhan_2024}
+{Malhan} K.,  {Rix} H.-W.,  2024d, \mn@doi [\apj] {10.3847/1538-4357/ad1885},
+  \href {https://ui.adsabs.harvard.edu/abs/2024ApJ...964..104M} {964, 104}
+
+\bibitem[\protect\citeauthoryear{{Malhan}, {Yuan}, {Ibata}, {Arentsen},
+  {Bellazzini}  \& {Martin}}{{Malhan} et~al.}{2021}]{Malhan_2021}
+{Malhan} K.,  {Yuan} Z.,  {Ibata} R.~A.,  {Arentsen} A.,  {Bellazzini} M.,
+  {Martin} N.~F.,  2021, \mn@doi [\apj] {10.3847/1538-4357/ac1675}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021ApJ...920...51M} {920, 51}
 
 \bibitem[\protect\citeauthoryear{{Malhan} et~al.,}{{Malhan}
   et~al.}{2022}]{malhan_2022}
@@ -454,16 +1400,49 @@ Huertas-Company M.,  Lanusse F.,  2023, \mn@doi [\pasa] {10.1017/pasa.2022.55},
   {https://ui.adsabs.harvard.edu/abs/2017ApJ...835...77M} {835, 77}
 
 \bibitem[\protect\citeauthoryear{{Massari}, {Koppelman}  \& {Helmi}}{{Massari}
-  et~al.}{2019}]{massari_origin_2019}
-{Massari} D.,  {Koppelman} H.~H.,   {Helmi} A.,  2019, \mn@doi [\aap]
+  et~al.}{2019a}]{massari_origin_2019}
+{Massari} D.,  {Koppelman} H.~H.,   {Helmi} A.,  2019a, \mn@doi [\aap]
   {10.1051/0004-6361/201936135}, \href
   {https://ui.adsabs.harvard.edu/abs/2019A&A...630L...4M} {630, L4}
 
+\bibitem[\protect\citeauthoryear{{Massari}, {Koppelman}  \& {Helmi}}{{Massari}
+  et~al.}{2019b}]{Massari_MWhist_2019}
+{Massari} D.,  {Koppelman} H.~H.,   {Helmi} A.,  2019b, \mn@doi [\aap]
+  {10.1051/0004-6361/201936135}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019A&A...630L...4M} {630, L4}
+
+\bibitem[\protect\citeauthoryear{{Matsuno}, {Aoki}  \& {Suda}}{{Matsuno}
+  et~al.}{2019}]{matsuno_2019}
+{Matsuno} T.,  {Aoki} W.,   {Suda} T.,  2019, \mn@doi [\apjl]
+  {10.3847/2041-8213/ab0ec0}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019ApJ...874L..35M} {874, L35}
+
+\bibitem[\protect\citeauthoryear{{Matthee}, {Schaye}, {Crain}, {Schaller},
+  {Bower}  \& {Theuns}}{{Matthee} et~al.}{2017}]{Matthee_scatterSMHR_2017}
+{Matthee} J.,  {Schaye} J.,  {Crain} R.~A.,  {Schaller} M.,  {Bower} R.,
+  {Theuns} T.,  2017, \mn@doi [\mnras] {10.1093/mnras/stw2884}, \href
+  {https://ui.adsabs.harvard.edu/abs/2017MNRAS.465.2381M} {465, 2381}
+
 \bibitem[\protect\citeauthoryear{{McCarthy}, {Font}, {Crain}, {Deason},
-  {Schaye}  \& {Theuns}}{{McCarthy} et~al.}{2012}]{mccarthy_global_2012}
+  {Schaye}  \& {Theuns}}{{McCarthy} et~al.}{2012a}]{mccarthy_global_2012}
 {McCarthy} I.~G.,  {Font} A.~S.,  {Crain} R.~A.,  {Deason} A.~J.,  {Schaye} J.,
-    {Theuns} T.,  2012, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.20189.x},
+    {Theuns} T.,  2012a, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.20189.x},
   \href {https://ui.adsabs.harvard.edu/abs/2012MNRAS.420.2245M} {420, 2245}
+
+\bibitem[\protect\citeauthoryear{{McCarthy}, {Font}, {Crain}, {Deason},
+  {Schaye}  \& {Theuns}}{{McCarthy} et~al.}{2012b}]{McCarthy2012}
+{McCarthy} I.~G.,  {Font} A.~S.,  {Crain} R.~A.,  {Deason} A.~J.,  {Schaye} J.,
+    {Theuns} T.,  2012b, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.20189.x},
+  \href {https://ui.adsabs.harvard.edu/abs/2012MNRAS.420.2245M} {420, 2245}
+
+\bibitem[\protect\citeauthoryear{{McConnachie}}{{McConnachie}}{2012}]{McConnachie_2012}
+{McConnachie} A.~W.,  2012, \mn@doi [\aj] {10.1088/0004-6256/144/1/4}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012AJ....144....4M} {144, 4}
+
+\bibitem[\protect\citeauthoryear{McInnes, Healy  \& Astels}{McInnes
+  et~al.}{2017}]{hdbscan_software}
+McInnes L.,  Healy J.,   Astels S.,  2017, \mn@doi [J. Open Source Softw.]
+  {10.21105/joss.00205}, 2
 
 \bibitem[\protect\citeauthoryear{{McInnes}, {Healy}  \& {Melville}}{{McInnes}
   et~al.}{2018a}]{mcinnes_umap_2018}
@@ -476,8 +1455,12 @@ Huertas-Company M.,  Lanusse F.,  2023, \mn@doi [\pasa] {10.1017/pasa.2022.55},
 McInnes L.,  Healy J.,  Saul N.,   Grossberger L.,  2018b, J. Open Source
   Softw., 3, 861
 
-\bibitem[\protect\citeauthoryear{{McMillan}}{{McMillan}}{2017}]{McMillan2017}
-{McMillan} P.~J.,  2017, \mn@doi [\mnras] {10.1093/mnras/stw2759}, \href
+\bibitem[\protect\citeauthoryear{{McMillan}}{{McMillan}}{2017a}]{McMillan2017}
+{McMillan} P.~J.,  2017a, \mn@doi [\mnras] {10.1093/mnras/stw2759}, \href
+  {https://ui.adsabs.harvard.edu/abs/2017MNRAS.465...76M} {465, 76}
+
+\bibitem[\protect\citeauthoryear{{McMillan}}{{McMillan}}{2017b}]{McMillan_2017}
+{McMillan} P.~J.,  2017b, \mn@doi [\mnras] {10.1093/mnras/stw2759}, \href
   {https://ui.adsabs.harvard.edu/abs/2017MNRAS.465...76M} {465, 76}
 
 \bibitem[\protect\citeauthoryear{{McMillan} \& {Binney}}{{McMillan} \&
@@ -486,13 +1469,80 @@ McInnes L.,  Healy J.,  Saul N.,   Grossberger L.,  2018b, J. Open Source
   {10.1111/j.1365-2966.2008.13767.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2008MNRAS.390..429M} {390, 429}
 
+\bibitem[\protect\citeauthoryear{{McWilliam}}{{McWilliam}}{1997}]{McWilliam_1997}
+{McWilliam} A.,  1997, \mn@doi [\araa] {10.1146/annurev.astro.35.1.503}, \href
+  {https://ui.adsabs.harvard.edu/abs/1997ARA&A..35..503M} {35, 503}
+
+\bibitem[\protect\citeauthoryear{{Meza}, {Navarro}, {Abadi}  \&
+  {Steinmetz}}{{Meza} et~al.}{2005}]{Meza_2005}
+{Meza} A.,  {Navarro} J.~F.,  {Abadi} M.~G.,   {Steinmetz} M.,  2005, \mn@doi
+  [\mnras] {10.1111/j.1365-2966.2005.08869.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2005MNRAS.359...93M} {359, 93}
+
+\bibitem[\protect\citeauthoryear{{Miglio} et~al.,}{{Miglio}
+  et~al.}{2017}]{Miglio_plato_2017}
+{Miglio} A.,  et~al., 2017, \mn@doi [Astronomische Nachrichten]
+  {10.1002/asna.201713385}, \href
+  {https://ui.adsabs.harvard.edu/abs/2017AN....338..644M} {338, 644}
+
+\bibitem[\protect\citeauthoryear{{Monachesi}, {Bell}, {Radburn-Smith},
+  {Bailin}, {de Jong}, {Holwerda}, {Streich}  \& {Silverstein}}{{Monachesi}
+  et~al.}{2016a}]{Monachesi_ghosts_2016}
+{Monachesi} A.,  {Bell} E.~F.,  {Radburn-Smith} D.~J.,  {Bailin} J.,  {de Jong}
+  R.~S.,  {Holwerda} B.,  {Streich} D.,   {Silverstein} G.,  2016a, \mn@doi
+  [\mnras] {10.1093/mnras/stv2987}, \href
+  {https://ui.adsabs.harvard.edu/abs/2016MNRAS.457.1419M} {457, 1419}
+
 \bibitem[\protect\citeauthoryear{{Monachesi}, {G{\'o}mez}, {Grand},
   {Kauffmann}, {Marinacci}, {Pakmor}, {Springel}  \& {Frenk}}{{Monachesi}
-  et~al.}{2016}]{Monachesi2016}
+  et~al.}{2016b}]{Monachesi2016}
 {Monachesi} A.,  {G{\'o}mez} F.~A.,  {Grand} R. J.~J.,  {Kauffmann} G.,
-  {Marinacci} F.,  {Pakmor} R.,  {Springel} V.,   {Frenk} C.~S.,  2016, \mn@doi
-  [\mnras] {10.1093/mnrasl/slw052}, \href
+  {Marinacci} F.,  {Pakmor} R.,  {Springel} V.,   {Frenk} C.~S.,  2016b,
+  \mn@doi [\mnras] {10.1093/mnrasl/slw052}, \href
   {https://ui.adsabs.harvard.edu/abs/2016MNRAS.459L..46M} {459, L46}
+
+\bibitem[\protect\citeauthoryear{{Monachesi} et~al.,}{{Monachesi}
+  et~al.}{2019a}]{Monachesi_auriga_2019}
+{Monachesi} A.,  et~al., 2019a, \mn@doi [\mnras] {10.1093/mnras/stz538}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.2589M} {485, 2589}
+
+\bibitem[\protect\citeauthoryear{{Monachesi} et~al.,}{{Monachesi}
+  et~al.}{2019b}]{Monachesi_2019}
+{Monachesi} A.,  et~al., 2019b, \mn@doi [\mnras] {10.1093/mnras/stz538}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.2589M} {485, 2589}
+
+\bibitem[\protect\citeauthoryear{{Montalb{\'a}n} et~al.,}{{Montalb{\'a}n}
+  et~al.}{2021}]{Montalban_2021}
+{Montalb{\'a}n} J.,  et~al., 2021, \mn@doi [Nature Astronomy]
+  {10.1038/s41550-021-01347-7}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021NatAs...5..640M} {5, 640}
+
+\bibitem[\protect\citeauthoryear{{Mori}, {Di Matteo}, {Salvadori},
+  {Khoperskov}, {Pagnini}  \& {Haywood}}{{Mori} et~al.}{2024a}]{Mori2024}
+{Mori} A.,  {Di Matteo} P.,  {Salvadori} S.,  {Khoperskov} S.,  {Pagnini} G.,
+  {Haywood} M.,  2024a, \mn@doi [\aap] {10.1051/0004-6361/202449291}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024A&A...690A.136M} {690, A136}
+
+\bibitem[\protect\citeauthoryear{{Mori}, {Di Matteo}, {Salvadori},
+  {Khoperskov}, {Pagnini}  \& {Haywood}}{{Mori} et~al.}{2024b}]{Mori_2024}
+{Mori} A.,  {Di Matteo} P.,  {Salvadori} S.,  {Khoperskov} S.,  {Pagnini} G.,
+  {Haywood} M.,  2024b, \mn@doi [\aap] {10.1051/0004-6361/202449291}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024A&A...690A.136M} {690, A136}
+
+\bibitem[\protect\citeauthoryear{{Morrison} et~al.,}{{Morrison}
+  et~al.}{2009}]{Morrison2009}
+{Morrison} H.~L.,  et~al., 2009, \mn@doi [\apj] {10.1088/0004-637X/694/1/130},
+  \href {https://ui.adsabs.harvard.edu/abs/2009ApJ...694..130M} {694, 130}
+
+\bibitem[\protect\citeauthoryear{Moulavi, Jaskowiak, Campello, Zimek  \&
+  Sander}{Moulavi et~al.}{2014}]{DBCV}
+Moulavi D.,  Jaskowiak P.~A.,  Campello R. J. G.~B.,  Zimek A.,   Sander J.,
+  2014, in SDM.
+
+\bibitem[\protect\citeauthoryear{Murtagh \& Contreras}{Murtagh \&
+  Contreras}{2012}]{hierarchical_clustering}
+Murtagh F.,  Contreras P.,  2012, \mn@doi [WIREs: Data Min. Knowl. Discov.]
+  {https://doi.org/10.1002/widm.53}, 2, 86
 
 \bibitem[\protect\citeauthoryear{{Myeong}, {Evans}, {Belokurov}, {Amorisco}  \&
   {Koposov}}{{Myeong} et~al.}{2018}]{myeong_halo_2018}
@@ -500,10 +1550,70 @@ McInnes L.,  Healy J.,  Saul N.,   Grossberger L.,  2018b, J. Open Source
   S.~E.,  2018, \mn@doi [\mnras] {10.1093/mnras/stx3262}, \href
   {https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.1537M} {475, 1537}
 
+\bibitem[\protect\citeauthoryear{{Myeong}, {Vasiliev}, {Iorio}, {Evans}  \&
+  {Belokurov}}{{Myeong} et~al.}{2019a}]{Myeong2019}
+{Myeong} G.~C.,  {Vasiliev} E.,  {Iorio} G.,  {Evans} N.~W.,   {Belokurov} V.,
+  2019a, \mn@doi [\mnras] {10.1093/mnras/stz1770}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.488.1235M} {488, 1235}
+
+\bibitem[\protect\citeauthoryear{{Myeong}, {Vasiliev}, {Iorio}, {Evans}  \&
+  {Belokurov}}{{Myeong} et~al.}{2019b}]{myeong_2019}
+{Myeong} G.~C.,  {Vasiliev} E.,  {Iorio} G.,  {Evans} N.~W.,   {Belokurov} V.,
+  2019b, \mn@doi [\mnras] {10.1093/mnras/stz1770}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.488.1235M} {488, 1235}
+
+\bibitem[\protect\citeauthoryear{{Naidu}, {Conroy}, {Bonaca}, {Johnson},
+  {Ting}, {Caldwell}, {Zaritsky}  \& {Cargile}}{{Naidu}
+  et~al.}{2020a}]{Naidu2020}
+{Naidu} R.~P.,  {Conroy} C.,  {Bonaca} A.,  {Johnson} B.~D.,  {Ting} Y.-S.,
+  {Caldwell} N.,  {Zaritsky} D.,   {Cargile} P.~A.,  2020a, \mn@doi [\apj]
+  {10.3847/1538-4357/abaef4}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020ApJ...901...48N} {901, 48}
+
+\bibitem[\protect\citeauthoryear{{Naidu}, {Conroy}, {Bonaca}, {Johnson},
+  {Ting}, {Caldwell}, {Zaritsky}  \& {Cargile}}{{Naidu}
+  et~al.}{2020b}]{Naidu_substructures_2020}
+{Naidu} R.~P.,  {Conroy} C.,  {Bonaca} A.,  {Johnson} B.~D.,  {Ting} Y.-S.,
+  {Caldwell} N.,  {Zaritsky} D.,   {Cargile} P.~A.,  2020b, \mn@doi [\apj]
+  {10.3847/1538-4357/abaef4}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020ApJ...901...48N} {901, 48}
+
+\bibitem[\protect\citeauthoryear{{Naidu}, {Conroy}, {Bonaca}, {Johnson},
+  {Ting}, {Caldwell}, {Zaritsky}  \& {Cargile}}{{Naidu}
+  et~al.}{2020c}]{Naidu_2020}
+{Naidu} R.~P.,  {Conroy} C.,  {Bonaca} A.,  {Johnson} B.~D.,  {Ting} Y.-S.,
+  {Caldwell} N.,  {Zaritsky} D.,   {Cargile} P.~A.,  2020c, \mn@doi [\apj]
+  {10.3847/1538-4357/abaef4}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020ApJ...901...48N} {901, 48}
+
 \bibitem[\protect\citeauthoryear{{Naidu} et~al.,}{{Naidu}
-  et~al.}{2022}]{Naidu2022}
-{Naidu} R.~P.,  et~al., 2022, arXiv e-prints, \href
+  et~al.}{2021}]{naidu_2021}
+{Naidu} R.~P.,  et~al., 2021, \mn@doi [\apj] {10.3847/1538-4357/ac2d2d}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021ApJ...923...92N} {923, 92}
+
+\bibitem[\protect\citeauthoryear{{Naidu} et~al.,}{{Naidu}
+  et~al.}{2022a}]{Naidu2022}
+{Naidu} R.~P.,  et~al., 2022a, arXiv e-prints, \href
   {https://ui.adsabs.harvard.edu/abs/2022arXiv220409057N} {p. arXiv:2204.09057}
+
+\bibitem[\protect\citeauthoryear{{Naidu} et~al.,}{{Naidu}
+  et~al.}{2022b}]{Naidu_massdwarfs_2022}
+{Naidu} R.~P.,  et~al., 2022b, \mn@doi [arXiv e-prints]
+  {10.48550/arXiv.2204.09057}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022arXiv220409057N} {p. arXiv:2204.09057}
+
+\bibitem[\protect\citeauthoryear{{Naidu} et~al.,}{{Naidu}
+  et~al.}{2022c}]{naidu_2022}
+{Naidu} R.~P.,  et~al., 2022c, \mn@doi [arXiv e-prints]
+  {10.48550/arXiv.2204.09057}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022arXiv220409057N} {p. arXiv:2204.09057}
+
+\bibitem[\protect\citeauthoryear{{Nakajima}, {Ouchi}, {Isobe}, {Harikane},
+  {Zhang}, {Ono}, {Umeda}  \& {Oguri}}{{Nakajima} et~al.}{2023}]{Nakajima2023}
+{Nakajima} K.,  {Ouchi} M.,  {Isobe} Y.,  {Harikane} Y.,  {Zhang} Y.,  {Ono}
+  Y.,  {Umeda} H.,   {Oguri} M.,  2023, \mn@doi [\apjs]
+  {10.3847/1538-4365/acd556}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023ApJS..269...33N} {269, 33}
 
 \bibitem[\protect\citeauthoryear{{Nakoneczny}, {Bilicki}, {Solarz}, {Pollo},
   {Maddox}, {Spiniello}, {Brescia}  \& {Napolitano}}{{Nakoneczny}
@@ -519,11 +1629,23 @@ McInnes L.,  Healy J.,  Saul N.,   Grossberger L.,  2018b, J. Open Source
   {10.1051/0004-6361/202039684}, \href
   {https://ui.adsabs.harvard.edu/abs/2021A&A...649A..81N} {649, A81}
 
+\bibitem[\protect\citeauthoryear{{Necib} et~al.,}{{Necib}
+  et~al.}{2020a}]{Necib2020}
+{Necib} L.,  et~al., 2020a, \mn@doi [Nature Astronomy]
+  {10.1038/s41550-020-1131-2}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020NatAs...4.1078N} {4, 1078}
+
 \bibitem[\protect\citeauthoryear{{Necib}, {Ostdiek}, {Lisanti}, {Cohen},
-  {Freytsis}  \& {Garrison-Kimmel}}{{Necib} et~al.}{2020}]{necib_chasing_2020}
+  {Freytsis}  \& {Garrison-Kimmel}}{{Necib} et~al.}{2020b}]{necib_chasing_2020}
 {Necib} L.,  {Ostdiek} B.,  {Lisanti} M.,  {Cohen} T.,  {Freytsis} M.,
-  {Garrison-Kimmel} S.,  2020, \mn@doi [\apj] {10.3847/1538-4357/abb814}, \href
-  {https://ui.adsabs.harvard.edu/abs/2020ApJ...903...25N} {903, 25}
+  {Garrison-Kimmel} S.,  2020b, \mn@doi [\apj] {10.3847/1538-4357/abb814},
+  \href {https://ui.adsabs.harvard.edu/abs/2020ApJ...903...25N} {903, 25}
+
+\bibitem[\protect\citeauthoryear{{Niederste-Ostholt}, {Belokurov}  \&
+  {Evans}}{{Niederste-Ostholt} et~al.}{2012}]{Niederste-Ostholt_2012}
+{Niederste-Ostholt} M.,  {Belokurov} V.,   {Evans} N.~W.,  2012, \mn@doi
+  [\mnras] {10.1111/j.1365-2966.2012.20602.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012MNRAS.422..207N} {422, 207}
 
 \bibitem[\protect\citeauthoryear{{Olier}, {Orhobor}, {Dash}, {Davis},
   {Soldatova}, {Vanschoren}  \& {King}}{{Olier}
@@ -533,10 +1655,54 @@ McInnes L.,  Healy J.,  Saul N.,   Grossberger L.,  2018b, J. Open Source
   {10.1073/pnas.2108013118}, \href
   {https://ui.adsabs.harvard.edu/abs/2021PNAS..11808013O} {118, e2108013118}
 
+\bibitem[\protect\citeauthoryear{{Orkney} et~al.,}{{Orkney}
+  et~al.}{2022}]{Orkney2022}
+{Orkney} M. D.~A.,  et~al., 2022, \mn@doi [\mnras] {10.1093/mnrasl/slac126},
+  \href {https://ui.adsabs.harvard.edu/abs/2022MNRAS.517L.138O} {517, L138}
+
+\bibitem[\protect\citeauthoryear{{Orkney} et~al.,}{{Orkney}
+  et~al.}{2023}]{Orkney2023}
+{Orkney} M. D.~A.,  et~al., 2023, \mn@doi [\mnras] {10.1093/mnras/stad2361},
+  \href {https://ui.adsabs.harvard.edu/abs/2023MNRAS.525..683O} {525, 683}
+
 \bibitem[\protect\citeauthoryear{{Ostdiek} et~al.,}{{Ostdiek}
-  et~al.}{2020}]{ostdiek_cataloging_2020}
-{Ostdiek} B.,  et~al., 2020, \mn@doi [\aap] {10.1051/0004-6361/201936866},
+  et~al.}{2020a}]{ostdiek_cataloging_2020}
+{Ostdiek} B.,  et~al., 2020a, \mn@doi [\aap] {10.1051/0004-6361/201936866},
   \href {https://ui.adsabs.harvard.edu/abs/2020A&A...636A..75O} {636, A75}
+
+\bibitem[\protect\citeauthoryear{{Ostdiek} et~al.,}{{Ostdiek}
+  et~al.}{2020b}]{Ostdiek2020}
+{Ostdiek} B.,  et~al., 2020b, \mn@doi [\aap] {10.1051/0004-6361/201936866},
+  \href {https://ui.adsabs.harvard.edu/abs/2020A&A...636A..75O} {636, A75}
+
+\bibitem[\protect\citeauthoryear{{Pakmor} \& {Springel}}{{Pakmor} \&
+  {Springel}}{2013}]{pakmor_2013}
+{Pakmor} R.,  {Springel} V.,  2013, \mn@doi [\mnras] {10.1093/mnras/stt428},
+  \href {https://ui.adsabs.harvard.edu/abs/2013MNRAS.432..176P} {432, 176}
+
+\bibitem[\protect\citeauthoryear{Papamakarios, Pavlakou  \&
+  Murray}{Papamakarios et~al.}{2017a}]{Papamakarios_MAF_2017}
+Papamakarios G.,  Pavlakou T.,   Murray I.,  2017a, in Guyon I.,  Luxburg
+  U.~V.,  Bengio S.,  Wallach H.,  Fergus R.,  Vishwanathan S.,   Garnett R.,
+  eds,  NeurIPS Proceedings Vol. 30, Advances in Neural Information Processing
+  Systems 30 (NIPS 2017). Curran Associates, Inc.
+
+\bibitem[\protect\citeauthoryear{Papamakarios, Pavlakou  \&
+  Murray}{Papamakarios et~al.}{2017b}]{Papamakarios_2017}
+Papamakarios G.,  Pavlakou T.,   Murray I.,  2017b, in Guyon I.,  Luxburg
+  U.~V.,  Bengio S.,  Wallach H.,  Fergus R.,  Vishwanathan S.,   Garnett R.,
+  eds,  NeurIPS Proceedings Vol. 30, Advances in Neural Information Processing
+  Systems 30 (NIPS 2017). Curran Associates, Inc.
+
+\bibitem[\protect\citeauthoryear{Papamakarios, Nalisnick, Rezende, Mohamed  \&
+  Lakshminarayanan}{Papamakarios et~al.}{2021}]{Papamakarios_NF_2021}
+Papamakarios G.,  Nalisnick E.,  Rezende D.~J.,  Mohamed S.,   Lakshminarayanan
+  B.,  2021, J. Mach. Learn. Res, 22, 1
+
+\bibitem[\protect\citeauthoryear{{P{\'e}rez} et~al.,}{{P{\'e}rez}
+  et~al.}{2013}]{Perez_insideoutmassgrowth_2013}
+{P{\'e}rez} E.,  et~al., 2013, \mn@doi [\apjl] {10.1088/2041-8205/764/1/L1},
+  \href {https://ui.adsabs.harvard.edu/abs/2013ApJ...764L...1P} {764, L1}
 
 \bibitem[\protect\citeauthoryear{{Pfeffer}, {Kruijssen}, {Crain}  \&
   {Bastian}}{{Pfeffer} et~al.}{2018}]{Pfeffer2018}
@@ -555,11 +1721,72 @@ McInnes L.,  Healy J.,  Saul N.,   Grossberger L.,  2018b, J. Open Source
 {Pillepich} A.,  et~al., 2018, \mn@doi [\mnras] {10.1093/mnras/stx3112}, \href
   {https://ui.adsabs.harvard.edu/abs/2018MNRAS.475..648P} {475, 648}
 
+\bibitem[\protect\citeauthoryear{{Planck Collaboration} et~al.,}{{Planck
+  Collaboration} et~al.}{2014}]{Planck_collab_2014}
+{Planck Collaboration} et~al., 2014, \mn@doi [\aap]
+  {10.1051/0004-6361/201321591}, \href
+  {https://ui.adsabs.harvard.edu/abs/2014A&A...571A..16P} {571, A16}
+
+\bibitem[\protect\citeauthoryear{{Portinari}, {Chiosi}  \&
+  {Bressan}}{{Portinari} et~al.}{1998}]{Portinari1998}
+{Portinari} L.,  {Chiosi} C.,   {Bressan} A.,  1998, \aap, \href
+  {https://ui.adsabs.harvard.edu/abs/1998A&A...334..505P} {334, 505}
+
+\bibitem[\protect\citeauthoryear{{Purcell}, {Bullock}  \& {Zentner}}{{Purcell}
+  et~al.}{2007}]{Purcell_2007}
+{Purcell} C.~W.,  {Bullock} J.~S.,   {Zentner} A.~R.,  2007, \mn@doi [\apj]
+  {10.1086/519787}, \href
+  {https://ui.adsabs.harvard.edu/abs/2007ApJ...666...20P} {666, 20}
+
+\bibitem[\protect\citeauthoryear{{Queiroz} et~al.,}{{Queiroz}
+  et~al.}{2018}]{Queiroz_starhorse_2018}
+{Queiroz} A.~B.~A.,  et~al., 2018, \mn@doi [\mnras] {10.1093/mnras/sty330},
+  \href {https://ui.adsabs.harvard.edu/abs/2018MNRAS.476.2556Q} {476, 2556}
+
 \bibitem[\protect\citeauthoryear{Quiñonero-Candela, Sugiyama, Schwaighofer  \&
   Lawrence}{Quiñonero-Candela et~al.}{2009}]{amos_when_2008}
 Quiñonero-Candela J.,  Sugiyama M.,  Schwaighofer A.,   Lawrence N.~D.,  2009,
   When Training and Test Sets Are Different: Characterizing Learning Transfer.
 pp 3--28
+
+\bibitem[\protect\citeauthoryear{{Radburn-Smith} et~al.,}{{Radburn-Smith}
+  et~al.}{2011}]{Radburn-Smith_ghosts_2011}
+{Radburn-Smith} D.~J.,  et~al., 2011, \mn@doi [\apjs]
+  {10.1088/0067-0049/195/2/18}, \href
+  {https://ui.adsabs.harvard.edu/abs/2011ApJS..195...18R} {195, 18}
+
+\bibitem[\protect\citeauthoryear{{Randich}, {Gilmore}  \& {Gaia-ESO
+  Consortium}}{{Randich} et~al.}{2013}]{Randich2013}
+{Randich} S.,  {Gilmore} G.,   {Gaia-ESO Consortium} 2013, The Messenger, \href
+  {https://ui.adsabs.harvard.edu/abs/2013Msngr.154...47R} {154, 47}
+
+\bibitem[\protect\citeauthoryear{{Re Fiorentin}, {Lattanzi}, {Spagna}  \&
+  {Curir}}{{Re Fiorentin} et~al.}{2015}]{ReFiorentin2015}
+{Re Fiorentin} P.,  {Lattanzi} M.~G.,  {Spagna} A.,   {Curir} A.,  2015,
+  \mn@doi [\aj] {10.1088/0004-6256/150/4/128}, \href
+  {https://ui.adsabs.harvard.edu/abs/2015AJ....150..128R} {150, 128}
+
+\bibitem[\protect\citeauthoryear{{Reid} \& {Brunthaler}}{{Reid} \&
+  {Brunthaler}}{2020}]{Reid_2020}
+{Reid} M.~J.,  {Brunthaler} A.,  2020, \mn@doi [\apj]
+  {10.3847/1538-4357/ab76cd}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020ApJ...892...39R} {892, 39}
+
+\bibitem[\protect\citeauthoryear{{Riley} et~al.,}{{Riley}
+  et~al.}{2024}]{Riley_aurigastreams1_2024}
+{Riley} A.~H.,  et~al., 2024, \mn@doi [arXiv e-prints]
+  {10.48550/arXiv.2410.09144}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024arXiv241009144R} {p. arXiv:2410.09144}
+
+\bibitem[\protect\citeauthoryear{{Riley} et~al.,}{{Riley}
+  et~al.}{2025}]{riley_2025}
+{Riley} A.~H.,  et~al., 2025, \mn@doi [\mnras] {10.1093/mnras/staf1350}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025MNRAS.542.2443R} {542, 2443}
+
+\bibitem[\protect\citeauthoryear{{Roberts-Borsani} et~al.,}{{Roberts-Borsani}
+  et~al.}{2024}]{roberts-borsani_2024}
+{Roberts-Borsani} G.,  et~al., 2024, \mn@doi [\apj] {10.3847/1538-4357/ad85d3},
+  \href {https://ui.adsabs.harvard.edu/abs/2024ApJ...976..193R} {976, 193}
 
 \bibitem[\protect\citeauthoryear{{Robertson}, {Bullock}, {Font}, {Johnston}  \&
   {Hernquist}}{{Robertson} et~al.}{2005}]{Robertson2005}
@@ -572,29 +1799,130 @@ pp 3--28
 {Robin} A.~C.,  et~al., 2012, \mn@doi [\aap] {10.1051/0004-6361/201118646},
   \href {https://ui.adsabs.harvard.edu/abs/2012A&A...543A.100R} {543, A100}
 
+\bibitem[\protect\citeauthoryear{{Rocha}, {Peter}  \& {Bullock}}{{Rocha}
+  et~al.}{2012}]{Rocha_2012}
+{Rocha} M.,  {Peter} A. H.~G.,   {Bullock} J.,  2012, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2012.21432.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012MNRAS.425..231R} {425, 231}
+
 \bibitem[\protect\citeauthoryear{{Rockosi} et~al.,}{{Rockosi}
   et~al.}{2002}]{Rockosi2002}
 {Rockosi} C.~M.,  et~al., 2002, \mn@doi [\aj] {10.1086/340957}, \href
   {https://ui.adsabs.harvard.edu/abs/2002AJ....124..349R} {124, 349}
+
+\bibitem[\protect\citeauthoryear{Rosenberg \& Hirschberg}{Rosenberg \&
+  Hirschberg}{2007}]{vmeasure}
+Rosenberg A.,  Hirschberg J.,  2007, in Eisner J.,  ed., EMNLP-CoNLL. ACL, pp
+  410--420
+
+\bibitem[\protect\citeauthoryear{Rubin}{Rubin}{1984}]{Ruby_ABC_1984}
+Rubin D.~B.,  1984, \mn@doi [Ann. Statist.] {10.1214/aos/1176346785}, 12, 1151
+
+\bibitem[\protect\citeauthoryear{{Ruiz-Lara}, {Matsuno}, {L{\"o}vdal}, {Helmi},
+  {Dodd}  \& {Koppelman}}{{Ruiz-Lara} et~al.}{2022a}]{Ruiz-Lara2022}
+{Ruiz-Lara} T.,  {Matsuno} T.,  {L{\"o}vdal} S.~S.,  {Helmi} A.,  {Dodd} E.,
+  {Koppelman} H.~H.,  2022a, \mn@doi [\aap] {10.1051/0004-6361/202243061},
+  \href {https://ui.adsabs.harvard.edu/abs/2022A&A...665A..58R} {665, A58}
+
+\bibitem[\protect\citeauthoryear{{Ruiz-Lara}, {Helmi}, {Gallart}, {Surot}  \&
+  {Cassisi}}{{Ruiz-Lara} et~al.}{2022b}]{ruiz-lara_2022}
+{Ruiz-Lara} T.,  {Helmi} A.,  {Gallart} C.,  {Surot} F.,   {Cassisi} S.,
+  2022b, \mn@doi [\aap] {10.1051/0004-6361/202244127}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022A&A...668L..10R} {668, L10}
 
 \bibitem[\protect\citeauthoryear{{Sanders} \& {Binney}}{{Sanders} \&
   {Binney}}{2016}]{Sanders2016}
 {Sanders} J.~L.,  {Binney} J.,  2016, \mn@doi [\mnras] {10.1093/mnras/stw106},
   \href {https://ui.adsabs.harvard.edu/abs/2016MNRAS.457.2107S} {457, 2107}
 
+\bibitem[\protect\citeauthoryear{{Sanders} \& {Das}}{{Sanders} \&
+  {Das}}{2018}]{sandersdas_2018}
+{Sanders} J.~L.,  {Das} P.,  2018, \mn@doi [\mnras] {10.1093/mnras/sty2490},
+  \href {https://ui.adsabs.harvard.edu/abs/2018MNRAS.481.4093S} {481, 4093}
+
+\bibitem[\protect\citeauthoryear{{Sanders} et~al.,}{{Sanders}
+  et~al.}{2021}]{sanders_2021}
+{Sanders} R.~L.,  et~al., 2021, \mn@doi [\apj] {10.3847/1538-4357/abf4c1},
+  \href {https://ui.adsabs.harvard.edu/abs/2021ApJ...914...19S} {914, 19}
+
 \bibitem[\protect\citeauthoryear{{Sanderson} et~al.,}{{Sanderson}
   et~al.}{2020}]{sanderson_synthetic_2020}
 {Sanderson} R.~E.,  et~al., 2020, \mn@doi [\apjs] {10.3847/1538-4365/ab5b9d},
   \href {https://ui.adsabs.harvard.edu/abs/2020ApJS..246....6S} {246, 6}
 
+\bibitem[\protect\citeauthoryear{{Sante}, {Font}, {Ortega-Martorell}, {Olier}
+  \& {McCarthy}}{{Sante} et~al.}{2024a}]{Sante2024}
+{Sante} A.,  {Font} A.~S.,  {Ortega-Martorell} S.,  {Olier} I.,   {McCarthy}
+  I.~G.,  2024a, \mn@doi [\mnras] {10.1093/mnras/stae1398}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024MNRAS.531.4363S} {531, 4363}
+
+\bibitem[\protect\citeauthoryear{{Sante}, {Font}, {Ortega-Martorell}, {Olier}
+  \& {McCarthy}}{{Sante} et~al.}{2024b}]{Sante_2024}
+{Sante} A.,  {Font} A.~S.,  {Ortega-Martorell} S.,  {Olier} I.,   {McCarthy}
+  I.~G.,  2024b, \mn@doi [\mnras] {10.1093/mnras/stae1398}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024MNRAS.531.4363S} {531, 4363}
+
+\bibitem[\protect\citeauthoryear{{Sante}, {Kawata}, {Font}  \& {Grand}}{{Sante}
+  et~al.}{2025a}]{galactikit}
+{Sante} A.,  {Kawata} D.,  {Font} A.~S.,   {Grand} R. J.~J.,  2025a, \mn@doi
+  [\mnras] {10.1093/mnras/staf1343}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025MNRAS.tmp.1292S} {}
+
+\bibitem[\protect\citeauthoryear{{Sante}, {Font}, {Mistry}, {Ortega-Martorell}
+  \& {Olier}}{{Sante} et~al.}{2025b}]{Sante_2025}
+{Sante} A.,  {Font} A.~S.,  {Mistry} D.,  {Ortega-Martorell} S.,   {Olier} I.,
+  2025b, \mn@doi [arXiv e-prints] {10.48550/arXiv.2509.09839}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025arXiv250909839S} {p. arXiv:2509.09839}
+
+\bibitem[\protect\citeauthoryear{{Sarkar} et~al.,}{{Sarkar}
+  et~al.}{2025}]{sarkar_2025}
+{Sarkar} A.,  et~al., 2025, \mn@doi [\apj] {10.3847/1538-4357/ad8f32}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025ApJ...978..136S} {978, 136}
+
 \bibitem[\protect\citeauthoryear{{Schaye} et~al.,}{{Schaye}
-  et~al.}{2015}]{Schaye2015}
-{Schaye} J.,  et~al., 2015, \mn@doi [\mnras] {10.1093/mnras/stu2058}, \href
+  et~al.}{2015a}]{Schaye2015}
+{Schaye} J.,  et~al., 2015a, \mn@doi [\mnras] {10.1093/mnras/stu2058}, \href
   {https://ui.adsabs.harvard.edu/abs/2015MNRAS.446..521S} {446, 521}
 
+\bibitem[\protect\citeauthoryear{{Schaye} et~al.,}{{Schaye}
+  et~al.}{2015b}]{Schaye_eagle_2015}
+{Schaye} J.,  et~al., 2015b, \mn@doi [\mnras] {10.1093/mnras/stu2058}, \href
+  {https://ui.adsabs.harvard.edu/abs/2015MNRAS.446..521S} {446, 521}
+
+\bibitem[\protect\citeauthoryear{{Schaye} et~al.,}{{Schaye}
+  et~al.}{2015c}]{Schaye_2015}
+{Schaye} J.,  et~al., 2015c, \mn@doi [\mnras] {10.1093/mnras/stu2058}, \href
+  {https://ui.adsabs.harvard.edu/abs/2015MNRAS.446..521S} {446, 521}
+
+\bibitem[\protect\citeauthoryear{{Schiavon} et~al.,}{{Schiavon}
+  et~al.}{2024}]{Schiavon_2024}
+{Schiavon} R.~P.,  et~al., 2024, \mn@doi [\mnras] {10.1093/mnras/stad3020},
+  \href {https://ui.adsabs.harvard.edu/abs/2024MNRAS.528.1393S} {528, 1393}
+
+\bibitem[\protect\citeauthoryear{{Sch{\"o}nrich}, {Binney}  \&
+  {Dehnen}}{{Sch{\"o}nrich} et~al.}{2010}]{Schonrich_2010}
+{Sch{\"o}nrich} R.,  {Binney} J.,   {Dehnen} W.,  2010, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2010.16253.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2010MNRAS.403.1829S} {403, 1829}
+
 \bibitem[\protect\citeauthoryear{{Searle} \& {Zinn}}{{Searle} \&
-  {Zinn}}{1978}]{searle_composition_1978}
-{Searle} L.,  {Zinn} R.,  1978, \mn@doi [\apj] {10.1086/156499}, \href
+  {Zinn}}{1978a}]{searle_composition_1978}
+{Searle} L.,  {Zinn} R.,  1978a, \mn@doi [\apj] {10.1086/156499}, \href
+  {https://ui.adsabs.harvard.edu/abs/1978ApJ...225..357S} {225, 357}
+
+\bibitem[\protect\citeauthoryear{{Searle} \& {Zinn}}{{Searle} \&
+  {Zinn}}{1978b}]{Searle1978}
+{Searle} L.,  {Zinn} R.,  1978b, \mn@doi [\apj] {10.1086/156499}, \href
+  {https://ui.adsabs.harvard.edu/abs/1978ApJ...225..357S} {225, 357}
+
+\bibitem[\protect\citeauthoryear{{Searle} \& {Zinn}}{{Searle} \&
+  {Zinn}}{1978c}]{SearleZinn_1978}
+{Searle} L.,  {Zinn} R.,  1978c, \mn@doi [\apj] {10.1086/156499}, \href
+  {https://ui.adsabs.harvard.edu/abs/1978ApJ...225..357S} {225, 357}
+
+\bibitem[\protect\citeauthoryear{{Searle} \& {Zinn}}{{Searle} \&
+  {Zinn}}{1978d}]{Searle_1978}
+{Searle} L.,  {Zinn} R.,  1978d, \mn@doi [\apj] {10.1086/156499}, \href
   {https://ui.adsabs.harvard.edu/abs/1978ApJ...225..357S} {225, 357}
 
 \bibitem[\protect\citeauthoryear{{Shih}, {Buckley}, {Necib}  \&
@@ -613,20 +1941,101 @@ pp 3--28
 {Shipp} N.,  et~al., 2023, \mn@doi [\apj] {10.3847/1538-4357/acc582}, \href
   {https://ui.adsabs.harvard.edu/abs/2023ApJ...949...44S} {949, 44}
 
-\bibitem[\protect\citeauthoryear{{Springel}}{{Springel}}{2010}]{springel_arepo_2010}
-{Springel} V.,  2010, \mn@doi [\mnras] {10.1111/j.1365-2966.2009.15715.x},
+\bibitem[\protect\citeauthoryear{{Shipp} et~al.,}{{Shipp}
+  et~al.}{2025}]{shipp_2025}
+{Shipp} N.,  et~al., 2025, \mn@doi [\mnras] {10.1093/mnras/staf1283}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025MNRAS.542.1109S} {542, 1109}
+
+\bibitem[\protect\citeauthoryear{{Simpson}, {Grand}, {G{\'o}mez}, {Marinacci},
+  {Pakmor}, {Springel}, {Campbell}  \& {Frenk}}{{Simpson}
+  et~al.}{2018}]{Simpson_2018}
+{Simpson} C.~M.,  {Grand} R. J.~J.,  {G{\'o}mez} F.~A.,  {Marinacci} F.,
+  {Pakmor} R.,  {Springel} V.,  {Campbell} D. J.~R.,   {Frenk} C.~S.,  2018,
+  \mn@doi [\mnras] {10.1093/mnras/sty774}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018MNRAS.478..548S} {478, 548}
+
+\bibitem[\protect\citeauthoryear{{Springel}}{{Springel}}{2010a}]{springel_arepo_2010}
+{Springel} V.,  2010a, \mn@doi [\mnras] {10.1111/j.1365-2966.2009.15715.x},
   \href {https://ui.adsabs.harvard.edu/abs/2010MNRAS.401..791S} {401, 791}
 
+\bibitem[\protect\citeauthoryear{{Springel}}{{Springel}}{2010b}]{Springel_2010}
+{Springel} V.,  2010b, \mn@doi [\mnras] {10.1111/j.1365-2966.2009.15715.x},
+  \href {https://ui.adsabs.harvard.edu/abs/2010MNRAS.401..791S} {401, 791}
+
+\bibitem[\protect\citeauthoryear{{Springel} \& {Hernquist}}{{Springel} \&
+  {Hernquist}}{2003}]{Springel_ISM_2003}
+{Springel} V.,  {Hernquist} L.,  2003, \mn@doi [\mnras]
+  {10.1046/j.1365-8711.2003.06206.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2003MNRAS.339..289S} {339, 289}
+
+\bibitem[\protect\citeauthoryear{Springel, White, Tormen  \&
+  Kauffmann}{Springel et~al.}{2001}]{Springel_2001}
+Springel V.,  White S. D.~M.,  Tormen G.,   Kauffmann G.,  2001, \mn@doi
+  [MNRAS] {10.1046/j.1365-8711.2001.04912.x}, 328, 726–750
+
+\bibitem[\protect\citeauthoryear{{Springel}, {Di Matteo}  \&
+  {Hernquist}}{{Springel} et~al.}{2005a}]{Springel_bh_2005}
+{Springel} V.,  {Di Matteo} T.,   {Hernquist} L.,  2005a, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2005.09238.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2005MNRAS.361..776S} {361, 776}
+
 \bibitem[\protect\citeauthoryear{{Springel} et~al.,}{{Springel}
-  et~al.}{2005}]{Springel2005}
-{Springel} V.,  et~al., 2005, \mn@doi [\nat] {10.1038/nature03597}, \href
+  et~al.}{2005b}]{Springel2005}
+{Springel} V.,  et~al., 2005b, \mn@doi [\nat] {10.1038/nature03597}, \href
   {https://ui.adsabs.harvard.edu/abs/2005Natur.435..629S} {435, 629}
+
+\bibitem[\protect\citeauthoryear{Springel et~al.,}{Springel
+  et~al.}{2005c}]{Springel_2005}
+Springel V.,  et~al., 2005c, \mn@doi [Nature] {10.1038/nature03597}, 435,
+  629–636
+
+\bibitem[\protect\citeauthoryear{{Thielemann} et~al.,}{{Thielemann}
+  et~al.}{2003}]{Thielemann2003}
+{Thielemann} F.-K.,  et~al., 2003, \mn@doi [\nphysa]
+  {10.1016/S0375-9474(03)00704-8}, \href
+  {https://ui.adsabs.harvard.edu/abs/2003NuPhA.718..139T} {718, 139}
+
+\bibitem[\protect\citeauthoryear{{Thomas} et~al.,}{{Thomas}
+  et~al.}{2024}]{Thomas2024}
+{Thomas} G.~F.,  et~al., 2024, \mn@doi [\aap] {10.1051/0004-6361/202450198},
+  \href {https://ui.adsabs.harvard.edu/abs/2024A&A...690A..54T} {690, A54}
+
+\bibitem[\protect\citeauthoryear{{Thomas}, {Battaglia}, {Grand}  \& {Aguiar
+  {\'A}lvarez}}{{Thomas} et~al.}{2025a}]{Thomas2025}
+{Thomas} G.~F.,  {Battaglia} G.,  {Grand} R. J.~J.,   {Aguiar {\'A}lvarez} A.,
+  2025a, \mn@doi [arXiv e-prints] {10.48550/arXiv.2504.10398}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025arXiv250410398T} {p. arXiv:2504.10398}
+
+\bibitem[\protect\citeauthoryear{{Thomas}, {Battaglia}, {Grand}  \& {Aguiar
+  {\'A}lvarez}}{{Thomas} et~al.}{2025b}]{thomas_2025}
+{Thomas} G.~F.,  {Battaglia} G.,  {Grand} R. J.~J.,   {Aguiar {\'A}lvarez} A.,
+  2025b, \mn@doi [arXiv e-prints] {10.48550/arXiv.2504.10398}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025arXiv250410398T} {p. arXiv:2504.10398}
+
+\bibitem[\protect\citeauthoryear{{Tinker}, {Kravtsov}, {Klypin}, {Abazajian},
+  {Warren}, {Yepes}, {Gottl{\"o}ber}  \& {Holz}}{{Tinker}
+  et~al.}{2008}]{Tinker_halomassfn_2008}
+{Tinker} J.,  {Kravtsov} A.~V.,  {Klypin} A.,  {Abazajian} K.,  {Warren} M.,
+  {Yepes} G.,  {Gottl{\"o}ber} S.,   {Holz} D.~E.,  2008, \mn@doi [\apj]
+  {10.1086/591439}, \href
+  {https://ui.adsabs.harvard.edu/abs/2008ApJ...688..709T} {688, 709}
 
 \bibitem[\protect\citeauthoryear{{Tissera}, {Scannapieco}, {Beers}  \&
   {Carollo}}{{Tissera} et~al.}{2013}]{Tissera2013}
 {Tissera} P.~B.,  {Scannapieco} C.,  {Beers} T.~C.,   {Carollo} D.,  2013,
   \mn@doi [\mnras] {10.1093/mnras/stt691}, \href
   {https://ui.adsabs.harvard.edu/abs/2013MNRAS.432.3391T} {432, 3391}
+
+\bibitem[\protect\citeauthoryear{{Torrey} et~al.,}{{Torrey}
+  et~al.}{2019}]{torrey_2019}
+{Torrey} P.,  et~al., 2019, \mn@doi [\mnras] {10.1093/mnras/stz243}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.5587T} {484, 5587}
+
+\bibitem[\protect\citeauthoryear{{Travaglio}, {Hillebrandt}, {Reinecke}  \&
+  {Thielemann}}{{Travaglio} et~al.}{2004}]{travaglio2004}
+{Travaglio} C.,  {Hillebrandt} W.,  {Reinecke} M.,   {Thielemann} F.-K.,  2004,
+  \mn@doi [\aap] {10.1051/0004-6361:20041108}, \href
+  {https://ui.adsabs.harvard.edu/abs/2004A&A...425.1029T} {425, 1029}
 
 \bibitem[\protect\citeauthoryear{{Traven} et~al.,}{{Traven}
   et~al.}{2017}]{Traven2017}
@@ -653,43 +2062,154 @@ pp 3--28
   {10.1093/mnras/stad3165}, \href
   {https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.5735T} {526, 5735}
 
+\bibitem[\protect\citeauthoryear{Uria, C{{\^o}}t{{\'e}}, Gregor, Murray  \&
+  Larochelle}{Uria et~al.}{2016}]{URIA_autoregressive_2016}
+Uria B.,  C{{\^o}}t{{\'e}} M.-A.,  Gregor K.,  Murray I.,   Larochelle H.,
+  2016, JMLR, 17, 1
+
 \bibitem[\protect\citeauthoryear{{Veljanoski}, {Helmi}, {Breddels}  \&
   {Posti}}{{Veljanoski} et~al.}{2019}]{veljanoski_leaves_2019}
 {Veljanoski} J.,  {Helmi} A.,  {Breddels} M.,   {Posti} L.,  2019, \mn@doi
   [\aap] {10.1051/0004-6361/201732303}, \href
   {https://ui.adsabs.harvard.edu/abs/2019A&A...621A..13V} {621, A13}
 
+\bibitem[\protect\citeauthoryear{{Vincenzo}, {Spitoni}, {Calura}, {Matteucci},
+  {Silva Aguirre}, {Miglio}  \& {Cescutti}}{{Vincenzo}
+  et~al.}{2019}]{Vincenzo_2019}
+{Vincenzo} F.,  {Spitoni} E.,  {Calura} F.,  {Matteucci} F.,  {Silva Aguirre}
+  V.,  {Miglio} A.,   {Cescutti} G.,  2019, \mn@doi [\mnras]
+  {10.1093/mnrasl/slz070}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.487L..47V} {487, L47}
+
+\bibitem[\protect\citeauthoryear{{Viterbo} \& {Buck}}{{Viterbo} \&
+  {Buck}}{2024}]{Viterbo_CASBI_2024}
+{Viterbo} G.,  {Buck} T.,  2024, \mn@doi [arXiv e-prints]
+  {10.48550/arXiv.2411.17269}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024arXiv241117269V} {p. arXiv:2411.17269}
+
 \bibitem[\protect\citeauthoryear{{Vogelsberger}, {Genel}, {Sijacki}, {Torrey},
   {Springel}  \& {Hernquist}}{{Vogelsberger}
-  et~al.}{2013}]{vogelsberger_galaxy_2013}
+  et~al.}{2013a}]{vogelsberger_galaxy_2013}
 {Vogelsberger} M.,  {Genel} S.,  {Sijacki} D.,  {Torrey} P.,  {Springel} V.,
-  {Hernquist} L.,  2013, \mn@doi [\mnras] {10.1093/mnras/stt1789}, \href
+  {Hernquist} L.,  2013a, \mn@doi [\mnras] {10.1093/mnras/stt1789}, \href
   {https://ui.adsabs.harvard.edu/abs/2013MNRAS.436.3031V} {436, 3031}
 
+\bibitem[\protect\citeauthoryear{{Vogelsberger}, {Genel}, {Sijacki}, {Torrey},
+  {Springel}  \& {Hernquist}}{{Vogelsberger} et~al.}{2013b}]{Vogelsberger_2013}
+{Vogelsberger} M.,  {Genel} S.,  {Sijacki} D.,  {Torrey} P.,  {Springel} V.,
+  {Hernquist} L.,  2013b, \mn@doi [\mnras] {10.1093/mnras/stt1789}, \href
+  {https://ui.adsabs.harvard.edu/abs/2013MNRAS.436.3031V} {436, 3031}
+
+\bibitem[\protect\citeauthoryear{{Wang}, {Dutton}, {Stinson}, {Macci{\`o}},
+  {Penzo}, {Kang}, {Keller}  \& {Wadsley}}{{Wang}
+  et~al.}{2015}]{wang_nihao_2015}
+{Wang} L.,  {Dutton} A.~A.,  {Stinson} G.~S.,  {Macci{\`o}} A.~V.,  {Penzo} C.,
+   {Kang} X.,  {Keller} B.~W.,   {Wadsley} J.,  2015, \mn@doi [\mnras]
+  {10.1093/mnras/stv1937}, \href
+  {https://ui.adsabs.harvard.edu/abs/2015MNRAS.454...83W} {454, 83}
+
+\bibitem[\protect\citeauthoryear{{Wang}, {Hammer}  \& {Yang}}{{Wang}
+  et~al.}{2022a}]{Wang_MWmass_2022}
+{Wang} J.,  {Hammer} F.,   {Yang} Y.,  2022a, \mn@doi [\mnras]
+  {10.1093/mnras/stab3258}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2242W} {510, 2242}
+
+\bibitem[\protect\citeauthoryear{{Wang}, {Hammer}  \& {Yang}}{{Wang}
+  et~al.}{2022b}]{Wang2022}
+{Wang} J.,  {Hammer} F.,   {Yang} Y.,  2022b, \mn@doi [\mnras]
+  {10.1093/mnras/stab3258}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2242W} {510, 2242}
+
 \bibitem[\protect\citeauthoryear{{White} \& {Rees}}{{White} \&
-  {Rees}}{1978}]{white_core_1978}
-{White} S.~D.~M.,  {Rees} M.~J.,  1978, \mn@doi [\mnras]
+  {Rees}}{1978a}]{white_core_1978}
+{White} S.~D.~M.,  {Rees} M.~J.,  1978a, \mn@doi [\mnras]
   {10.1093/mnras/183.3.341}, \href
   {https://ui.adsabs.harvard.edu/abs/1978MNRAS.183..341W} {183, 341}
 
+\bibitem[\protect\citeauthoryear{{White} \& {Rees}}{{White} \&
+  {Rees}}{1978b}]{White1978}
+{White} S.~D.~M.,  {Rees} M.~J.,  1978b, \mn@doi [\mnras]
+  {10.1093/mnras/183.3.341}, \href
+  {https://ui.adsabs.harvard.edu/abs/1978MNRAS.183..341W} {183, 341}
+
+\bibitem[\protect\citeauthoryear{{White} \& {Rees}}{{White} \&
+  {Rees}}{1978c}]{WhiteRees_1978}
+{White} S.~D.~M.,  {Rees} M.~J.,  1978c, \mn@doi [\mnras]
+  {10.1093/mnras/183.3.341}, \href
+  {https://ui.adsabs.harvard.edu/abs/1978MNRAS.183..341W} {183, 341}
+
+\bibitem[\protect\citeauthoryear{{White} \& {Rees}}{{White} \&
+  {Rees}}{1978d}]{White_1978}
+{White} S.~D.~M.,  {Rees} M.~J.,  1978d, \mn@doi [\mnras]
+  {10.1093/mnras/183.3.341}, \href
+  {https://ui.adsabs.harvard.edu/abs/1978MNRAS.183..341W} {183, 341}
+
+\bibitem[\protect\citeauthoryear{{Widmark} \& {Johnston}}{{Widmark} \&
+  {Johnston}}{2025}]{Widmark_2025}
+{Widmark} A.,  {Johnston} K.~V.,  2025, \mn@doi [arXiv e-prints]
+  {10.48550/arXiv.2501.13148}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025arXiv250113148W} {p. arXiv:2501.13148}
+
+\bibitem[\protect\citeauthoryear{{Woody} et~al.,}{{Woody}
+  et~al.}{2025}]{Woody_2025}
+{Woody} T.,  et~al., 2025, \mn@doi [\apj] {10.3847/1538-4357/ad968e}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025ApJ...978..152W} {978, 152}
+
+\bibitem[\protect\citeauthoryear{{Yuan} et~al.,}{{Yuan}
+  et~al.}{2020a}]{Yuan2020}
+{Yuan} Z.,  et~al., 2020a, \mn@doi [\apj] {10.3847/1538-4357/ab6ef7}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020ApJ...891...39Y} {891, 39}
+
+\bibitem[\protect\citeauthoryear{{Yuan} et~al.,}{{Yuan}
+  et~al.}{2020b}]{Yuan_2020}
+{Yuan} Z.,  et~al., 2020b, \mn@doi [\apj] {10.3847/1538-4357/ab6ef7}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020ApJ...891...39Y} {891, 39}
+
 \bibitem[\protect\citeauthoryear{{Zhao}, {Zhao}, {Chu}, {Jing}  \&
-  {Deng}}{{Zhao} et~al.}{2012}]{zhao_lamost_2012}
-{Zhao} G.,  {Zhao} Y.-H.,  {Chu} Y.-Q.,  {Jing} Y.-P.,   {Deng} L.-C.,  2012,
+  {Deng}}{{Zhao} et~al.}{2012a}]{zhao_lamost_2012}
+{Zhao} G.,  {Zhao} Y.-H.,  {Chu} Y.-Q.,  {Jing} Y.-P.,   {Deng} L.-C.,  2012a,
+  \mn@doi [RAA] {10.1088/1674-4527/12/7/002}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012RAA....12..723Z} {12, 723}
+
+\bibitem[\protect\citeauthoryear{{Zhao}, {Zhao}, {Chu}, {Jing}  \&
+  {Deng}}{{Zhao} et~al.}{2012b}]{lamost}
+{Zhao} G.,  {Zhao} Y.-H.,  {Chu} Y.-Q.,  {Jing} Y.-P.,   {Deng} L.-C.,  2012b,
   \mn@doi [RAA] {10.1088/1674-4527/12/7/002}, \href
   {https://ui.adsabs.harvard.edu/abs/2012RAA....12..723Z} {12, 723}
 
 \bibitem[\protect\citeauthoryear{{Zolotov}, {Willman}, {Brooks}, {Governato},
-  {Brook}, {Hogg}, {Quinn}  \& {Stinson}}{{Zolotov} et~al.}{2009}]{Zolotov2009}
+  {Brook}, {Hogg}, {Quinn}  \& {Stinson}}{{Zolotov}
+  et~al.}{2009a}]{Zolotov2009}
 {Zolotov} A.,  {Willman} B.,  {Brooks} A.~M.,  {Governato} F.,  {Brook} C.~B.,
-  {Hogg} D.~W.,  {Quinn} T.,   {Stinson} G.,  2009, \mn@doi [\apj]
+  {Hogg} D.~W.,  {Quinn} T.,   {Stinson} G.,  2009a, \mn@doi [\apj]
   {10.1088/0004-637X/702/2/1058}, \href
   {https://ui.adsabs.harvard.edu/abs/2009ApJ...702.1058Z} {702, 1058}
+
+\bibitem[\protect\citeauthoryear{{Zolotov}, {Willman}, {Brooks}, {Governato},
+  {Brook}, {Hogg}, {Quinn}  \& {Stinson}}{{Zolotov}
+  et~al.}{2009b}]{Zolotov_2009}
+{Zolotov} A.,  {Willman} B.,  {Brooks} A.~M.,  {Governato} F.,  {Brook} C.~B.,
+  {Hogg} D.~W.,  {Quinn} T.,   {Stinson} G.,  2009b, \mn@doi [\apj]
+  {10.1088/0004-637X/702/2/1058}, \href
+  {https://ui.adsabs.harvard.edu/abs/2009ApJ...702.1058Z} {702, 1058}
+
+\bibitem[\protect\citeauthoryear{{de Boer}, {Belokurov}  \& {Koposov}}{{de
+  Boer} et~al.}{2015}]{deBoer_2015}
+{de Boer} T.~J.~L.,  {Belokurov} V.,   {Koposov} S.,  2015, \mn@doi [\mnras]
+  {10.1093/mnras/stv946}, \href
+  {https://ui.adsabs.harvard.edu/abs/2015MNRAS.451.3489D} {451, 3489}
 
 \bibitem[\protect\citeauthoryear{{de Jong} et~al.,}{{de Jong}
   et~al.}{2019}]{de_jong_4most_2019}
 {de Jong} R.~S.,  et~al., 2019, \mn@doi [The Messenger]
   {10.18727/0722-6691/5117}, \href
   {https://ui.adsabs.harvard.edu/abs/2019Msngr.175....3D} {175, 3}
+
+\bibitem[\protect\citeauthoryear{{van Loon}, {Mitchell}  \& {Schaye}}{{van
+  Loon} et~al.}{2021}]{vanLoon_MZRscatter_2021}
+{van Loon} M.~L.,  {Mitchell} P.~D.,   {Schaye} J.,  2021, \mn@doi [\mnras]
+  {10.1093/mnras/stab1254}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.4817V} {504, 4817}
 
 \makeatother
 \end{thebibliography}

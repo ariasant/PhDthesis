@@ -1,0 +1,13 @@
+Chapter_2_paper_folder/
+Chapter_3_paper_folder/
+Chapter_4_paper_folder/
+Chapter_5_paper_folder/
+*.log
+*.aux
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+thesis_example.pdf
+thesis_guidelines.pdf
