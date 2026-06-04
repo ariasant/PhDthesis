@@ -1,0 +1,184 @@
+%==============================================================================
+%  PhD Thesis  ---  Andrea Sante
+%  Liverpool John Moores University, Astrophysics Research Institute
+%  Thesis by publication.
+%
+%  STRUCTURE
+%  ---------
+%  This main file contains ONLY the preamble and the front matter.
+%  Each chapter lives in its own file under ./chapters/ and is pulled in with
+%  \include at the bottom of this file:
+%
+%      chapters/introduction.tex   -> Chapter 1
+%      chapters/chapter2.tex       -> Chapter 2  (paper 1, fully incorporated)
+%      chapters/chapter3.tex       -> Chapter 3  (paper 2, placeholder)
+%      chapters/chapter4.tex       -> Chapter 4  (paper 3, placeholder)
+%      chapters/chapter5.tex       -> Chapter 5  (paper 4, placeholder)
+%      chapters/conclusions.tex    -> Chapter 6
+%      chapters/appendices.tex     -> Appendices
+%
+%  To work on a single chapter while drafting, uncomment \includeonly below.
+%
+%  COMPILE:  pdflatex thesis  ->  bibtex thesis  ->  pdflatex thesis  ->  pdflatex thesis
+%==============================================================================
+\documentclass[a4paper,12pt,oneside]{report}
+
+%------------------------------------------------------------------ page layout
+% LJMU guidelines: A4; binding-edge margin >= 40 mm, all other margins >= 15 mm.
+\usepackage[a4paper,left=40mm,right=20mm,top=25mm,bottom=25mm]{geometry}
+
+%----------------------------------------------------------------- encoding/font
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% amsmath/amssymb must be loaded BEFORE newtxmath to avoid a \Bbbk clash.
+\usepackage{amsmath}       % maths
+\usepackage{amssymb}       % extra maths symbols (\gtrapprox, \lesssim, ...)
+\usepackage{newtxtext,newtxmath}   % Times-family text + maths (as in the papers)
+
+%---------------------------------------------------------------- line spacing
+% LJMU guidelines: 1.5 spacing for the main text.
+\usepackage{setspace}
+\onehalfspacing
+
+%-------------------------------------------------------------------- packages
+\usepackage{graphicx}      % figures
+\usepackage{natbib}        % author-year citations (used by mnras.bst)
+\usepackage{multirow}      % multi-row table cells
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage{subfigure}
+\usepackage[hidelinks]{hyperref}
+
+% Coloured, clickable cross-references / citations (as in the example thesis).
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+    linktoc=all
+}
+
+%------------------------------------------------------- numbering / ToC depth
+% The papers use \subsubsection headings; number them and list them in the ToC.
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+
+%---------------------------------------------------- astronomy compatibility
+% Journal abbreviation macros (\mnras, \apj, \aap, ...) required by mnras.bst.
+\input{journal_abbreviations.tex}
+% \sun is used in the paper bodies but is NOT in journal_abbreviations.tex.
+\providecommand{\sun}{\ensuremath{\odot}}
+% Journal macros emitted by mnras.bst but missing from journal_abbreviations.tex.
+\providecommand{\pasa}{PASA}   % Publications of the Astron. Soc. of Australia
+
+%==============================================================================
+%  Uncomment to compile a single chapter at a time while drafting:
+% \includeonly{chapters/chapter2}
+%==============================================================================
+
+\begin{document}
+
+%==============================================================================
+%  FRONT MATTER  (roman numerals i, ii, iii, ...)
+%==============================================================================
+\pagenumbering{roman}
+
+%------------------------------------------------------------------ title page
+% NB: a plain page (not the `titlepage` environment, which would reset the page
+% counter and make the Declaration page i instead of ii).
+\thispagestyle{empty}
+\begin{center}
+\vspace*{4cm}
+
+{\LARGE\bfseries
+% TODO: replace with the FINAL thesis title (distinct from any single paper title).
+Thesis title goes here\par}
+
+\vspace{3cm}
+{\large by\par}
+\vspace{0.5cm}
+{\large Andrea Sante\par}
+
+\vspace{3cm}
+{\normalsize
+A thesis submitted in partial fulfilment of the requirements of\\
+Liverpool John Moores University for the degree of\\
+Doctor of Philosophy\par}
+
+\vspace{3cm}
+% TODO: update to the month and year of submission.
+{\normalsize Month Year\par}
+
+\end{center}
+\clearpage
+
+%----------------------------------------------------------------- declaration
+\chapter*{Declaration}
+\addcontentsline{toc}{chapter}{Declaration}
+% TODO: write the declaration. The wording below follows the LJMU template.
+The work presented in this thesis was carried out at the Astrophysics Research
+Institute, Liverpool John Moores University. Unless otherwise stated, it is the
+original work of the author.
+
+While registered as a candidate for the degree of Doctor of Philosophy, for which
+submission is now made, the author has not been registered as a candidate for any
+other award. This thesis has not been submitted in whole, or in part, for any
+other degree.
+
+\vspace{1cm}
+\noindent Andrea Sante\\
+Astrophysics Research Institute\\
+Liverpool John Moores University\\
+% TODO: address / date.
+
+%-------------------------------------------------------------------- abstract
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+% TODO: ~300-word synopsis of the thesis (LJMU guideline).
+[Abstract goes here.]
+
+%------------------------------------------------------------------ publications
+\chapter*{Publications}
+\addcontentsline{toc}{chapter}{Publications}
+% TODO: list the publications underlying Chapters 2--5 and your contribution to each.
+[List of publications goes here.]
+
+%--------------------------------------------------------------- acknowledgements
+\chapter*{Acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgements}
+% TODO: acknowledgements.
+[Acknowledgements go here.]
+
+%--------------------------------------------------------------------- contents
+\tableofcontents
+\listoffigures
+\listoftables
+
+%==============================================================================
+%  MAIN MATTER  (Arabic numerals, restart at 1)
+%==============================================================================
+\cleardoublepage
+\pagenumbering{arabic}
+
+\include{chapters/introduction}   % Chapter 1
+\include{chapters/chapter2}       % Chapter 2  (paper 1)
+\include{chapters/chapter3}       % Chapter 3  (paper 2)
+\include{chapters/chapter4}       % Chapter 4  (paper 3)
+\include{chapters/chapter5}       % Chapter 5  (paper 4)
+\include{chapters/conclusions}    % Chapter 6
+
+%==============================================================================
+%  APPENDICES
+%==============================================================================
+\appendix
+\include{chapters/appendices}
+
+%==============================================================================
+%  BIBLIOGRAPHY  (single consolidated list at the end)
+%==============================================================================
+% As Chapters 3-5 are incorporated, add their .bib files to this comma-separated
+% list, e.g. {Chapter_2_paper_folder/refs,Chapter_3_paper_folder/refs}.
+\bibliographystyle{mnras}
+\bibliography{Chapter_2_paper_folder/refs}
+
+\end{document}
