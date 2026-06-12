@@ -74,7 +74,7 @@
 
 %==============================================================================
 %  Uncomment to compile a single chapter at a time while drafting:
-% \includeonly{chapters/chapter2}
+\includeonly{chapters/introduction}
 %==============================================================================
 
 \begin{document}
@@ -138,6 +138,17 @@ Liverpool John Moores University\\
 % TODO: ~300-word synopsis of the thesis (LJMU guideline).
 [Abstract goes here.]
 
+In this thesis I develop data-driven and machine-learning methodologies that improve upon those traditionally 
+adopted for the reconstruction of the Milky Way's assembly history. Throughout, 
+I exploit cosmological hydrodynamical zoom-in simulations of Milky Way-mass haloes---in which the origin of 
+every star particle is known---to build, validate and calibrate each method before applying it to observations. 
+The work follows the logical arc of the standard workflow and extends it end to end: 
+classifying accreted versus in-situ stars (Chapter~\ref{chap:chapter2}), 
+grouping accreted debris into progenitors (Chapter~\ref{chap:chapter3}), 
+characterising the properties of those progenitors at accretion (Chapter~\ref{chap:chapter4}), 
+and finally applying this machinery to the real Galaxy (Chapter~\ref{chap:chapter5}).
+
+
 %------------------------------------------------------------------ publications
 \chapter*{Publications}
 \addcontentsline{toc}{chapter}{Publications}
@@ -177,14 +188,7 @@ Liverpool John Moores University\\
 %==============================================================================
 %  BIBLIOGRAPHY  (single consolidated list at the end)
 %==============================================================================
-% As Chapters 3-5 are incorporated, add their .bib files to this comma-separated
-% list, e.g. {Chapter_2_paper_folder/refs,Chapter_3_paper_folder/refs}.
 \bibliographystyle{mnras}
-\bibliography{%
-    Chapter_2_paper_folder/refs,%
-    Chapter_3_paper_folder/refs,%
-    Chapter_4_paper_folder/refs,%
-    Chapter_5_paper_folder/refs%
-}
+\bibliography{refs}
 
 \end{document}
