@@ -51,15 +51,15 @@ Therefore, reconstructing the number and properties of the events
 in a galaxy hierarchical formation is an important test for the standard cosmological model and a
 probe of the viability of alternative paradigms.
 In the remainder of this chapter I describe techniques for how the inference of a galaxy's assembly history
-from its present-day stellar content (Section~\ref{sec:intro_lcdm}). Then, I proceed to review the results of 
-applying these techniques to the Milky Way (Section~\ref{sec:intro_mwhistory}). I introduce cosmological simulations as 
-a tool to test the validity of these techniques and as a theoretical framework to develop data-driven methods (Section~\ref{sec:intro_sims}).
-Finally, I conclude the chapter by reviewing the state-of-the-art of machine learning techniques applied for the 
-reconstruction of the assembly history of the Milky Way (Section~\ref{sec:intro_ml}) and laying out the structure of the thesis (Section~\ref{sec:intro_outline}). 
+from its present-day stellar content (Section~\ref{sec:intro_lcdm}). Then, I proceed to review the results of
+applying these techniques to the Milky Way (Section~\ref{sec:intro_mwhistory}). I conclude the chapter by
+introducing cosmological simulations as test beds for these techniques and reviewing the state-of-the-art
+machine learning methods built upon them (Section~\ref{sec:intro_ml}), before laying out the structure of
+the thesis (Section~\ref{sec:intro_outline}).
 
 
 %------------------------------------------------------------------------------
-\section{Stellar probes of a galaxy's assembly history}
+\section{Stellar probes of past mergers}
 \label{sec:intro_lcdm}
 %------------------------------------------------------------------------------
 
@@ -225,7 +225,7 @@ Signatures of more ancient accretion events in the Milky Way, whose debris has l
 cannot be observed directly and require a subtler approach involving the analysis of the chemodynamical properties of the accreted stars. 
 The first inference of an accretion event from phase-mixed debris came with the identification of the Helmi streams \citep{helmi_1999_streams}, 
 recognised as a coherent substructure in the velocity space of solar-neighbourhood stars. Following a similar methodolgy, more accreted substructures 
-were then discovered in the inner halo after the second data release of Gaia \citep{Gaia_DR2_2018}. These efforts in reconstructing
+were then discovered in the inner halo after the second data release of Gaia \citep[DR2,][]{Gaia_DR2_2018}. These efforts in reconstructing
 and characterising the series of mergers leading to the present-day structure of the Milky Way is commonly referred to as ``Galactic Archaeology'',
 as it involves the analysis of accreted stars as ``fossils'' of the disrupted satellite galaxies where they formed \citep{Helmi2020}.
 Its most significant result for Galactic Archaeology was the identification of a large population of stars on highly radial, 
@@ -284,107 +284,185 @@ identify spurious, heavily-contaminated substructures. Furthermore, the debris o
 \citep{Jean-Baptiste_2017,Mori_2024}, meaning that debris from genuine progenitors can be
 fragmented into multiple clusters \citep{Thomas2025}.
 
-Addressing these limitations and evaluating their impact on observational studies requires a controlled 
+Addressing these limitations and evaluating their impact on observational studies requires a controlled
 setting in which the true origin of every star is known,
 so that the techniques used to identify and characterise the disrupted progenitors of the Galaxy can be tested,
-and improved upon, against an objective ground truth. Cosmological hydrodynamical simulations of Milky Way-like
-galaxies provide precisely such a setting, while also embedding the connection between the progenitors and their
-debris in a realistic cosmological context. 
+and improved upon, against an objective ground truth.
 
 
 %------------------------------------------------------------------------------
-\section{Milky Way analogues in cosmological simulations}
-\label{sec:intro_sims}
-%------------------------------------------------------------------------------
-
-Cosmological hydrodynamical simulations of Milky Way-mass haloes play a dual role in this thesis: 
-they serve both as a theoretical model of galaxy formation and as the engine of the data-driven methods I develop. 
-Their value lies in the fact that they forward-model, self-consistently and within a cosmological context, 
-the coupled physical processes that shape a stellar halo, such as the hierarchical assembly of the host, 
-the chemical evolution of both host and satellites, and the phase-mixing of debris within an evolving gravitational 
-potential. Milky Way analogues in modern cosmological simulations reproduce a range of observed scaling relations, 
-including the stellar-mass--halo-mass and 
-mass--metallicity relations and the surface-brightness and metallicity profiles of observed stellar 
-haloes \citep{Monachesi_2019}, making them realistic enough for direct, quantitative comparison with the Milky Way.
-
-Simulations have the decisive advantage that the full assembly history is stored in the merger trees. This allows 
-to know exactly whether a star particle formed in-situ or was accreted, providing an objective ``ground truth'' 
-against which classification and clustering methods can be trained 
-and their performance assessed. Moreover, access to the properties of the 
-progenitor galaxies allows a mapping between the properties of those systems at infall and the $z=0$ characteristics
-of their debris. However, cosmological simulations remain models of reality and the properties of 
-their stellar content depends strictly on the choices made in the implemented subgrid physics \citep{Kim2014,Crain_eagle_2015}, which can differ 
-significantly across simulations. The results presented in this thesis leverage the information of two
-different simulation suites, \texttt{ARTEMIS} \citep{font_artemis_2020} and Auriga \citep{Grand_auriga_2017,Grand_dr_2024},
-which adopt different codes and galaxy formation models.
-
-\subsection{The ARTEMIS simulations}
-\label{sec:intro_artemis}
-
-The ARTEMIS suite \citep{font_artemis_2020} comprises $45$ zoomed-in, high-resolution cosmological hydrodynamical 
-simulations of Milky Way-mass systems, run with the \texttt{GADGET-3} code using the subgrid physics developed 
-for the \texttt{EAGLE} project \citep{Springel2005,Schaye2015,Crain2015}, 
-in a flat $\Lambda$CDM WMAP9 cosmology \citep{Hinshaw2013}. 
-The host haloes span the mass range $8\times10^{11} < M_{200}/\mathrm{M}_\odot < 2\times10^{12}$, 
-with a dark matter particle mass of $1.17\times10^{5}\,h^{-1}\,\mathrm{M}_\odot$, 
-an initial gas particle mass of $2.23\times10^{4}\,h^{-1}\,\mathrm{M}_\odot$ 
-and a force resolution of $125\,h^{-1}$~pc. 
-The chemical enrichment model tracks $11$ elemental species, accounting for the mass loss and yields 
-from asymptotic giant branch stars, stellar winds, and both core-collapse and Type~Ia supernovae; 
-the tracers most relevant to this work are iron, produced predominantly in Type~Ia supernovae, 
-and magnesium, an $\alpha$-element produced in core-collapse supernovae. 
-The accreted or in-situ origin of each star particle is determined in post-processing, 
-and optical photometry is computed by treating each particle as a single stellar population 
-using PARSEC isochrones \citep{Bressan2012,Marigo2017} and a \citet{Chabrier2003} initial mass function. 
-
-
-\subsection{The Auriga simulations}
-\label{sec:intro_auriga}
-
-The Auriga suite \citep{Grand_auriga_2017,Grand_dr_2024} comprises magnetohydrodynamical (MHD) 
-zoom-in simulations of relatively isolated Milky Way-mass haloes, 
-drawn from the dark-matter-only \texttt{EAGLE} L100N1504 parent volume \citep{Schaye_eagle_2015} 
-and re-simulated with the moving-mesh code \texttt{AREPO} \citep{Springel_arepo_2010}, 
-adopting the cosmological parameters of \citet{Planck_collab_2014}. 
-This work uses the $39$ haloes simulated at the standard ``level~4'' resolution, 
-with typical particle masses of $\sim$$3\times10^{5}\,\mathrm{M}_\odot$ for dark matter 
-and $\sim$$5\times10^{4}\,\mathrm{M}_\odot$ for baryons. 
-The Auriga galaxies form rotationally supported discs and reproduce the scaling relations 
-and stellar-halo properties of Milky Way analogues, including those of the GHOSTS sample \citep{Monachesi_2019}. 
-The formation history of each galaxy is encoded in merger trees, constructed by applying the \texttt{SUBFIND} 
-halo finder \citep{Springel_2001} to each snapshot and linking structures across time using the \texttt{LHaloTree} 
-algorithm \citep{Springel_2005}. 
-
-
-%------------------------------------------------------------------------------
-\section{Machine learning applications in Galactic Archaeology}
+\section{Data-driven Galactic Archaeology}
 \label{sec:intro_ml}
 %------------------------------------------------------------------------------
 
-The application of machine-learning (ML) techniques to Galactic Archaeology has become viable, and indeed natural, for two convergent reasons. The first is the sheer volume of high-quality data now available: the combination of \textit{Gaia} astrometry with large spectroscopic surveys provides exactly the kind of large, high-dimensional dataset on which ML methods thrive. The second is the maturation of open-source ML software infrastructure---frameworks such as \texttt{TensorFlow}, \texttt{scikit-learn}, \texttt{XGBoost} and the \texttt{sbi}/LtU-ILI ecosystem---together with the hardware to run it. ML is particularly well-suited to the central difficulty of Galactic Archaeology: extracting structure from precisely those regions of parameter space where the accreted and in-situ populations overlap and where no clean analytic boundary exists.
+Cosmological hydrodynamical simulations of Milky Way-mass haloes provide precisely such a controlled setting.
+State-of-the-art simulations model, self-consistently and within a cosmological context,
+the most relevent physical processes involved in Galaxy Formation
+from the gravitationally-driven hierarchical structure formation to the chemical enrichment 
+of the interstellar medium through unresolved stellar evolution physics \citep[e.g. see review of][]{Crain2023}. 
+In recent years, efforts in improving the complexity of subgrid models has led to realisations of simulations with unprecedented physical
+fidelity as modern simulated Milky Way analogues reproduce a range of observed scaling relations,
+including the stellar-mass--halo-mass and
+mass--metallicity relations and the surface-brightness and metallicity profiles of observed stellar
+haloes, as well as the chemical and geometrical bi-modality of the stellar disk
+\citep{grand_auriga_2017,Hopkins2018,Monachesi_2019,font_artemis_2020,buck_nihao_2020,Agertz2021}.
+However, cosmological simulations remain models of reality and the properties of
+their stellar content depends strictly on the choices made in the implemented subgrid physics \citep{Kim2014,Crain_eagle_2015}, which can differ
+significantly across simulations.
 
-A first and now well-established application is the discovery of stellar streams. The \texttt{STREAMFINDER} algorithm \citep{malhan_streamfinder_2018} identifies streams as overdensities along plausible orbits and, unlike many earlier methods, does not require prior knowledge of the Galactic gravitational potential; \texttt{Via~Machinae} \citep{shih_via_2022} employs conditional density estimation with sideband interpolation to flag local overdensities in an unsupervised fashion; and supervised models such as the gradient-boosted-tree halo-star classifier of \citet{veljanoski_leaves_2019} demonstrate the use of decision-tree ensembles on astrometric and photometric data.
+The results in this thesis leverage the information of two
+different simulation suites, \texttt{ARTEMIS} \citep{font_artemis_2020} and Auriga \citep{Grand_auriga_2017,Grand_dr_2024},
+which adopt different codes and galaxy formation models. Both suites comprise high-resolution (star particle mass of $\sim10^{4}~\mathrm{M}_\odot$), zoomed-in cosmological hydrodynamical simulations of Milky Way-mass haloes.
+\texttt{ARTEMIS} is run with the smoothed-particle-hydrodynamics code \texttt{GADGET-3} \citep{Springel2005} using the
+galaxy formation model developed for the \texttt{EAGLE} project \citep{Schaye2015,Crain2015}, while Auriga is run 
+with the moving-mesh code \texttt{AREPO} \citep{Springel_arepo_2010} using its own galaxy formation model, 
+built on the imprints of the ones from \citet{Vogelsberger_2013} and \citet{Marinacci2014}. 
+In both suites each star particle represents a single stellar population whose
+elemental abundances are inherited from the gas it formed from, which is in turn enriched by the mass loss and yields
+of asymptotic giant branch stars and of core-collapse and Type~Ia supernovae. Both simulations also incorporate feedback 
+from stellar outflows and active galactic nuclei. The \texttt{ARTEMIS} and Auriga suites comprise 45 and 39 galaxies of 
+Milky Way-like mass ($\sim0.5-1.7~10^{12}~\mathrm{M}_\odot$), respectively. An illustration of the Milky Way analogues
+in the \texttt{ARTEMIS} suite is shown in Figure~\ref{fig:intro_artemis}. 
 
-A second application, and the first methodological step addressed in this thesis, is the classification of stars by their accreted or in-situ origin. \citet{ostdiek_cataloging_2020} trained an artificial neural network on the five-dimensional kinematics of a \textit{Gaia} mock catalogue built from the \texttt{FIRE} simulations, fine-tuning it on \textit{Gaia} data and thereby enabling the discovery of the Nyx substructure \citep{necib_chasing_2020}; \citet{tronrud_machine_2022} developed a ``Galactic Archaeology Neural Network'' trained on the chemical abundances and ages of star particles in the Auriga simulations; and \citet{trujillo_gomez_2023} applied a related approach to classify accreted and in-situ globular clusters in the \texttt{E-MOSAICS} simulations. A limitation common to these supervised methods is that, being trained on a finite set of simulated galaxies, they can become biased towards the specific accretion histories represented in the training set---a manifestation of the ``domain shift'' problem that any practical classifier must confront.
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{literature/artemis_galaxies.jpeg}
+    \caption{Composite photometry of the SDSS \textit{i}-band, \textit{r}-band, and \textit{g}-band
+    for the galaxies in the \texttt{ARTEMIS} simulation suite \citep{font_artemis_2020}.
+    Figure taken from \citet{font_artemis_2020}.}
+    \label{fig:intro_artemis}
+\end{figure}
 
-A third application is the identification of accreted substructure by clustering the debris in chemo-dynamical space. Density-based algorithms such as \texttt{DBSCAN} \citep{dbscan} and \texttt{HDBSCAN} \citep{Campello_hdbscan_2013}, as well as single-linkage hierarchical methods, have been applied to the integrals of motion and chemical abundances of halo stars to confirm known substructures and reveal new ones \citep{Koppelman_2019,borsato_identifying_2020,Lovdal_2022,Ruiz-Lara2022,Dodd_catalogue_2023}; unsupervised embeddings such as self-organising maps \citep{Yuan2018} have likewise been explored.
-These methods share well-documented failure modes, however: their output is sensitive to the choice of internal parameters, they can fragment coherent structures or merge unrelated ones, and they are prone to returning spurious, in-situ-dominated clusters \citep{Thomas2025,Kim2025}---failures that stem in part from the implicit assumption that the halo is composed entirely of accreted stars.
+In Galactic Archaeology, simulations have the crucial advantage that the full 
+assembly history is stored in their merger trees. 
+This allows to know exactly whether a star particle formed in-situ or was accreted, and to define the properties of the progenitor
+galaxies at the time of infall. Thus, simulations of Milky Way-like galaxies can be used as
+test beds for the observational techniques used in Galactic Archaeology studies to identify and characterise 
+disrupted progenitors against an objective ground truth. Furthermore, as simulations represent are
+the outcome of strictly coupled galaxy and stellar evolution processes, they can be used to extract 
+insights which would otherwise be analytically impossible to derive. Thus, simulated Milky Way analogues 
+are ideal development environments for machine learning techniques, which offer a data-driven descriptions 
+of the processes and outcomes of Galaxy Formation.
 
-A fourth and final application, which closes the loop from debris back to progenitor, is the reconstruction of a progenitor's properties using simulation-based inference (SBI; \citealt{Cranmer_2020}). SBI is a class of methods for performing Bayesian inference on models whose likelihood is intractable but which can be simulated. The posterior is approximated directly with generative neural networks, most commonly normalising flows such as the Masked Autoregressive Flow \citep{Papamakarios_2017}, which parameterise a probability distribution as a sequence of parameterised invertible transformations applied to a simple Gaussian base distribution, the parameters of the transformations being trained by minimising the negative log-likelihood of the training data. SBI has been applied across astrophysics, from cosmological inference using galaxy clusters and weak-lensing maps \citep{HernandezMartinez_sbicamels_2024,Jeffrey_sbiweallensing_2021} to the estimation of compact-object parameters from gravitational-wave data \citep{green_sbiexample_2020}. In the specific context of disrupted galaxies, \citet{Kruijssen_2020} used a neural network to regress the orbital parameters of progenitors from globular cluster properties, but treated the problem as a deterministic regression that does not capture the inherent degeneracies; the CASBI model \citep{Viterbo_CASBI_2024} applied the SBI formalism to predict progenitor masses and infall times from oxygen and iron abundances using artificial haloes built from the NIHAO simulations; and \citet{Widmark_2025} developed an SBI framework for the orbits of tidally perturbed dwarfs. What has been lacking is a self-consistent, simulation-grounded inference of progenitor properties from the chemo-dynamical distribution of their field-star debris---the gap that the GalactiKit methodology of Chapters~\ref{chap:chapter4} and~\ref{chap:chapter5} is designed to fill.
+\subsection{Overview of current machine learning methods}
+
+As simulations of Milky Way-like galaxies have become more realistic and an increasingly larger
+number of high-quality data has been released by the Gaia mission and the complementary ground-based
+spectroscopic surveys, machine learning techniques have gained significant traction in Galactic
+Archaeology and, more broadly, in Astrophysics \citep{Fluke2020, Ting2025}. 
+This methodolgical revolution has been supported outside the field from significant
+advances in Computer Science \citep[see review of][]{LeCun2015} and the 
+popularisation of machine learning software development frameworks \citep{ScikitLearn,TensorFlow,PyTorch}.
+With the term ``machine learning'' I refer to those computational methods that identify patterns in data
+and use this information to execute a task which had not been explicilty programmed for. As an example, 
+clustering is a type of machine learning technique leveraging the underlying density of data
+points to assign to each of them to a group which is not defined a priori. Similarly, artificial neural 
+networks are example of machine learning models as they use data to automatically update their internal paramters to
+optimise a ``loss'' function defining the underlying task.
+
+A first application of machine learning techniques to Galactic Archaeology was the identification of accreted
+stars based on their kinematic and chemical properties. For stars accreted in
+recent merger events forming stellar streams, the \texttt{STREAMFINDER} algorithm \citep{malhan_streamfinder_2018} 
+identified 87 new structures \citep{Ibata2024} by iteratively fitting orbit ``hypertubes'' on 
+astrometry and proper motions from Gaia. Another algorithm developed for finding
+stellar streams is \texttt{Via~Machinae} \citep{shih_via_2022}, which
+employs conditional density estimation to flag local overdensities in an unsupervised fashion.
+Machine learning methods have also been developed to separate phase-mixed accreted stars from the
+in-situ background.\citet{veljanoski_leaves_2019} developed a gradient-boosted-tree classifier 
+for halo stars based on astrometric and photometric data. Similarly, \citet{ostdiek_cataloging_2020} trained an artificial neural network on 
+the five-dimensional kinematics of a \textit{Gaia} mock catalogue built 
+from the \texttt{FIRE} simulations, fine-tuning it on \textit{Gaia} data 
+and thereby enabling the discovery of the Nyx substructure \citep{necib_chasing_2020}. The chemical
+abundance space was instead explored by \citet{tronrud_machine_2022}, who developed a ``Galactic Archaeology Neural Network'' 
+trained to separate accreted and in-situ star particles in the Auriga simulations.
+
+Clustering is another example of machine learning techniques which has been extensively 
+applied for Galactic Archaeology. Density-based algorithms 
+such as \texttt{DBSCAN} \citep{dbscan} and \texttt{HDBSCAN} \citep{Campello_hdbscan_2013}, 
+as well as single-linkage hierarchical methods, have been applied to the integrals of motion and 
+chemical abundances of halo stars to confirm known substructures and reveal 
+new ones \citep{Koppelman_2019,borsato_identifying_2020,Lovdal_2022,Ruiz-Lara2022,Dodd_catalogue_2023}.
+A different method for the same purpose was instead developed by \citet{Yuan2018}, which 
+created a self-organising map representation of the inner stellar halo which was then used to
+discover the LMS-1/Wukong substructure \citep{Yuan_2020}.
+
+Machine learning algorithms have also been used to characterise the properties of the disrupted
+progenitor systems from their present-day debris. A precursor of these studies was the 
+work from  \citet{Kruijssen_2020}, who developed an artificial neural network to regress 
+the orbital parameters of progenitors from the age-metallicity relation of the
+globular cluster populations in the \texttt{E-MOSAICS} simulations \citep{Pfeffer2018}.
+A more probabilistic description of the merger properties has been advanced using 
+using simulation-based inference (SBI; \citealt{Cranmer_2020}). 
+SBI is a class of methods for performing Bayesian parameter inference on models which are not
+analytically defined or whose likelihood is intractable. Provided the process generating the 
+observable data $\mathrm{x}$ from the model parameters $\mathrm{\theta}$ can be simulated, 
+SBI consists in approximating directly the likelihood $p(\mathrm{x}|\mathrm{\theta})$ or posterior $p(\mathrm{\theta}|\mathrm{x})$ 
+distributions from the simulated joint distribution of data and parameters $p(\mathrm{\theta},\mathrm{x})$. 
+When the data and parameter spaces are highly-dimensional, the density estimation is performed through 
+generative AI techniques, most commonly normalising flows \citep{Papamakarios_2017},
+which parameterise a probability distribution as a sequence of parameterised invertible 
+transformations applied to a simple analytically defined base distribution. The parameters of the 
+transformations are computed through artificial neural netweorks trained by 
+minimising the negative log-likelihood of the training data. 
+
+SBI has been applied across Astrophysics, from cosmological inference using galaxy clusters and 
+weak-lensing maps \citep{HernandezMartinez_sbicamels_2024,Jeffrey_sbiweallensing_2021} 
+to the estimation of compact-object parameters from gravitational-wave data 
+\citep{green_sbiexample_2020}. 
+On a galaxy-scale context, \citet{Widmark_2025} developed an SBI framework for reconstructing the 
+orbits of a tidally perturbed dwarf, NGC~205, orbiting around M31. Similarly, \citet{Brooks2026}
+used simulations of the Milky Way -- Large Magellanic Cloud system to constrain the magnitude of 
+the reflex velocity and the mass of the two galaxies using SBI. For the specific purpose of extimating the
+properties of disrupted Milky Way satellites at the time of infall, the CASBI model \citep{Viterbo_CASBI_2024} 
+applied the SBI formalism to accurately predict the  progenitor masses from oxygen and 
+iron abundances using artificial haloes built from the NIHAO dwarf galaxy simulations.
+
+
 
 %------------------------------------------------------------------------------
 \section{Thesis outline}
 \label{sec:intro_outline}
 %------------------------------------------------------------------------------
 
-The overarching aim of this thesis is to extend the corpus of modern, data-driven techniques available for reconstructing the assembly history of the Milky Way, replacing heuristics inherited from the beginning of the century with methods that are informed by, and validated against, cosmological simulations. The work develops and tests each stage of the standard Galactic Archaeology workflow---classifying, clustering, characterising and applying---on simulated galaxies where the ground truth is known, before turning the resulting machinery on the real Galaxy. The four science chapters, each based on a paper, are organised as follows.
+The aim of this thesis is to extend the corpus of machine learning techniques available for reconstructing the assembly history 
+of the Milky Way, replacing heuristics inherited from data-scarce times with methods that are informed by, 
+and validated against, cosmological simulations and modern observational datasets. 
+In this thesis, I developed novel, data-driven methods for each stage of the standard Galactic Archaeology workflow, i.e. 
+identifying accreted stars, grouping them based on the systems where they formed, and reconstructing the properties of those 
+galaxies at the time of accretion. All the methods were developed and tested simulated Milky Way-like galaxies from the \texttt{ARTEMIS} and Auriga
+suites. Each chapter in this thesis addresses the limitations of a specific stage in the standard Galactic Archaeology workflow providing an 
+alternative, data-driven solution. The chapters are organised as follows:
 
-\textbf{Chapter~\ref{chap:chapter2}} addresses the separation of accreted from in-situ stars. Using the ARTEMIS simulations, I develop an assumption-free classifier informed by the chemo-dynamical patterns of the two populations, performing an extensive comparison of artificial neural networks, gradient-boosted decision trees, transformational machine learning and UMAP-based visualisation. I determine an optimal set of observable input features---combining positions and kinematics, chemistry and photometry---and introduce galaxy-specific features to mitigate the domain-shift problem. The resulting model captures the complex accreted--in-situ boundary more faithfully than traditional observational selection cuts, returning a smaller and purer accreted sample, and the relative importance of the input features provides guidance for the design of future surveys.
+\textbf{Chapter~\ref{chap:chapter2}} addresses the separation of accreted stars 
+from the in-situ background. Standard approaches rely on hard selection cuts in the chemo-dynamical space, 
+which cannot account for the overlap between the two populations and inevitably produce impure accreted samples. 
+Using the \texttt{ARTEMIS} simulations, I develop a data-driven classifier that learns the complex accreted--in-situ 
+boundary directly from the properties of the star particles. Performing an extensive comparison of
+different machine learning algorithms and classification features, I develop an model returns a smaller and purer accreted sample 
+than traditional selection cuts.
 
-\textbf{Chapter~\ref{chap:chapter3}} concerns the grouping of accreted debris into its progenitors. Selecting three Auriga galaxies with markedly different assembly histories, I develop a data-driven procedure to optimise the \texttt{HDBSCAN} clustering algorithm, tuning its internal parameters with the \texttt{Optuna} framework against two contrasting metrics: the V-measure, which compares clusters directly to the known progenitors, and the purely intrinsic DBCV index, which measures only the relative density of the clusters. Both metrics yield clustering models that reconstruct the majority of merger events at a similar level of detail and, unlike out-of-the-box clustering, return clusters dominated by stars from a single progenitor. The chapter also quantifies, for the first time, how the presence of in-situ stars degrades the sensitivity of clustering: from events accreted as early as $z\approx3$ in an accreted-only sample down to only $z<1$ once the in-situ population contaminates the data.
+\textbf{Chapter~\ref{chap:chapter3}} addresses the grouping of the accreted debris into their progenitor systems. 
+Density-based clustering algorithms are usually applied out-of-the-box returning spurious or ficticious substructures in the
+Milky Way stellar halo. Selecting three Auriga galaxies with markedly different assembly histories, I develop a data-driven procedure 
+to optimise the parameters of the \texttt{HDBSCAN} clustering algorithm obtaining a clustering model that
+returns pure clusters dominated by star particles from a single progenitor. I also quantify
+how the presence of in-situ stars degrades the performance of clustering.
 
-\textbf{Chapter~\ref{chap:chapter4}} introduces GalactiKit, a simulation-based-inference methodology for reconstructing the properties of disrupted progenitors at the time of accretion. Trained on the merger--debris pairs of the Auriga suite, an ensemble of Masked Autoregressive Flows maps the present-day chemo-dynamical distribution of debris---its energy, angular momentum and $[\mathrm{Fe/H}]$ and $[\alpha/\mathrm{Fe}]$ abundances---onto the infall time, stellar mass, halo mass and merger mass ratio of the progenitor. Validated through leave-one-out cross-validation, GalactiKit is the first model to predict, self-consistently, infall times and masses that are in agreement with known physical relations, namely the mass--metallicity relation \citep{kirby_2013,Harmsen_massmetallicity_2017} and the infall-time--binding-energy relation \citep{Rocha_2012,GarciaBethencourt_2023}. Because it is informed by field stars rather than globular clusters, GalactiKit can be applied to the smallest accreted substructures, which lack an associated cluster population.
+\textbf{Chapter~\ref{chap:chapter4}} addresses the reconstruction of the properties of disrupted progenitors at the time of accretion
+using SBI. I introduce GalactiKit, an SBI framework trained on the merger--debris pairs of the Auriga suite,
+estimating the posterior distribution of the merger properties (the infall time, stellar mass, halo mass and merger mass ratio) 
+from the present-day chemo-dynamical distribution of debris. GalactiKit pioneers the application of SBI techniques for the prediction
+of the properties of disrupted dwarf galaxies.
 
-\textbf{Chapter~\ref{chap:chapter5}} applies GalactiKit to the accreted substructures of the Milky Way, combining \textit{Gaia} and SDSS-IV/APOGEE data. To bridge the gap between simulations and observations, I explicitly model two sources of discrepancy---the systematic offsets between the Auriga subgrid physics and the real chemical evolution of the Galaxy, and the measurement uncertainties on stellar properties---through a calibration model, and compress the debris information into an information-optimal summary statistic using the Fishnets architecture \citep{Makinen_2023}. The resulting inference is the most complete and self-consistent reconstruction of the Milky Way's progenitors to date. It reveals a rapid assembly of the stellar halo dominated by GES; the total accreted stellar mass, excluding Sagittarius ($1.4^{+1.1}_{-0.4}\times10^{9}\,\mathrm{M}_\odot$), agrees with measurements of the halo mass \citep{Deason2019,Mackereth_2020}, while the full estimate including Sagittarius ($2.2^{+1.1}_{-0.6}\times10^{9}\,\mathrm{M}_\odot$) is consistent with the \citet{Deason2019} measurement within the uncertainties but exceeds the \citet{Mackereth_2020} estimate, which itself excludes the Sagittarius contribution.
+\textbf{Chapter~\ref{chap:chapter5}} is an application of GalactiKit to the accreted substructures of the Milky Way, defined
+combining samples from the \textit{Gaia} and SDSS-IV/APOGEE data. In this chapter, I address an intrinsic limitation of SBI techniques,
+which is the offset between the simulations used to approximate the form of the distributions and the observations used to constrain them. 
+I address the discrepancy between the Auriga subgrid physics and the real chemical evolution of the Galaxy through an explicit 
+calibration+compression pre-processing pipeline. The resulting inference is the most complete and self-consistent reconstruction 
+of the Milky Way assembly history to date.  
 
-Together, these chapters trace a single methodological thread, in which the output of each stage feeds naturally into the next, from the classification of individual stars to a cosmological reconstruction of the Galaxy's growth. Chapter~\ref{chap:conclusions} summarises the main findings and discusses their implications, and looks ahead to the opportunities that forthcoming surveys---among them 4MOST \citep{de_jong_4most_2019} and WEAVE \citep{dalton_project_2014}, as well as future \textit{Gaia} data releases and the Vera C.\ Rubin Observatory---will offer for reconstructing the formation of the Milky Way and the Local Group with ever greater fidelity.
+Together, these chapters trace a single methodological thread, 
+from the classification of individual stars to a cosmological reconstruction of the Galaxy's growth. 
+In the Conclusions, I summarises the main findings of the work in this thesis, discussing possible further improvements
+and looking ahead to the opportunities that forthcoming surveys will offer for reconstructing the formation of the Milky Way and the Local Group.
+
