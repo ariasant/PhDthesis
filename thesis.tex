@@ -33,6 +33,7 @@
 % amsmath/amssymb must be loaded BEFORE newtxmath to avoid a \Bbbk clash.
 \usepackage{amsmath}       % maths
 \usepackage{amssymb}       % extra maths symbols (\gtrapprox, \lesssim, ...)
+\usepackage{bm}            % \bm{} bold-math (used in ch4/ch5)
 \usepackage{newtxtext,newtxmath}   % Times-family text + maths (as in the papers)
 
 %---------------------------------------------------------------- line spacing
@@ -70,7 +71,9 @@
 % \sun is used in the paper bodies but is NOT in journal_abbreviations.tex.
 \providecommand{\sun}{\ensuremath{\odot}}
 % Journal macros emitted by mnras.bst but missing from journal_abbreviations.tex.
-\providecommand{\pasa}{PASA}   % Publications of the Astron. Soc. of Australia
+\providecommand{\pasa}{PASA}              % Publications of the Astron. Soc. of Australia
+\providecommand{\nar}{New Astron. Rev.}  % New Astronomy Reviews
+\providecommand{\jcap}{JCAP}             % J. of Cosmology and Astroparticle Physics
 
 %==============================================================================
 %  Uncomment to compile a single chapter at a time while drafting:
