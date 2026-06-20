@@ -1,4 +1,4 @@
-%==============================================================================
+﻿%==============================================================================
 %  CHAPTER 2 -- Paper 1
 %  "Applying machine learning to Galactic Archaeology: how well can we recover
 %   the origin of stars in Milky Way-like galaxies?"
@@ -24,15 +24,6 @@ stars in Milky Way-like galaxies?}
 % this chapter to the preceding (Chapter 1) and following (Chapter 3) chapters,
 % and a statement of the publication details and author contributions (CRediT).
 % -----------------------------------------------------------------------------
-\begin{quotation}
-\noindent\textit{[Chapter introduction placeholder.] This chapter is based on the
-paper ``Applying machine learning to Galactic Archaeology: how well can we recover
-the origin of stars in Milky Way-like galaxies?'' by A.~Sante, A.~S.~Font,
-S.~Ortega-Martorell, I.~Olier and I.~G.~McCarthy. Add here a short paragraph
-explaining how the work connects to the previous and following chapters, together
-with the publication reference and a description of the contributions of the
-candidate and co-authors.}
-\end{quotation}
 
 \section{Introduction}
 \label{sec:intro_ch2}
@@ -223,7 +214,7 @@ The model is first trained on a set of stellar features comprising ages, [Fe/H] 
 
 \begin{figure}
     \centering
-    \includegraphics[width=\columnwidth]{PLOTS/feature_selection.png}
+    \includegraphics[width=\textwidth]{PLOTS/feature_selection.png}
     \caption{PR-AUC scores for the precision-recall curves for the models obtained training the benchmark architecture using different combinations of features. The feature categories are: positions and kinematics (labelled 'kin'), [Fe/H] and [$\alpha$/Fe] abundances ('chem'), ages, and Gaia magnitudes and colours ('phot').}
     \label{fig:features_selection}
 \end{figure}
@@ -260,7 +251,7 @@ Fig.~\ref{fig:mlp_acrhitecture} shows a comparison of the classification perform
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\columnwidth]{PLOTS/GANN_alternatives.png}
+    \includegraphics[width=\textwidth]{PLOTS/GANN_alternatives.png}
     \caption{Comparison between the precision-recall curves obtained training the benchmark architecture and shallower ANNs on the optimal set of features (see Section \ref{subsec:optimal_feat}).}
     \label{fig:mlp_acrhitecture}
 \end{figure}
@@ -352,7 +343,7 @@ With the optimal set input features, we proceed to compare the classification pe
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.85\columnwidth]{PLOTS/PR_curve_TEST_SET2.png}
+    \includegraphics[width=\textwidth]{PLOTS/PR_curve_TEST_SET2.png}
     \caption{Precision and recall values at different classification thresholds for the models. The metrics were evaluated considering all the stars in the test dataset.}
     \label{fig:PR_test}
 \end{figure}
@@ -419,14 +410,14 @@ So far, we have shown that all ML models trained on the optimal features perform
 
 \begin{figure}
     \centering
-    \includegraphics[width=1.0\textwidth]{PLOTS/RESULTS/TestSet_positives.png}
+    \includegraphics[width=\textwidth]{PLOTS/RESULTS/TestSet_positives.png}
     \caption{Distribution of the FPs in the test set in the [$\alpha$/Fe] -- [Fe/H] plane (top row) and in the Toomre diagram (bottom row). Columns from left to right correspond to the MLP, MLP+galaxy features, TML and XGBoost models, respectively. For each panel, the top and side sub-panels show the probability density function of the FP distributions (yellow) and of the accreted (grey) and in-situ (blue) training examples. For each model, we also show the FP fraction ($f_{FP}$) of the total number of stars in the test dataset. The metrics are evaluated at the fiducial threshold values listed in Table~\ref{tab:fiducial thresholds}.}
     \label{fig:FP}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\textwidth]{PLOTS/RESULTS/TestSet_negatives.png}
+    \includegraphics[width=\textwidth]{PLOTS/RESULTS/TestSet_negatives.png}
     \caption{Same as in Fig.~\ref{fig:FP}, but for the accreted stars mis-classified as in-situ, i.e., the false negatives.}
     \label{fig:FN}
 \end{figure}
@@ -442,14 +433,14 @@ Furthermore, since the XGBoost model has a built-in degree of explainability, it
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.9\columnwidth]{PLOTS/XGB_feature_importance.png}
+    \includegraphics[width=\textwidth]{PLOTS/XGB_feature_importance.png}
     \caption{Information gain values describing the importance of the input features used by the XGBoost model to distinguish between accreted and in-situ stars. }
     \label{fig:xgb_features_importance}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.7\textwidth]{PLOTS/RESULTS/Diff_thresholds_ENERGY.png}
+    \includegraphics[width=\textwidth]{PLOTS/RESULTS/Diff_thresholds_ENERGY.png}
     \caption{The distribution in the $E-L_{z}$ plane of the accreted sample retrieved by the MLP model, at different classification thresholds (left to right panels),  for each of the galaxy in the test dataset (top to bottom rows corresponding to galaxies G29, G30, G34, and G42, respectively.). The completeness ($R$) of the retrieved sample is also reported. The distribution is colour-coded by the actual fraction of accreted stars as defined by the simulation label.}
     \label{fig:diff_thresh_energy}
 \end{figure}
@@ -489,14 +480,14 @@ This result is encouraging and indicates that ML models are sensitive to physica
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\textwidth]{PLOTS/RESULTS/Comp_trad_method_ALPHA_IRON_SN.png}
+    \includegraphics[width=\textwidth]{PLOTS/RESULTS/Comp_trad_method_ALPHA_IRON_SN.png}
     \caption{The [$\alpha$/Fe] -- [Fe/H] distribution,  colour-coded by the fraction of accreted stars, $f_{acc}$ for stars in the simulated Solar neighbourhoods. From top to bottom, the rows correspond to galaxies G29, G30, G34, and G42, respectively. In the columns, the accreted stars are defined by: 1) the simulation label; 2-4) the observational selection criteria; 5) the label predicted by the MLP model. In each panel, we show the actual (column 1) and predicted (columns 2-5) overall fractions of accreted stars in the simulated Solar neighbourhoods.}
     \label{fig:comp_trad_method_alpha_iron}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\textwidth]{PLOTS/RESULTS/Comp_trad_method_TOOMRE_SN.png}
+    \includegraphics[width=\textwidth]{PLOTS/RESULTS/Comp_trad_method_TOOMRE_SN.png}
     \caption{Same as in Fig.~\ref{fig:comp_trad_method_alpha_iron}, but showing results for the distributions of accreted stars in the Toomre diagram.}
     \label{fig:comp_trad_method_toomre}
 \end{figure}
@@ -528,7 +519,7 @@ In addition to being more accurate in identifying the accreted stars than the se
 \begin{figure}
     \centering
 
-    \includegraphics[width=1\textwidth]{PLOTS/train+test+test.png}
+    \includegraphics[width=\textwidth]{PLOTS/train+test+test.png}
 
     \caption{Distribution of stars in the training (left panel) and test (central and right panel) datasets in the parameter space defined by UMAP to maximise the separation between the accreted and in-situ populations. Colours represent the fraction of accreted stars in each region of the plane, as defined by the simulation labels (left and central panels) and by the predictions of the MLP model (right panel).}
 
@@ -537,7 +528,7 @@ In addition to being more accurate in identifying the accreted stars than the se
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\textwidth]{PLOTS/APPENDIX/train_all.png}
+    \includegraphics[width=\textwidth]{PLOTS/APPENDIX/train_all.png}
     \caption{UMAP projections of the distribution of accreted and in-situ examples in the training data, colour-coded by the value of the corresponding physical parameters from the optimal set of features, used as input to the UMAP model. All values are normalised.}
     \label{fig:umap_train_prop}
 \end{figure}
@@ -566,7 +557,7 @@ The MLP, MLP+galaxy features and the TML models share a similar classification p
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.9\columnwidth]{PLOTS/APPENDIX/PR_curve_AURIGA.png}
+    \includegraphics[width=\textwidth]{PLOTS/APPENDIX/PR_curve_AURIGA.png}
     \caption{Precision ($P$) and recall ($R$) at different classification thresholds for
 the benchmark model, MLP, MLP+ galaxy features, TMP and XGBoost, trained on stars from six \texttt{Auriga} galaxies. The metrics are evaluated considering
 all stars in galaxies Au6 and Au21.}
@@ -583,7 +574,7 @@ Models with a high level of complexity can be affected by overfitting as they ca
 
 \begin{figure}
     \centering
-    \includegraphics[width=1.1\columnwidth]{PLOTS/APPENDIX/cross_sims2.png}
+    \includegraphics[width=\textwidth]{PLOTS/APPENDIX/cross_sims2.png}
     \caption{Comparison of the classification performance of  models trained on \texttt{ARTEMIS} and tested on \texttt{Auriga}, and vice versa (orange lines). Included are also the performance of models trained and tested on data from the same simulation (purple lines).}
     \label{fig:cross_sims_comp}
 \end{figure}

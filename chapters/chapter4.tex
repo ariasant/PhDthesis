@@ -1,4 +1,4 @@
-%==============================================================================
+﻿%==============================================================================
 %  CHAPTER 4 -- Paper 3
 %  Placeholder. The text of the paper in Chapter_4_paper_folder/ will be
 %  incorporated here, in the same thesis style as Chapter 2.
@@ -8,15 +8,6 @@
 \chapter{GalactiKit: reconstructing mergers from $z=0$ debris using simulation-based inference in \texttt{Auriga}}
 \label{chap:chapter4}
 
-\begin{quotation}
-\noindent\textit{[Chapter introduction placeholder.] This chapter is based on the
-paper ``Applying machine learning to Galactic Archaeology: how well can we recover
-the origin of stars in Milky Way-like galaxies?'' by A.~Sante, A.~S.~Font,
-S.~Ortega-Martorell, I.~Olier and I.~G.~McCarthy. Add here a short paragraph
-explaining how the work connects to the previous and following chapters, together
-with the publication reference and a description of the contributions of the
-candidate and co-authors.}
-\end{quotation}
 
 
 \section{Introduction}
@@ -87,7 +78,7 @@ An example of the separation of accreted star particles into the progenitor gala
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.8\textwidth]{plots/Au21.pdf}
+    \includegraphics[width=\textwidth]{plots/Au21.pdf}
     \caption{Accreted star particles located within $R_{200}$ in the Au21 simulation at $z=0$. The top row shows the integrals-of-motion distribution of the particles, while the $[\text{Fe}/\text{H}]-[\alpha/\text{Fe}]$ plane is reported in the bottom. For the plots on the left, the same colour is given to particles coming from each of the 30 progenitor galaxies contributing with at least 100 star particles. Only the \texttt{PeakMassIndex} of two progenitor galaxies is explicitly shown in the figure, while ellipsis are reported for the colours corresponding to the remaining progenitors. In the plots in the middle column, star particles are colour-coded differently if their progenitors are disrupted in the main halo (black) or are orbiting subhalos within $R_{200}$ (gray). In the rightmost column, the plots show the distribution of star particles colour-coded based on the lookback time at which their associated progenitor galaxy crossed $R_{200}$ for the first time.}
     \label{fig:Au21}
 \end{figure*}
@@ -141,7 +132,7 @@ To assess how the model performs on unseen data, we performed a leave-one-out cr
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.5\textwidth]{plots/flowchart.png}
+    \includegraphics[width=0.7\textwidth]{plots/flowchart.png}
     \caption{Overview of the GalactiKit methodology. The \texttt{Auriga} simulations were first split into a training and test sets. For both cases, the accreted stars within $R_{200}$ of the main halo were associated to the corresponding progenitor galaxy creating a set of merger-debris pairs $\{\bm{x},\bm{\theta}\}$; this was then pre-processed to be used as input to the MAF models approximating $p(\bm{\theta} \,| \, \bm{x})$. The quality of the estimation was assessed through summary statistics comparing the inferred values to the actual ones for the properties of mergers in the test. To ensure robust performance assessment, the procedure was repeated while systematically leaving out one \texttt{Auriga} simulation for testing at a time. The images of the \texttt{Auriga} galaxies are taken from \citet{Grand2017}.}
     \label{fig:flowchart}
 \end{figure*}
@@ -256,19 +247,19 @@ For each combination of $\bm{x}$, the results of the leave-one-out cross-validat
     \centering
     \begin{subfigure}[b]{\textwidth}
         \centering
-        \includegraphics[width=0.8\textwidth]{plots/cross_validation_3468_ELinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
+        \includegraphics[width=\textwidth]{plots/cross_validation_3468_ELinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
         \caption{Training features: $E$, $L$}
         \label{fig:subfig1}
     \end{subfigure}
     \begin{subfigure}[b]{\textwidth}
         \centering
-        \includegraphics[width=0.8\textwidth]{plots/cross_validation_3468_FeHaFeinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
+        \includegraphics[width=\textwidth]{plots/cross_validation_3468_FeHaFeinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
         \caption{Training features: $[\mathrm{Fe}/\mathrm{H}]$, $[\alpha/\mathrm{Fe}]$}
         \label{fig:subfig2}
     \end{subfigure}
     \begin{subfigure}[b]{\textwidth}
         \centering
-        \includegraphics[width=0.8\textwidth]{plots/cross_validation_3468_ELFeHaFeinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
+        \includegraphics[width=\textwidth]{plots/cross_validation_3468_ELFeHaFeinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
         \caption{Training features: $E$, $L$, $[\mathrm{Fe}/\mathrm{H}]$ and $[\alpha/\mathrm{Fe}]$}
         \label{fig:subfig3}
     \end{subfigure}
@@ -287,13 +278,13 @@ A drop in the performance of model (a) can be noticed for mergers more recent th
     \centering
     \begin{subfigure}[b]{\textwidth}
         \centering
-        \includegraphics[width=0.8\textwidth]{plots/cross_validation_E_ELFeHaFeinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
+        \includegraphics[width=\textwidth]{plots/cross_validation_E_ELFeHaFeinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
         \caption{}
         \label{fig:subfig_cc_E}
     \end{subfigure}
     \begin{subfigure}[b]{\textwidth}
         \centering
-        \includegraphics[width=0.8\textwidth]{plots/cross_validation_L_ELFeHaFeinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
+        \includegraphics[width=\textwidth]{plots/cross_validation_L_ELFeHaFeinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
         \caption{}
         \label{fig:subfig_cc_L}
     \end{subfigure}
@@ -323,13 +314,13 @@ The infall time estimates for late mergers ($\tau<5 \, \mathrm{Gyr}$) obtained f
     \centering
     \begin{subfigure}[b]{\textwidth}
         \centering
-        \includegraphics[width=0.8\textwidth]{plots/cross_validation_FeH_ELFeHaFeinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
+        \includegraphics[width=\textwidth]{plots/cross_validation_FeH_ELFeHaFeinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
         \caption{}
         \label{fig:cc_FeH}
     \end{subfigure}
     \begin{subfigure}{\textwidth}
         \centering
-        \includegraphics[width=0.8\textwidth]{plots/cross_validation_aFe_ELFeHaFeinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
+        \includegraphics[width=\textwidth]{plots/cross_validation_aFe_ELFeHaFeinfall_timelog_Mprog_stellarlog_Mproglog_Mprog2host.png}
         \caption{}
         \label{fig:cc_aFe}
     \end{subfigure}

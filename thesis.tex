@@ -22,6 +22,12 @@
 %  COMPILE:  pdflatex thesis  ->  bibtex thesis  ->  pdflatex thesis  ->  pdflatex thesis
 %==============================================================================
 \documentclass[a4paper,12pt,oneside]{report}
+% Freeze day/month/year as plain strings RIGHT NOW, before any package runs.
+% \edef expands \number\day immediately, so the values are safe even if a
+% package later redefines \day (datetime does exactly that).
+\edef\thesisday{\number\day}
+\edef\thesismonth{\number\month}
+\edef\thesisyear{\number\year}
 
 %------------------------------------------------------------------ page layout
 % LJMU guidelines: A4; binding-edge margin >= 40 mm, all other margins >= 15 mm.
@@ -49,7 +55,45 @@
 \usepackage[normalem]{ulem}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{etoolbox}      % \AtBeginEnvironment
+\usepackage{longtable}     % tables that span multiple pages
 \usepackage[hidelinks]{hyperref}
+\usepackage{datetime}
+
+%------------------------------------------------------ float / spacing fixes
+% Captions: single-spaced even though body text is 1.5-spaced
+\captionsetup{font=singlespacing}
+% Tables: single-space rows so tabular/longtable content fits on a page
+\AtBeginEnvironment{tabular}{\setstretch{1}}
+\AtBeginEnvironment{tabular*}{\setstretch{1}}
+\AtBeginEnvironment{longtable}{\setstretch{1}}
+% Figures: cap height so tall images (e.g. corner plots) fit on a float page
+\setkeys{Gin}{height=0.85\textheight,keepaspectratio}
+% Relax float placement thresholds to reduce deferred / overflowing floats
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.85}
+
+\newdateformat{monthyeardate}{\monthname[\THEMONTH], \THEYEAR}
+
+% Self-contained ordinal date for the declaration page.
+% Uses the strings frozen by \edef above -- no \day dependency at all.
+\newcommand*{\declarationdate}{%
+  \thesisday
+  \ifnum\thesisday=1 \textsuperscript{st}\else
+  \ifnum\thesisday=2 \textsuperscript{nd}\else
+  \ifnum\thesisday=3 \textsuperscript{rd}\else
+  \ifnum\thesisday=21 \textsuperscript{st}\else
+  \ifnum\thesisday=22 \textsuperscript{nd}\else
+  \ifnum\thesisday=23 \textsuperscript{rd}\else
+  \ifnum\thesisday=31 \textsuperscript{st}\else
+  \textsuperscript{th}\fi\fi\fi\fi\fi\fi\fi
+  ~\ifcase\thesismonth
+    \or January\or February\or March\or April\or May\or June%
+    \or July\or August\or September\or October\or November\or December%
+  \fi
+  ~\thesisyear}
 
 % Coloured, clickable cross-references / citations (as in the example thesis).
 \hypersetup{
@@ -83,9 +127,9 @@
 \begin{document}
 
 %==============================================================================
-%  FRONT MATTER  (roman numerals i, ii, iii, ...)
+%  FRONT MATTER  (arabic from page 1; title page counted but not printed)
 %==============================================================================
-\pagenumbering{roman}
+\pagenumbering{arabic}
 
 %------------------------------------------------------------------ title page
 % NB: a plain page (not the `titlepage` environment, which would reset the page
@@ -109,8 +153,7 @@ Liverpool John Moores University for the degree of\\
 Doctor of Philosophy\par}
 
 \vspace{3cm}
-% TODO: update to the month and year of submission.
-{\normalsize Month Year\par}
+{\normalsize \monthyeardate\today\par}
 
 \end{center}
 \clearpage
@@ -118,27 +161,33 @@ Doctor of Philosophy\par}
 %----------------------------------------------------------------- declaration
 \chapter*{Declaration}
 \addcontentsline{toc}{chapter}{Declaration}
-% TODO: write the declaration. The wording below follows the LJMU template.
+
+\begin{flushright}
+\declarationdate\\[0.5cm]
+
+Astrophysics Research Institute,\\
+Liverpool John Moores University,\\
+IC2, Liverpool Science Park,\\
+146 Brownlow Hill,\\
+Liverpool,\\
+L3 5RF,\\
+UK
+\end{flushright}
+
+\vspace{1.5cm}
+
 The work presented in this thesis was carried out at the Astrophysics Research
-Institute, Liverpool John Moores University. Unless otherwise stated, it is the
-original work of the author.
+Institute, Liverpool John Moores University and at The Alan Turing Institute, London. 
+Unless otherwise stated, it is the original work of the author.
 
 While registered as a candidate for the degree of Doctor of Philosophy, for which
 submission is now made, the author has not been registered as a candidate for any
 other award. This thesis has not been submitted in whole, or in part, for any
 other degree.
 
-\bigskip
-\noindent Andrea Sante\\\\
-Astrophysics Research Institute,\\
-Faculty of Health, Innovation, Technology and Science,\\
-Liverpool John Moores University,\\
-IC2, Liverpool Science Park,\\
-146 Brownlow Hill,\\
-Liverpool,\\
-L3 5RF,\\
-UK.
-% TODO: address / date.
+\vspace{2.5cm}
+
+\noindent {\Large Andrea Sante}
 
 %-------------------------------------------------------------------- abstract
 \chapter*{Abstract}
@@ -146,15 +195,15 @@ UK.
 % TODO: ~300-word synopsis of the thesis (LJMU guideline).
 [Abstract goes here.]
 
-In this thesis I develop data-driven and machine-learning methodologies that improve upon those traditionally 
-adopted for the reconstruction of the Milky Way's assembly history. Throughout, 
-I exploit cosmological hydrodynamical zoom-in simulations of Milky Way-mass haloes---in which the origin of 
-every star particle is known---to build, validate and calibrate each method before applying it to observations. 
-The work follows the logical arc of the standard workflow and extends it end to end: 
-classifying accreted versus in-situ stars (Chapter~\ref{chap:chapter2}), 
-grouping accreted debris into progenitors (Chapter~\ref{chap:chapter3}), 
-characterising the properties of those progenitors at accretion (Chapter~\ref{chap:chapter4}), 
-and finally applying this machinery to the real Galaxy (Chapter~\ref{chap:chapter5}).
+%In this thesis I develop data-driven and machine-learning methodologies that improve upon those traditionally 
+%adopted for the reconstruction of the Milky Way's assembly history. Throughout, 
+%I exploit cosmological hydrodynamical zoom-in simulations of Milky Way-mass haloes---in which the origin of 
+%every star particle is known---to build, validate and calibrate each method before applying it to observations. 
+%The work follows the logical arc of the standard workflow and extends it end to end: 
+%classifying accreted versus in-situ stars (Chapter~\ref{chap:chapter2}), 
+%grouping accreted debris into progenitors (Chapter~\ref{chap:chapter3}), 
+%characterising the properties of those progenitors at accretion (Chapter~\ref{chap:chapter4}), 
+%and finally applying this machinery to the real Galaxy (Chapter~\ref{chap:chapter5}).
 
 
 %------------------------------------------------------------------ publications
@@ -194,6 +243,7 @@ simulation-based inference in Auriga'}\\
 MNRAS, Volume ??, Issue ?.
 
 \bigskip
+\bigskip
 
 Publication~1 forms the basis of Chapter~\ref{chap:chapter2}. It presents
 several machine learning models trained on the
@@ -204,12 +254,16 @@ A.~Sante with major scientific contributions from A.~S.~Font and I.~G. McCarthy.
 Ortega-Martorell, S. and Olier, I. reviewed and supported the implementation
 of the machine learning models. 
 
+\bigskip
+
 Publication~2 forms the basis of Chapter~\ref{chap:chapter3}. It develops
 a novel parameter optimisation pipeline for the \texttt{HDBSCAN} clustering algorithm,
 testing its effectiveness for recovering accreted substructures under 
 different regimes of contamination of in-situ stars.
 The analysis was carried out by A.~Sante and Mistry, I. with major scientific
 contributions from all the co-authors.
+
+\bigskip
 
 Publication~3 forms the basis of Chapter~\ref{chap:chapter4}. It presents
 GalactiKit, a simulation-based inference framework for estimating the infall
@@ -218,6 +272,8 @@ the properties of their $z=0$ debris in the Auriga simulations. The analysis
 was carried out by A.~Sante with major scientific contributions from the
 co-authors.
 
+\bigskip
+
 Publication~4 forms the basis of Chapter~\ref{chap:chapter5}. It applies 
 GalactiKit to a local sample of accreted stars in the Milky Way,
 inferring the accretion times and masses of several known merger events
@@ -225,6 +281,8 @@ and placing constraints on the growth of the Galactic halo. The analysis
 was carried out by A.~Sante with the support of T.~L.~Makinen for the 
 implementation of the data compression pipeline, and A.~S.~Font, D.~Kawata, and
 R.~J.~J.~Grand for the scientific context and application of the models.
+
+\bigskip
 
 In addition to the publications forming the corpus of this thesis, I worked
 on the analysis of the simulation data for the comparison between disc and
@@ -242,10 +300,9 @@ on the analysis of the simulation data for the comparison between disc and
 \listoftables
 
 %==============================================================================
-%  MAIN MATTER  (Arabic numerals, restart at 1)
+%  MAIN MATTER  (page numbering continues from front matter)
 %==============================================================================
-\cleardoublepage
-\pagenumbering{arabic}
+\clearpage
 
 \include{chapters/introduction}   % Chapter 1
 \include{chapters/chapter2}       % Chapter 2  (paper 1)

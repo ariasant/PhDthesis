@@ -1,4 +1,4 @@
-%==============================================================================
+﻿%==============================================================================
 %  CHAPTER 3 -- Paper 2
 %  Placeholder. The text of the paper in Chapter_3_paper_folder/ will be
 %  incorporated here, in the same thesis style as Chapter 2.
@@ -9,15 +9,6 @@
 of the Milky Way: applications and limitations}
 \label{chap:chapter3}
 
-\begin{quotation}
-\noindent\textit{[Chapter introduction placeholder.] This chapter is based on the
-paper ``Applying machine learning to Galactic Archaeology: how well can we recover
-the origin of stars in Milky Way-like galaxies?'' by A.~Sante, A.~S.~Font,
-S.~Ortega-Martorell, I.~Olier and I.~G.~McCarthy. Add here a short paragraph
-explaining how the work connects to the previous and following chapters, together
-with the publication reference and a description of the contributions of the
-candidate and co-authors.}
-\end{quotation}
 
 \section{Introduction}
 
@@ -234,13 +225,13 @@ From the optimization procedure described in Section~\ref{sec:hdbscan_tuning}, w
 
 \begin{figure*}
     \centering
-    \begin{subfigure}[b]{0.7\textwidth}
+    \begin{subfigure}[b]{\textwidth}
         \centering
         \includegraphics[width=\textwidth]{plots/accreted_only/OPTUNA_bestparams_vmeasure.pdf}
         \caption{V-measure}
         \label{fig:best_params_vmeasure}
     \end{subfigure}
-    \begin{subfigure}[b]{0.7\textwidth}
+    \begin{subfigure}[b]{\textwidth}
         \centering
         \includegraphics[width=\textwidth]{plots/accreted_only/OPTUNA_bestparams_DBCV.pdf}
         \caption{DBCV}
@@ -261,7 +252,7 @@ The cluster distributions obtained with the V-measure and DBCV optimizations (mi
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.8\textwidth]{plots/accreted_only/IoM.pdf}
+    \includegraphics[width=\textwidth]{plots/accreted_only/IoM.pdf}
     \caption{Density distribution of accreted star particles in the $E-L_z$ plane. The top row shows the ground-truth distribution, where particles are coloured by their progenitor group (\texttt{PeakMassIndex}). The middle and bottom rows show the \texttt{HDBSCAN} clustering results when optimized with the V-measure and DBCV metrics, respectively. In these lower panels, identified clusters are coloured according to their majority progenitor group, with noise particles shown in grey. The overplotted scatter points highlight the highest-density region of each cluster. The fraction of noise points is also included in each panel. At the bottom of each column, a legend shows the colours associated with the merger events reported in Table~\ref{tab:galaxy_sample}.}
     \label{fig:IoM_accreted}
 \end{figure*}
@@ -312,14 +303,14 @@ Stars are most often classified as noise when debris from different progenitors 
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{plots/accreted_only/total_variance.png}
+    \includegraphics[width=0.5\textwidth]{plots/accreted_only/total_variance.png}
     \caption{Total variance values for the progenitor galaxies appearing as dominant progenitors in the \texttt{HDBSCAN} clusters.}
     \label{fig:total_variance}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{plots/accreted_only/DM_noise.png}
+    \includegraphics[width=0.5\textwidth]{plots/accreted_only/DM_noise.png}
     \caption{Mahalanobis distance between the 12-D debris distributions of the progenitor with the largest number of particles classified as noise and the other progenitors of the galaxies. The symbol and colours of the progenitors are the same one used in Fig.~\ref{fig:P_accreted}. }
     \label{fig:DM_noise}
 \end{figure}
@@ -331,7 +322,7 @@ We further investigate the assembly histories of the three galaxies, as represen
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.7\textwidth]{plots/accreted_only/merger_tree.pdf}
+    \includegraphics[width=\textwidth]{plots/accreted_only/merger_tree.pdf}
     \caption{Merger trees for the galaxies in the sample as reconstructed by the V-measure (middle) and DBCV (bottom) optimized \texttt{HDBSCAN} models for the accreted-only haloes. Top panel shows the full merger trees. Each colour represents a different progenitor galaxy. The thickness of each line is proportional to the number of accreted star particles from that progenitor. Dashed lines indicate progenitors that contribute $<1\%$ to the overall accreted population of the galaxy at $z=0$.}
     \label{fig:merger_tree_acc}
 \end{figure*}
@@ -350,7 +341,7 @@ As expected, both models are more successful in recovering more massive mergers 
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.8\textwidth]{plots/with_insitu/IoM.pdf}
+    \includegraphics[width=\textwidth]{plots/with_insitu/IoM.pdf}
     \caption{Density distributions in the $E-L_z$ plane for the accreted stars (similar to Fig.~\ref{fig:IoM_accreted}), but now including the in-situ stars which are shown in grey. The clustering results from the optimized models are shown in the middle panel for the V-measure and the bottom panel for DBCV. The noise distributions are not shown, however we report the fraction of points classified as noise in each panel.}
     \label{fig:IoM_insitu}
 \end{figure*}
@@ -363,7 +354,7 @@ Fig.~\ref{fig:DM_insitu} shows the Mahalanobis distance between the 12-D distrib
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{plots/with_insitu/DM_insitu.png}
+    \includegraphics[width=0.5\textwidth]{plots/with_insitu/DM_insitu.png}
     \caption{Mahalanobis distance between the particle distributions of the progenitor galaxies and the in-situ population. Colours are associated to progenitors using the same colour scheme as in Fig.~\ref{fig:IoM_accreted}. }
     \label{fig:DM_insitu}
 \end{figure}
@@ -375,7 +366,7 @@ The purity and completeness of the clusters identified in the in-situ contaminat
 
 \begin{figure}
     \centering
-    \includegraphics[width=\columnwidth]{plots/with_insitu/cluster_results_purity_infalltime.pdf}
+    \includegraphics[width=\textwidth]{plots/with_insitu/cluster_results_purity_infalltime.pdf}
     \caption{Precision scores for the clusters identified by the \texttt{HDBSCAN} models optimized with the V-measure and DBCV index metrics for the accreted + in-situ haloes. Symbols and colours are the same as in Fig.~\ref{fig:P_accreted}, for the accreted-only haloes. Crosses indicate clusters that are dominated by in-situ particles and their associated ``lookback infall time'' is the $90^{\rm th}$ percentile of the age distribution of the cluster.}
     \label{fig:P_insitu}
 \end{figure}
@@ -385,7 +376,7 @@ As shown in Fig.~\ref{fig:P_insitu}, the contamination from in-situ particles on
 
 \begin{figure}
     \centering
-    \includegraphics[width=\columnwidth]{plots/with_insitu/cluster_results_recall_infalltime.pdf}
+    \includegraphics[width=\textwidth]{plots/with_insitu/cluster_results_recall_infalltime.pdf}
     \caption{Recall scores for the clusters identified in accreted + in-situ haloes by the \texttt{HDBSCAN} models optimized with the V-measure and DBCV index metrics. Symbols, sizes and colours are the same as in Fig.~\ref{fig:P_insitu}.}
     \label{fig:R_insitu}
 \end{figure}
@@ -400,7 +391,7 @@ This figure shows that none of the major progenitors accreted before $z_{\rm acc
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.7\textwidth]{plots/with_insitu/merger_tree.pdf}
+    \includegraphics[width=\textwidth]{plots/with_insitu/merger_tree.pdf}
     \caption{Merger trees for the galaxies in the sample as reconstructed by the V-measure (middle) and DBCV (bottom) optimized \texttt{HDBSCAN} models when contamination from in-situ stars is included. Top panel shows the full merger trees. The correspondence between lines and progenitors is the same as described in Fig.~\ref{fig:merger_tree_acc} for the accreted-only case. The style and thickness of the lines reflects the new fraction of accreted stars from each progenitor after the velocity selection cut is applied.}
     \label{fig:merger_tree_insitu}
 \end{figure*}
@@ -416,7 +407,7 @@ Similarly to Figs.~\ref{fig:IoM_accreted} and \ref{fig:IoM_insitu}, the distribu
 
 \begin{figure}
     \centering
-    \includegraphics[width=\columnwidth]{plots/Au27noages.pdf}
+    \includegraphics[width=\textwidth]{plots/Au27noages.pdf}
     \caption{Density distribution in the $E-L_z$ plane for the stars in Au27 colour-coded by their \texttt{HDBSCAN} label. The clustering analysis is repeated excluding the age of the star particles from both the accreted-only and accreted + in-situ datasets. The plot format follows Figs.~\ref{fig:IoM_accreted} and \ref{fig:IoM_insitu}.  }
     \label{fig:IoM_noages}
 \end{figure}
