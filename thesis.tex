@@ -77,7 +77,7 @@
 
 %==============================================================================
 %  Uncomment to compile a single chapter at a time while drafting:
-\includeonly{chapters/appendices}
+%\includeonly{chapters/introduction.tex}
 %==============================================================================
 
 \begin{document}
@@ -130,13 +130,14 @@ other degree.
 
 \bigskip
 \noindent Andrea Sante\\\\
-Astrophysics Research Institute\\
-Liverpool John Moores University\\
-IC2, Liverpool Science Park\\
-146 Brownlow Hill\\
-Liverpool\\
-L3 5RF\\
-UK
+Astrophysics Research Institute,\\
+Faculty of Health, Innovation, Technology and Science,\\
+Liverpool John Moores University,\\
+IC2, Liverpool Science Park,\\
+146 Brownlow Hill,\\
+Liverpool,\\
+L3 5RF,\\
+UK.
 % TODO: address / date.
 
 %-------------------------------------------------------------------- abstract
@@ -170,28 +171,27 @@ publications:
 \noindent 1 \textit{`Applying machine learning to Galactic Archaeology: how well can we
 recover the origin of stars in Milky Way-like galaxies?'}\\
 \textbf{Sante, A.,} Font, A. S., Ortega-Martorell, S., Olier, I.,
-\& McCarthy, I. G.
-% TODO: add journal, volume, issue, year once published/accepted.
+\& McCarthy, I. G., \href{https://doi.org/10.1093/mnras/stae1398}{MNRAS, Volume~531, Issue~4}.
 
 \bigskip
 
 \noindent 2 \textit{`Optimized HDBSCAN clustering for reconstructing the merger history
 of the Milky Way: applications and limitations'}\\
-\textbf{Sante, A.,} Font, A. S., Mistry, I., Ortega-Martorell, S., \& Olier, I.
-% TODO: add journal, volume, issue, year once published/accepted.
+\textbf{Sante, A.,} Font, A. S., Mistry, I., Ortega-Martorell, S., \& Olier, I.,
+\href{https://doi.org/10.1093/mnras/stag503}{MNRAS, Volume~547, Issue~4}.
 
 \bigskip
 
 \noindent 3 \textit{`GalactiKit: reconstructing mergers from $z=0$ debris using
 simulation-based inference in Auriga'}\\
-\textbf{Sante, A.,} Kawata, D., Font, A. S., \& Grand, R. J. J.
-% TODO: add journal, volume, issue, year once published/accepted.
+\textbf{Sante, A.,} Kawata, D., Font, A. S., \& Grand, R. J. J.,
+\href{https://doi.org/10.1093/mnras/staf1343}{MNRAS, Volume~542, Issue~3}.
 
 \bigskip
 
 \noindent 4 \textit{`A simulation-based inference of the Milky Way merger history'}\\
-\textbf{Sante, A.,} Font, A. S., Kawata, D., Makinen, T. L., \& Grand, R. J. J.
-% TODO: add journal, volume, issue, year once published/accepted.
+\textbf{Sante, A.,} Font, A. S., Kawata, D., Makinen, T. L., \& Grand, R. J. J.,
+MNRAS, Volume ??, Issue ?.
 
 \bigskip
 
@@ -199,32 +199,36 @@ Publication~1 forms the basis of Chapter~\ref{chap:chapter2}. It presents
 several machine learning models trained on the
 \texttt{ARTEMIS} cosmological zoom-in simulations
 to separate accreted from in-situ
-stars in Milky Way-mass galaxies. All analysis was carried out by
-A.~Sante with major scientific contributions from A.S. Font. The implementation
-of the machine learning models was reviewed and supported by 
-% TODO: expand contribution statement (co-author roles, manuscript preparation).
+stars in Milky Way-mass galaxies. The analysis was carried out by
+A.~Sante with major scientific contributions from A.~S.~Font and I.~G. McCarthy. 
+Ortega-Martorell, S. and Olier, I. reviewed and supported the implementation
+of the machine learning models. 
 
-Publication~2 forms the basis of Chapter~\ref{chap:chapter3}. It investigates
-the effectiveness of the HDBSCAN clustering algorithm for recovering the
-progenitors of Milky Way-type galaxies using the Auriga simulations,
-introducing a 12-dimensional chemodynamical feature space and an optimisation
-strategy to reduce fragmentation. All analysis was carried out by A.~Sante.
-% TODO: expand contribution statement (co-author roles, manuscript preparation).
+Publication~2 forms the basis of Chapter~\ref{chap:chapter3}. It develops
+a novel parameter optimisation pipeline for the \texttt{HDBSCAN} clustering algorithm,
+testing its effectiveness for recovering accreted substructures under 
+different regimes of contamination of in-situ stars.
+The analysis was carried out by A.~Sante and Mistry, I. with major scientific
+contributions from all the co-authors.
 
 Publication~3 forms the basis of Chapter~\ref{chap:chapter4}. It presents
 GalactiKit, a simulation-based inference framework for estimating the infall
-time, stellar mass, halo mass and mass ratio of disrupted progenitors from
-the properties of their $z=0$ debris in the Auriga simulations. All analysis
-was carried out by A.~Sante.
-% TODO: expand contribution statement (co-author roles, manuscript preparation).
+time, stellar mass, halo mass and halo mass merger ratio of disrupted progenitors from
+the properties of their $z=0$ debris in the Auriga simulations. The analysis
+was carried out by A.~Sante with major scientific contributions from the
+co-authors.
 
-Publication~4 forms the basis of Chapter~\ref{chap:chapter5}. It applies a
-normalizing-flow simulation-based inference framework, trained on Auriga
-debris samples, to a local sample of accreted stars in the Milky Way,
+Publication~4 forms the basis of Chapter~\ref{chap:chapter5}. It applies 
+GalactiKit to a local sample of accreted stars in the Milky Way,
 inferring the accretion times and masses of several known merger events
-and placing constraints on the growth of the Galactic halo. All analysis
-was carried out by A.~Sante.
-% TODO: expand contribution statement (co-author roles, manuscript preparation).
+and placing constraints on the growth of the Galactic halo. The analysis
+was carried out by A.~Sante with the support of T.~L.~Makinen for the 
+implementation of the data compression pipeline, and A.~S.~Font, D.~Kawata, and
+R.~J.~J.~Grand for the scientific context and application of the models.
+
+In addition to the publications forming the corpus of this thesis, I worked
+on the analysis of the simulation data for the comparison between disc and
+``Splash'' stellar populations in \citet{Kisku2025}.
 
 %--------------------------------------------------------------- acknowledgements
 \chapter*{Acknowledgements}
