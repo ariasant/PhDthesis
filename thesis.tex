@@ -77,7 +77,7 @@
 
 %==============================================================================
 %  Uncomment to compile a single chapter at a time while drafting:
-\includeonly{chapters/introduction}
+\includeonly{chapters/appendices}
 %==============================================================================
 
 \begin{document}
@@ -128,10 +128,15 @@ submission is now made, the author has not been registered as a candidate for an
 other award. This thesis has not been submitted in whole, or in part, for any
 other degree.
 
-\vspace{1cm}
-\noindent Andrea Sante\\
+\bigskip
+\noindent Andrea Sante\\\\
 Astrophysics Research Institute\\
 Liverpool John Moores University\\
+IC2, Liverpool Science Park\\
+146 Brownlow Hill\\
+Liverpool\\
+L3 5RF\\
+UK
 % TODO: address / date.
 
 %-------------------------------------------------------------------- abstract
@@ -154,8 +159,72 @@ and finally applying this machinery to the real Galaxy (Chapter~\ref{chap:chapte
 %------------------------------------------------------------------ publications
 \chapter*{Publications}
 \addcontentsline{toc}{chapter}{Publications}
-% TODO: list the publications underlying Chapters 2--5 and your contribution to each.
-[List of publications goes here.]
+
+During the course of the preparation of this thesis, the work within
+Chapters~\ref{chap:chapter2}, \ref{chap:chapter3}, \ref{chap:chapter4},
+and~\ref{chap:chapter5} has been presented in the following jointly authored
+publications:
+
+\bigskip
+
+\noindent 1 \textit{`Applying machine learning to Galactic Archaeology: how well can we
+recover the origin of stars in Milky Way-like galaxies?'}\\
+\textbf{Sante, A.,} Font, A. S., Ortega-Martorell, S., Olier, I.,
+\& McCarthy, I. G.
+% TODO: add journal, volume, issue, year once published/accepted.
+
+\bigskip
+
+\noindent 2 \textit{`Optimized HDBSCAN clustering for reconstructing the merger history
+of the Milky Way: applications and limitations'}\\
+\textbf{Sante, A.,} Font, A. S., Mistry, I., Ortega-Martorell, S., \& Olier, I.
+% TODO: add journal, volume, issue, year once published/accepted.
+
+\bigskip
+
+\noindent 3 \textit{`GalactiKit: reconstructing mergers from $z=0$ debris using
+simulation-based inference in Auriga'}\\
+\textbf{Sante, A.,} Kawata, D., Font, A. S., \& Grand, R. J. J.
+% TODO: add journal, volume, issue, year once published/accepted.
+
+\bigskip
+
+\noindent 4 \textit{`A simulation-based inference of the Milky Way merger history'}\\
+\textbf{Sante, A.,} Font, A. S., Kawata, D., Makinen, T. L., \& Grand, R. J. J.
+% TODO: add journal, volume, issue, year once published/accepted.
+
+\bigskip
+
+Publication~1 forms the basis of Chapter~\ref{chap:chapter2}. It presents
+several machine learning models trained on the
+\texttt{ARTEMIS} cosmological zoom-in simulations
+to separate accreted from in-situ
+stars in Milky Way-mass galaxies. All analysis was carried out by
+A.~Sante with major scientific contributions from A.S. Font. The implementation
+of the machine learning models was reviewed and supported by 
+% TODO: expand contribution statement (co-author roles, manuscript preparation).
+
+Publication~2 forms the basis of Chapter~\ref{chap:chapter3}. It investigates
+the effectiveness of the HDBSCAN clustering algorithm for recovering the
+progenitors of Milky Way-type galaxies using the Auriga simulations,
+introducing a 12-dimensional chemodynamical feature space and an optimisation
+strategy to reduce fragmentation. All analysis was carried out by A.~Sante.
+% TODO: expand contribution statement (co-author roles, manuscript preparation).
+
+Publication~3 forms the basis of Chapter~\ref{chap:chapter4}. It presents
+GalactiKit, a simulation-based inference framework for estimating the infall
+time, stellar mass, halo mass and mass ratio of disrupted progenitors from
+the properties of their $z=0$ debris in the Auriga simulations. All analysis
+was carried out by A.~Sante.
+% TODO: expand contribution statement (co-author roles, manuscript preparation).
+
+Publication~4 forms the basis of Chapter~\ref{chap:chapter5}. It applies a
+normalizing-flow simulation-based inference framework, trained on Auriga
+debris samples, to a local sample of accreted stars in the Milky Way,
+inferring the accretion times and masses of several known merger events
+and placing constraints on the growth of the Galactic halo. All analysis
+was carried out by A.~Sante.
+% TODO: expand contribution statement (co-author roles, manuscript preparation).
 
 %--------------------------------------------------------------- acknowledgements
 \chapter*{Acknowledgements}
