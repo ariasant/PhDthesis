@@ -49,6 +49,12 @@ Abadi M.,  et~al., 2016, in 12th USENIX Symposium on Operating Systems Design
 {Agertz} O.,  et~al., 2021, \mn@doi [\mnras] {10.1093/mnras/stab322}, \href
   {https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.5826A} {503, 5826}
 
+\bibitem[\protect\citeauthoryear{{Akeson} et~al.,}{{Akeson}
+  et~al.}{2019}]{Roman}
+{Akeson} R.,  et~al., 2019, \mn@doi [arXiv e-prints]
+  {10.48550/arXiv.1902.05569}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019arXiv190205569A} {p. arXiv:1902.05569}
+
 \bibitem[\protect\citeauthoryear{Akiba, Sano, Yanase, Ohta  \& Koyama}{Akiba
   et~al.}{2019}]{Akiba2019}
 Akiba T.,  Sano S.,  Yanase T.,  Ohta T.,   Koyama M.,  2019, Optuna: A
@@ -354,6 +360,11 @@ ACM, New York, NY, USA, p. 785–794, \mn@doi{10.1145/2939672.2939785}
   \mn@doi [\mnras] {10.1093/mnras/stv2057}, \href
   {https://ui.adsabs.harvard.edu/abs/2015MNRAS.454.3185C} {454, 3185}
 
+\bibitem[\protect\citeauthoryear{{Cooper} et~al.,}{{Cooper}
+  et~al.}{2023}]{Cooper2023}
+{Cooper} A.~P.,  et~al., 2023, \mn@doi [\apj] {10.3847/1538-4357/acb3c0}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023ApJ...947...37C} {947, 37}
+
 \bibitem[\protect\citeauthoryear{{Crain} \& {van de Voort}}{{Crain} \& {van de
   Voort}}{2023}]{Crain2023}
 {Crain} R.~A.,  {van de Voort} F.,  2023, \mn@doi [\araa]
@@ -472,6 +483,12 @@ ACM, New York, NY, USA, p. 785–794, \mn@doi{10.1145/2939672.2939785}
   et~al.}{1996}]{Ester1996}
 Ester M.,  Kriegel H.-P.,  Sander J.,   Xu X.,  1996, in Proc. of 2nd
   International Conference on Knowledge Discovery and. pp 226--231
+
+\bibitem[\protect\citeauthoryear{{Euclid Collaboration} et~al.,}{{Euclid
+  Collaboration} et~al.}{2025}]{Euclid2025}
+{Euclid Collaboration} et~al., 2025, \mn@doi [\aap]
+  {10.1051/0004-6361/202450810}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025A&A...697A...1E} {697, A1}
 
 \bibitem[\protect\citeauthoryear{{Evans}, {Fattahi}, {Deason}  \&
   {Frenk}}{{Evans} et~al.}{2020}]{Evans2020}
@@ -755,6 +772,11 @@ Germain M.,  Gregor K.,  Murray I.,   Larochelle H.,  2015, in Bach F.,  Blei
   {10.1093/mnras/stae878}, \href
   {https://ui.adsabs.harvard.edu/abs/2024MNRAS.530...95G} {530, 95}
 
+\bibitem[\protect\citeauthoryear{{Guzman} et~al.,}{{Guzman}
+  et~al.}{2022}]{Guzman2022}
+{Guzman} R.,  et~al., 2022, in EAS2022, European Astronomical Society Annual
+  Meeting. p.~1507
+
 \bibitem[\protect\citeauthoryear{{H{\"a}berle} et~al.,}{{H{\"a}berle}
   et~al.}{2024}]{Haberle2024}
 {H{\"a}berle} M.,  et~al., 2024, \mn@doi [\nat] {10.1038/s41586-024-07511-z},
@@ -1026,6 +1048,11 @@ Huertas-Company M.,  Lanusse F.,  2023, \mn@doi [\pasa] {10.1017/pasa.2022.55},
   J.~S.,   {Gallazzi} A.,  2013, \mn@doi [\apj] {10.1088/0004-637X/779/2/102},
   \href {https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K} {779, 102}
 
+\bibitem[\protect\citeauthoryear{{Kisku} et~al.,}{{Kisku}
+  et~al.}{2025}]{Kisku2025}
+{Kisku} S.,  et~al., 2025, \mn@doi [\mnras] {10.1093/mnras/staf1075}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025MNRAS.542...76K} {542, 76}
+
 \bibitem[\protect\citeauthoryear{{Kizhuprakkat} et~al.,}{{Kizhuprakkat}
   et~al.}{2024}]{Kizhuprakkat2024}
 {Kizhuprakkat} N.,  et~al., 2024, \mn@doi [\mnras] {10.1093/mnras/stae1415},
@@ -1292,6 +1319,11 @@ McInnes L.,  Healy J.,  Saul N.,   Grossberger L.,  2018b, J. Open Source
 \bibitem[\protect\citeauthoryear{{McWilliam}}{{McWilliam}}{1997}]{McWilliam1997}
 {McWilliam} A.,  1997, \mn@doi [\araa] {10.1146/annurev.astro.35.1.503}, \href
   {https://ui.adsabs.harvard.edu/abs/1997ARA&A..35..503M} {35, 503}
+
+\bibitem[\protect\citeauthoryear{{M{\'e}sz{\'a}ros} et~al.,}{{M{\'e}sz{\'a}ros}
+  et~al.}{2025}]{Meszaros2025}
+{M{\'e}sz{\'a}ros} S.,  et~al., 2025, \mn@doi [\aj] {10.3847/1538-3881/ade4b9},
+  \href {https://ui.adsabs.harvard.edu/abs/2025AJ....170...96M} {170, 96}
 
 \bibitem[\protect\citeauthoryear{{Meza}, {Navarro}, {Abadi}  \&
   {Steinmetz}}{{Meza} et~al.}{2005}]{Meza2005}
