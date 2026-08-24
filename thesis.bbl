@@ -49,12 +49,6 @@ Abadi M.,  et~al., 2016, in 12th USENIX Symposium on Operating Systems Design
 {Agertz} O.,  et~al., 2021, \mn@doi [\mnras] {10.1093/mnras/stab322}, \href
   {https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.5826A} {503, 5826}
 
-\bibitem[\protect\citeauthoryear{{Akeson} et~al.,}{{Akeson}
-  et~al.}{2019}]{Roman}
-{Akeson} R.,  et~al., 2019, \mn@doi [arXiv e-prints]
-  {10.48550/arXiv.1902.05569}, \href
-  {https://ui.adsabs.harvard.edu/abs/2019arXiv190205569A} {p. arXiv:1902.05569}
-
 \bibitem[\protect\citeauthoryear{Akiba, Sano, Yanase, Ohta  \& Koyama}{Akiba
   et~al.}{2019}]{Akiba2019}
 Akiba T.,  Sano S.,  Yanase T.,  Ohta T.,   Koyama M.,  2019, Optuna: A
@@ -1001,7 +995,7 @@ Huertas-Company M.,  Lanusse F.,  2023, \mn@doi [\pasa] {10.1017/pasa.2022.55},
 
 \bibitem[\protect\citeauthoryear{{Kawata} \& {Chiappini}}{{Kawata} \&
   {Chiappini}}{2016}]{Kawata2016}
-{Kawata} D.,  {Chiappini} C.,  2016, \mn@doi [Astronomische Nachrichten]
+{Kawata} D.,  {Chiappini} C.,  2016, \mn@doi [Astron. Nachr.]
   {10.1002/asna.201612421}, \href
   {https://ui.adsabs.harvard.edu/abs/2016AN....337..976K} {337, 976}
 
@@ -1333,9 +1327,8 @@ McInnes L.,  Healy J.,  Saul N.,   Grossberger L.,  2018b, J. Open Source
 
 \bibitem[\protect\citeauthoryear{{Miglio} et~al.,}{{Miglio}
   et~al.}{2017}]{Miglio2017}
-{Miglio} A.,  et~al., 2017, \mn@doi [Astronomische Nachrichten]
-  {10.1002/asna.201713385}, \href
-  {https://ui.adsabs.harvard.edu/abs/2017AN....338..644M} {338, 644}
+{Miglio} A.,  et~al., 2017, \mn@doi [Astron. Nachr.] {10.1002/asna.201713385},
+  \href {https://ui.adsabs.harvard.edu/abs/2017AN....338..644M} {338, 644}
 
 \bibitem[\protect\citeauthoryear{{Monachesi}, {Bell}, {Radburn-Smith},
   {Bailin}, {de Jong}, {Holwerda}, {Streich}  \& {Silverstein}}{{Monachesi}
@@ -1692,6 +1685,12 @@ Rubin D.~B.,  1984, \mn@doi [Ann. Statist.] {10.1214/aos/1176346785}, 12, 1151
 {Sanderson} R.~E.,  et~al., 2020, \mn@doi [\apjs] {10.3847/1538-4365/ab5b9d},
   \href {https://ui.adsabs.harvard.edu/abs/2020ApJS..246....6S} {246, 6}
 
+\bibitem[\protect\citeauthoryear{{Sanderson} et~al.,}{{Sanderson}
+  et~al.}{2026}]{Sanderson2026}
+{Sanderson} R.~E.,  et~al., 2026, \mn@doi [arXiv e-prints]
+  {10.48550/arXiv.2603.12981}, \href
+  {https://ui.adsabs.harvard.edu/abs/2026arXiv260312981S} {p. arXiv:2603.12981}
+
 \bibitem[\protect\citeauthoryear{{Sante}, {Font}, {Ortega-Martorell}, {Olier}
   \& {McCarthy}}{{Sante} et~al.}{2024}]{Sante2024}
 {Sante} A.,  {Font} A.~S.,  {Ortega-Martorell} S.,  {Olier} I.,   {McCarthy}
@@ -1699,16 +1698,16 @@ Rubin D.~B.,  1984, \mn@doi [Ann. Statist.] {10.1214/aos/1176346785}, 12, 1151
   {https://ui.adsabs.harvard.edu/abs/2024MNRAS.531.4363S} {531, 4363}
 
 \bibitem[\protect\citeauthoryear{{Sante}, {Kawata}, {Font}  \& {Grand}}{{Sante}
-  et~al.}{2025a}]{Sante2025a}
-{Sante} A.,  {Kawata} D.,  {Font} A.~S.,   {Grand} R. J.~J.,  2025a, \mn@doi
+  et~al.}{2025}]{Sante2025a}
+{Sante} A.,  {Kawata} D.,  {Font} A.~S.,   {Grand} R. J.~J.,  2025, \mn@doi
   [\mnras] {10.1093/mnras/staf1343}, \href
   {https://ui.adsabs.harvard.edu/abs/2025MNRAS.tmp.1292S} {}
 
 \bibitem[\protect\citeauthoryear{{Sante}, {Font}, {Mistry}, {Ortega-Martorell}
-  \& {Olier}}{{Sante} et~al.}{2025b}]{Sante2025b}
+  \& {Olier}}{{Sante} et~al.}{2026}]{Sante2025b}
 {Sante} A.,  {Font} A.~S.,  {Mistry} D.,  {Ortega-Martorell} S.,   {Olier} I.,
-  2025b, \mn@doi [arXiv e-prints] {10.48550/arXiv.2509.09839}, \href
-  {https://ui.adsabs.harvard.edu/abs/2025arXiv250909839S} {p. arXiv:2509.09839}
+  2026, \mn@doi [\mnras] {10.1093/mnras/stag503}, \href
+  {https://ui.adsabs.harvard.edu/abs/2026MNRAS.547ag503S} {547, stag503}
 
 \bibitem[\protect\citeauthoryear{{Sarkar} et~al.,}{{Sarkar}
   et~al.}{2025}]{Sarkar2025}

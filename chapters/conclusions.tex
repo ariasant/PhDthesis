@@ -9,17 +9,17 @@ The work in this thesis represents an effort in advancing the methodologies for
 reconstructing the assembly history of the Milky Way by improving and, in some cases,
 pioneering the application of state-of-the-art machine learning methods on
 cosmological hydrodynamical simulations.  
-Moving towards a fully data-driven reconstruction of the Galaxy merger history is necessary to
+Moving towards a fully data-driven reconstruction of the Galactic merger history is necessary to
 harness the information in the large amount of data from modern surveys to extract
-insights and constrain our understanding of Galaxy Formation.   
+insights and constrain our understanding of galaxy formation.   
 Each chapter of this thesis adresses one core challenge in this process. The main conclusions
 of the study are summarised below.
 
 \bigskip
 
 In Chapter~\ref{chap:chapter2} I propose a data-driven identification of accreted stars showing that
-the choice of machine learning algorithm is indifferent for the task. The discriminant
-is the choice of the parameter space in which the classification is performed. The full chrono-chemo-dynamical
+the choice of machine learning algorithm is not as important as the choice of the parameter space in which the classification is performed. 
+The full chrono-chemo-dynamical
 information of the stellar content allows for the optimal separation between the accreted and in-situ 
 populations (purity $\sim60\%$ and completeness $\sim90\%$); however, the photometric and kinematic
 properties of stars also provide a ground of similar quality for the separation. This is
@@ -31,24 +31,24 @@ methods can have an immediate impact in the identification of accreted stars in 
 However, these conclusions rely on cosmological simulations, which do not resolve 
 single stars but approximate entire stellar populations as single particles. 
 This inevitably leads to differences in the chemo-dynamical distributions of stars in the
-simulations compared to the one observed in the Milky Way. For instance, stars belonging to a single stellar populations 
-appear in different stages of stellar evolution and, as such, present a variance in their photometric and chemical abundances 
-which is ignored in the smoothed-particle hydrodynamics approximation in simulations.
+simulations compared to the one observed in the Milky Way. For instance, stars belonging to a single stellar population 
+appear in different stages of their stellar evolution and, as such, present a variance in their photometric and chemical abundances 
+which is ignored in the smoothed-particle hydrodynamics approximation in the simulations.
 
 
 Following the identification of accreted stars, Chapter~\ref{chap:chapter3} presents the first data-driven optimisation
-of the parameters of the \texttt{HDBSCAN} algorithm, which is popularly used for the identification of accreted substructure 
-in the Milky Way. I show that tuning the \texttt{HDBSCAN} parameters to maximise the DBCV metric, an intrinsic 
-metric assessing the intra-cluster density, leads to a configuration of the model which is also optimal
+of the parameters of the \texttt{HDBSCAN} algorithm, which is commonly used for the identification of accreted substructure 
+in the Milky Way. I show that tuning the \texttt{HDBSCAN} parameters to maximise the DBCV metric (an intrinsic 
+metric assessing the intra-cluster density) leads to a configuration of the model which is also optimal
 in terms of the purity and completeness of the single clusters. This is a promising result as clustering
 with arbitrary parameter initialisation have been shown to return clusters dominated by
 in-situ stars or stars from multiple progenitors \citep{Thomas2025}. 
-The developed of a parameter optimisation pipeline provides, instead, a way of automatically tuning these models
+The development of a parameter optimisation pipeline provides, instead, a way of automatically tune these models
 to maximise cluster purity. When applied to a pure samples of accreted stars, the resulting \texttt{HDBSCAN} model is able to retrieve
 merger events up to $z\sim3$, while in the presence of in-situ stars, this threshold lowers to $z\sim1$ due to phase-mixing 
 effects and the similar chemical abundances between the different building blocks of the galaxy.
 
-In Chapter~\ref{chap:chapter4} I develop GalactiKit, a pioneering application of simulation-based inference for the prediction of the infall time,
+In Chapter~\ref{chap:chapter4}, I develop GalactiKit, a pioneering application of simulation-based inference for the prediction of the infall time,
 stellar and halo mass, and halo mass merger ratio of the disrupted progenitors of the Milky Way from the chemo-dynamical properties
 of their debris at $z=0$. This methodology leverages the information encoded in the \texttt{Auriga} cosmological hydrodynamical simulations to create
 a data-driven mapping between galaxy and stellar properties.
@@ -57,7 +57,7 @@ lookback infall time of progenitors, a known result for intact satellites \citep
 Similarly, I show that stellar chemical abundances are also tracers of the satellite accretion time, due to the effect that this 
 time scale has on the chemical evolution of the system, and stellar mass, as expected from
 the stellar mass-halo mass relation \citep{Kirby2013}. Combining the kinematic and chemical properties of debris
-provides the largest amount of information in reconstructing the properties of a satellite, with the kinematic information improving
+provides the largest amount of information for reconstructing the properties of a satellite, with the kinematic information improving
 the estimate of the stellar and halo mass estimates of low-mass, high-metallicity systems.
 
 Finally, Chapter~\ref{chap:chapter5} applies GalactiKit to observed accreted substructures in the Milky Way. 
@@ -65,10 +65,10 @@ A central challenge is that simulation-trained models are applied to observation
 distribution. I address this by modelling the simulation-to-observation discrepancy in stellar properties as a 
 stochastic ``calibration noise'', augmenting the \texttt{Auriga} training set with draws from this distribution, 
 and marginalising the residual uncertainty through the Fishnets data-compression model. 
-By applying this improved version of GalactiKit, I have obtained the largest,
-self-consistent reconstruction of the assembly history of the Milky Way. I predict that the accreted stellar content in out Galaxy
+By applying this improved version of GalactiKit, I obtained the largest,
+self-consistent reconstruction of the assembly history of the Milky Way. The model predicts that the accreted stellar content in out Galaxy
 amounts to $2.2^{+1.1}_{-0.6} \times 10^{9}~\rm{M_{\sun}}$, most of which was accreted between $z\sim2$ and $z\sim1$. The majority 
-of this mass comes from the accretion of the GES and Sagittarius dwarf galaxies, contributing 0.43 and 0.30 of the total accreted
+of this mass comes from the accretion of the GES and Sagittarius dwarf galaxies, contributing a fraction of 0.43 and 0.30 of the total accreted
 stellar content, respectively. Combining the predictions on the halo mass and halo mass merger ratio of the Milky Way progenitors, 
 I estimated the growth of the Milky Way dark matter halo predicting it is not fully explained by the current census of mergers, hence
 hinting to potential undetected events, or early epoch of dominated by the accretion of dark matter-only systems.  
@@ -76,27 +76,27 @@ hinting to potential undetected events, or early epoch of dominated by the accre
 \bigskip
 
 While providing predictions on the Milky Way assembly history, the work in Chapter~\ref{chap:chapter5} relies on
-the identification of accreted substrctures determined using out-of-the-box
-clustering algorithms on samples of accreted stars selected through hard selection cuts. 
+the identification of accreted substrctures determined using without fine-tuning
+clustering algorithms on samples of accreted stars selected through observationally-informed selection cuts. 
 Despite the work in this thesis presents data-driven methodologies for the individual steps involved in 
-a Galactic Archaelology study, the development of a fully data-driven, end-to-end pipeline remain challenging.
+a Galactic archaelology study, the development of a fully data-driven, end-to-end pipeline remains challenging.
 The current clustering methodology developed in Chapter~\ref{chap:chapter3} requires complete and pure samples of accreted
 stars to retrieve mergers occurring before $z\sim1$, while the classification model developed in Chapter~\ref{chap:chapter3}
 retrieves accreted samples with 0.60 purity
-at the fiducial classification threshold. Moreover, the absence of a domain adaptation technique addressing the 
+at the fiducial classification threshold. Moreover, the absence of a domain-adaptation technique addressing the 
 difference between the simulated and observed stellar properties, makes the performance of the classifier on observational data uncertain. 
 
-Therefore, the most imminent work direction is the validation of the current clustering methodolgy in case where the 
-contamination of in-situ stars is significant to probe the relationship between the latest retrivable
+Therefore, the most promising work direction is the validation of the current clustering methodolgy in case where the 
+contamination of in-situ stars is significant to probe the relationship between the latest retrievable
 redshift of accretion and the fraction of in-situ stars in the accreted sample. This would inform on 
 whether better classification models are required to better probe the assembly history of the Galaxy. 
 The separation between accreted and in-situ stars can be improved using context-aware architectures, 
-such as attention or graph neural networks, which encoding each star's galactic context as an 
+such as attention or graph neural networks, that encode each star's galactic context as an 
 embedding alongside its stellar properties. 
 Regardless of architecture, a domain-adaptation term is necessary to ensure 
 robust performance on observational data.
 
-With the advent of a new era of large-scale stellar surveys, the development of such an end-to-end data-driven pipeline becomes a priority.
+With the advent of a new era of larger Galactic surveys, the development of such an end-to-end data-driven pipeline becomes a priority.
 The fourth data release of Gaia, expected in December 2026 \citep{GaiaCollaboration2016a}, 
 will exploit the full $\sim$10-year operational baseline to deliver proper motions for over 2 billion stars with a precision up to $\sim$0.010~mas~yr$^{-1}$, 
 as well as yielding medium-resolution chemical abundances for more than 5 million stars.
@@ -109,7 +109,7 @@ Together, these surveys will provide accurate chemo-dynamical measurements for t
 forming the observational foundation on which the data-driven methods can be exploit to constrain the formation history of the Milky Way. 
 
 Looking further ahead, a new generation of wide-field space observatories will broaden the scope of 
-Galactic Archaeology from a study of one galaxy into a comparative, statistical science.
+Galactic archaeology from a study of one galaxy into a comparative, statistical science.
 The Vera~C. Rubin Observatory's Legacy Survey of Space and Time \citep[LSST;][]{Ivezic2008}, 
 now underway, will map $\sim$10 billion stars to a coadded depth of $r\sim$27.5~mag over $\sim$18\,000~deg$^{2}$, 
 with a surface brightness limit of $\sim$30--31~mag~arcsec$^{-2}$ that will prove transformative 
@@ -120,12 +120,15 @@ On Local Group scales, the Euclid satellite \citep{Euclid2025}, which is already
 resolve individual stars in M31 and its dwarf satellites with its VIS imager reaching 
 a surface brightness of $\sim$29--31~mag~arcsec$^{-2}$ providing detailed photometry  
 for dozens of Local Group galaxies.
-The Nancy Grace Roman Space Telescope \citep{Roman}
-will provide complementary deep near-infrared colour-magnitude diagrams 
-for resolved stellar populations throughout the Local Group at 0.11~arcsec~pixel$^{-1}$.
+The High Latitude Wide Area 
+Survey of the Nancy Grace Roman Space Telescope is expected to observe
+over $\sim2,400~\rm{deg}^2$ of the southern sky at a depth of $\sim26.5$~mag (AB) 
+enabling the detailed measurements of 59 known stellar streams and 14 known satellite
+galaxies in the Milky Way as well as 37 Local Volume galaxies within $10$~Mpc \citep{Sanderson2026}. 
 Further ahead, the ARRAKIHS satellite \citep{Guzman2022}, with a launch planned for $\sim$2030,
-will conduct the first dedicated survey of the ultra-low surface brightness stellar halos, tidal streams, and satellite populations 
-of $\sim$75--80 nearby Milky Way-mass galaxies, reaching $\gtrsim$30~mag~arcsec$^{-2}$.
+will provide even more detailed observations conducting the first dedicated survey of the ultra-low surface brightness ($\sim$30~mag~arcsec$^{-2}$) 
+stellar halos, tidal streams, and satellite populations 
+of $\sim$75--80 Milky Way-mass galaxies in the Local Volume.
 
 Applied to the resolved stellar populations of Local Group galaxies via Euclid 
 and Roman, or to the halo profiles of Milky Way-mass analogues via ARRAKIHS, 

@@ -177,7 +177,7 @@ UK
 \vspace{1.5cm}
 
 The work presented in this thesis was carried out at the Astrophysics Research
-Institute, Liverpool John Moores University and at The Alan Turing Institute, London. 
+Institute, Liverpool John Moores University. 
 Unless otherwise stated, it is the original work of the author.
 
 While registered as a candidate for the degree of Doctor of Philosophy, for which
@@ -192,18 +192,50 @@ other degree.
 %-------------------------------------------------------------------- abstract
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}
-% TODO: ~300-word synopsis of the thesis (LJMU guideline).
-[Abstract goes here.]
 
-%In this thesis I develop data-driven and machine-learning methodologies that improve upon those traditionally 
-%adopted for the reconstruction of the Milky Way's assembly history. Throughout, 
-%I exploit cosmological hydrodynamical zoom-in simulations of Milky Way-mass haloes---in which the origin of 
-%every star particle is known---to build, validate and calibrate each method before applying it to observations. 
-%The work follows the logical arc of the standard workflow and extends it end to end: 
-%classifying accreted versus in-situ stars (Chapter~\ref{chap:chapter2}), 
-%grouping accreted debris into progenitors (Chapter~\ref{chap:chapter3}), 
-%characterising the properties of those progenitors at accretion (Chapter~\ref{chap:chapter4}), 
-%and finally applying this machinery to the real Galaxy (Chapter~\ref{chap:chapter5}).
+Observational evidence shows that the Milky Way has followed a hierarchical formation process,
+progressively accreting matter from smaller, in-falling satellite galaxies. The observable remnants of
+this turbulent process are stars which were tidally-disrupted from the progenitor galaxies and that
+are now orbiting within the stellar halo, a Galactic structure surrounding the disk and bulge of the Milky Way. 
+The hierarchical structure formation process and the emergence of the stellar halo are predicted by
+the standard cosmological model and reproduced by current cosmological simulations of galaxy formation. \\
+
+The scope of this thesis is to develop machine learning models to connect the theoretical understanding of 
+galaxy formation encoded in cosmological simulations to the properties of stars 
+in the stellar halo. These models are tested on the \texttt{ARTEMIS} and \texttt{Auriga} suites of
+cosmological zoom-in simulations and, ultimately, applied to the Milky Way. \\
+
+At first, I derive the optimal data-driven model to separate accreted stars from background stars by 
+comparing several machine learning algorithms and sets of stellar properties. I find that an artificial neural
+network trained on the chrono-chemo-dynamical properties of stars can recover accreted stars at 
+higher retrieval ($>90\%$) and purity ($\sim60\%$) rates than traditional selection cuts in kinematic and 
+chemical space.   \\
+
+Building on this classification, I introduce a new methodology to automatically fine-tune the 
+parameters of the \texttt{HDBSCAN} clustering algorithm, which is used to group accreted stars 
+into the progenitor satellite systems in which they formed. Contrary to models without any
+fine-tuning, the optimised \texttt{HDBSCAN} algorithm does not return spurious clusters and can detect substructures 
+from merging events up to $z\sim3$ for accreted-only stellar halos, with the horizon falling to $z\sim1$ 
+when accounting for in-situ contamination. \\
+
+Once stars are assigned to their parent progenitors, I pioneer the application of simulation-based inference 
+to characterize the properties of each merger event. I introduce GalactiKit, a framework to recover the
+infall time, stellar mass, halo mass, and merger mass ratio of a progenitor galaxy at the time of accretion
+from the present-day chemo-dynamical properties of its debris. I show that kinematics alone can be used to
+constrain the lookback time to the merger event, while chemical information is essential for the mass estimates. \\
+
+Finally, I apply the GalactiKit framework to a sample of pre-identified accreted stars in the Milky Way, 
+producing the largest, self-consistent reconstruction to date of our Galaxy's assembly history. I predict that
+the Gaia-Enceladus Sausage ($\sim43\%$) and Sagittarius ($\sim31\%$) dwarf galaxies comprise the majority of the accreted stellar content
+of the Milky Way, which is estimated in total to be $2.2^{+1.1}_{-0.6} \times 10^{9}~\rm{M_{\sun}}$. 
+I also provide an estimate of the growth of the
+Galactic halo mass between $z\sim5$ and $z\sim1$ inferring a total mass of $5.9^{+1.4}_{-1.1} \times 10^{11}~\rm{M_{\sun}}$ 
+after the accretion of Sagittarius.  \\
+
+Together, these methods constitute a novel, scalable framework for connecting present-day stellar populations 
+to the merger histories that produced them. The next steps involve integrating these individual components 
+into a single, fully automated, end-to-end pipeline for reconstructing the Milky Way's assembly history, and, 
+prospectively, extending this framework to other galaxies observed with upcoming large-scale surveys.
 
 
 %------------------------------------------------------------------ publications
@@ -240,12 +272,12 @@ simulation-based inference in Auriga'}\\
 
 \noindent 4 \textit{`A simulation-based inference of the Milky Way merger history'}\\
 \textbf{Sante, A.,} Font, A. S., Kawata, D., Makinen, T. L., \& Grand, R. J. J.,
-MNRAS, Volume ??, Issue ?.
+\href{https://doi.org/10.1093/mnras/stag1162}{MNRAS, Volume 550, Issue 2}.
 
 \bigskip
 \bigskip
 
-Publication~1 forms the basis of Chapter~\ref{chap:chapter2}. It presents
+Publication~1 is presented in Chapter~\ref{chap:chapter2}. It describes
 several machine learning models trained on the
 \texttt{ARTEMIS} cosmological zoom-in simulations
 to separate accreted from in-situ
@@ -256,7 +288,7 @@ of the machine learning models.
 
 \bigskip
 
-Publication~2 forms the basis of Chapter~\ref{chap:chapter3}. It develops
+Publication~2 is presented in Chapter~\ref{chap:chapter3}. It develops
 a novel parameter optimisation pipeline for the \texttt{HDBSCAN} clustering algorithm,
 testing its effectiveness for recovering accreted substructures under 
 different regimes of contamination of in-situ stars.
@@ -265,7 +297,7 @@ contributions from all the co-authors.
 
 \bigskip
 
-Publication~3 forms the basis of Chapter~\ref{chap:chapter4}. It presents
+Publication~3 is presented in Chapter~\ref{chap:chapter4}. It describes
 GalactiKit, a simulation-based inference framework for estimating the infall
 time, stellar mass, halo mass and halo mass merger ratio of disrupted progenitors from
 the properties of their $z=0$ debris in the Auriga simulations. The analysis
@@ -274,7 +306,7 @@ co-authors.
 
 \bigskip
 
-Publication~4 forms the basis of Chapter~\ref{chap:chapter5}. It applies 
+Publication~4 is presented in Chapter~\ref{chap:chapter5}. It applies 
 GalactiKit to a local sample of accreted stars in the Milky Way,
 inferring the accretion times and masses of several known merger events
 and placing constraints on the growth of the Galactic halo. The analysis
@@ -294,7 +326,19 @@ on the analysis of the simulation data for the comparison between disc and
 % TODO: acknowledgements.
 [Acknowledgements go here.]
 
+\clearpage
+
 %--------------------------------------------------------------------- contents
+\thispagestyle{empty}
+\vspace*{2cm}
+\hfill\begin{minipage}{0.6\textwidth}
+\raggedleft
+\textit{``All models are wrong, but some are useful.''}\\[0.5cm]
+--- George E. P. Box
+\end{minipage}
+\vfill
+\clearpage
+
 \tableofcontents
 \listoffigures
 \listoftables
