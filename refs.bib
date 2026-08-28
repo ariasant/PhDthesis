@@ -16,13 +16,14 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@inproceedings{Abadi2016,
-      title	= {TensorFlow: A system for large-scale machine learning},
-      author = {Martin Abadi and Paul Barham and Jianmin Chen and Zhifeng Chen and Andy Davis and Jeffrey Dean and Matthieu Devin and Sanjay Ghemawat and Geoffrey Irving and Michael Isard and Manjunath Kudlur and Josh Levenberg and Rajat Monga and Sherry Moore and Derek G. Murray and Benoit Steiner and Paul Tucker and Vijay Vasudevan and Pete Warden and Martin Wicke and Yuan Yu and Xiaoqiang Zheng},
-      year	= {2016},
-      URL	= {https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf},
-      booktitle	= {12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16)},
-      pages	= {265--283}
+@INPROCEEDINGS{Abadi2016,
+       author = {Abadi, Martin and Barham, Paul and Chen, Jianmin and Chen, Zhifeng and Davis, Andy and Dean, Jeffrey and Devin, Matthieu and Ghemawat, Sanjay and Irving, Geoffrey and Isard, Michael and Kudlur, Manjunath and Levenberg, Josh and Monga, Rajat and Moore, Sherry and Murray, Derek G. and Steiner, Benoit and Tucker, Paul and Vasudevan, Vijay and Warden, Pete and Wicke, Martin and Yu, Yuan and Zheng, Xiaoqiang},
+        title = {{TensorFlow}: A System for Large-Scale Machine Learning},
+    booktitle = {12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16)},
+         year = 2016,
+    publisher = {USENIX Association},
+      address = {Savannah, GA, USA},
+        pages = {265--283}
 }
 
 @ARTICLE{Abdurrouf2022,
@@ -289,20 +290,22 @@ archivePrefix = {arXiv},
 
 @ARTICLE{Belokurov2023a,
        author = {{Belokurov}, Vasily and {Kravtsov}, Andrey},
-        title = "{In-situ vs accreted Milky Way globular clusters: a new classification method and implications for cluster formation}",
-      journal = {arXiv e-prints},
-     keywords = {Astrophysics - Astrophysics of Galaxies},
-         year = 2023,
-        month = sep,
-          eid = {arXiv:2309.15902},
-        pages = {arXiv:2309.15902},
-          doi = {10.48550/arXiv.2309.15902},
+        title = "{In-situ versus accreted Milky Way globular clusters: a new classification method and implications for cluster formation}",
+      journal = {\mnras},
+     keywords = {stars: kinematics and dynamics, Galaxy: abundances, Galaxy: globular clusters, Galaxy: evolution, Galaxy: formation, Galaxy: structure, Astrophysics - Astrophysics of Galaxies},
+         year = 2024,
+        month = feb,
+       volume = {528},
+       number = {2},
+        pages = {3198-3216},
+          doi = {10.1093/mnras/stad3920},
 archivePrefix = {arXiv},
        eprint = {2309.15902},
  primaryClass = {astro-ph.GA},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv230915902B},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2024MNRAS.528.3198B},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+
 
 @ARTICLE{Belokurov2023b,
        author = {{Belokurov}, Vasily and {Kravtsov}, Andrey},
@@ -829,23 +832,19 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@InProceedings{Campello2013,
-author="Campello, Ricardo J. G. B.
-and Moulavi, Davoud
-and Sander, Joerg",
-editor="Pei, Jian
-and Tseng, Vincent S.
-and Cao, Longbing
-and Motoda, Hiroshi
-and Xu, Guandong",
-title="Density-Based Clustering Based on Hierarchical Density Estimates",
-booktitle="Advances in Knowledge Discovery and Data Mining",
-year="2013",
-publisher="Springer Berlin Heidelberg",
-address="Berlin, Heidelberg",
-pages="160--172",
-abstract="We propose a theoretically and practically improved density-based, hierarchical clustering method, providing a clustering hierarchy from which a simplified tree of significant clusters can be constructed. For obtaining a ``flat'' partition consisting of only the most significant clusters (possibly corresponding to different density thresholds), we propose a novel cluster stability measure, formalize the problem of maximizing the overall stability of selected clusters, and formulate an algorithm that computes an optimal solution to this problem. We demonstrate that our approach outperforms the current, state-of-the-art, density-based clustering methods on a wide variety of real world data.",
-isbn="978-3-642-37456-2"
+@INPROCEEDINGS{Campello2013,
+       author = {Campello, Ricardo J. G. B. and Moulavi, Davoud and Sander, Joerg},
+        title = {Density-Based Clustering Based on Hierarchical Density Estimates},
+    booktitle = {Advances in Knowledge Discovery and Data Mining},
+       editor = {Pei, Jian and Tseng, Vincent S. and Cao, Longbing and Motoda, Hiroshi and Xu, Guandong},
+         year = 2013,
+       series = {Lecture Notes in Computer Science},
+       volume = {7819},
+    publisher = {Springer Berlin Heidelberg},
+      address = {Berlin, Heidelberg},
+        pages = {160--172},
+          doi = {10.1007/978-3-642-37456-2_14},
+         isbn = {978-3-642-37456-2}
 }
 
 @ARTICLE{Carollo2007,
@@ -974,21 +973,17 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@inproceedings{Chen2016,
-author = {Chen, Tianqi and Guestrin, Carlos},
-title = {XGBoost: A Scalable Tree Boosting System},
-year = {2016},
-isbn = {9781450342322},
-publisher = {ACM},
-address = {New York, NY, USA},
-doi = {10.1145/2939672.2939785},
-abstract = {Tree boosting is a highly effective and widely used machine learning method. In this paper, we describe a scalable end-to-end tree boosting system called XGBoost, which is used widely by data scientists to achieve state-of-the-art results on many machine learning challenges. We propose a novel sparsity-aware algorithm for sparse data and weighted quantile sketch for approximate tree learning. More importantly, we provide insights on cache access patterns, data compression and sharding to build a scalable tree boosting system. By combining these insights, XGBoost scales beyond billions of examples using far fewer resources than existing systems.},
-booktitle = {Proc. 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
-pages = {785–794},
-numpages = {10},
-keywords = {large-scale machine learning},
-location = {San Francisco, California, USA},
-series = {KDD '16}
+@INPROCEEDINGS{Chen2016,
+       author = {Chen, Tianqi and Guestrin, Carlos},
+        title = {{XGBoost}: A Scalable Tree Boosting System},
+    booktitle = {Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+         year = 2016,
+       series = {KDD '16},
+    publisher = {ACM},
+      address = {New York, NY, USA},
+        pages = {785--794},
+          doi = {10.1145/2939672.2939785},
+         isbn = {9781450342322}
 }
 
 @ARTICLE{Chen2022,
@@ -1522,18 +1517,15 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@inproceedings{Ester1996,
-  added-at = {2012-06-10T16:14:44.000+0200},
-  author = {Ester, Martin and Kriegel, Hans-Peter and Sander, Jörg and Xu, Xiaowei},
-  biburl = {https://www.bibsonomy.org/bibtex/289e04610c1b5f2fa147398826b502a2d/nosebrain},
-  booktitle = {Proc. of 2nd International Conference on Knowledge Discovery and},
-  interhash = {ba33e4d6b4e5b26bd9f543f26b7d250a},
-  intrahash = {89e04610c1b5f2fa147398826b502a2d},
-  keywords = {based clustering dbscan density lecture:2014 lecture:data-mining noise},
-  pages = {226-231},
-  timestamp = {2015-02-24T23:16:12.000+0100},
-  title = {A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise},
-  year = 1996
+@INPROCEEDINGS{Ester1996,
+       author = {Ester, Martin and Kriegel, Hans-Peter and Sander, J{\"o}rg and Xu, Xiaowei},
+        title = {A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise},
+    booktitle = {Proceedings of the Second International Conference on Knowledge Discovery and Data Mining (KDD-96)},
+       editor = {Simoudis, Evangelos and Han, Jiawei and Fayyad, Usama M.},
+         year = 1996,
+    publisher = {AAAI Press},
+      address = {Portland, Oregon, USA},
+        pages = {226--231}
 }
 
 @ARTICLE{Evans2020,
@@ -2105,19 +2097,18 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@InProceedings{Germain2015,
-  title = 	 {MADE: Masked Autoencoder for Distribution Estimation},
-  author = 	 {Germain, Mathieu and Gregor, Karol and Murray, Iain and Larochelle, Hugo},
-  booktitle = 	 {Proceedings of the 32nd International Conference on Machine Learning},
-  pages = 	 {881--889},
-  year = 	 {2015},
-  editor = 	 {Bach, Francis and Blei, David},
-  volume = 	 {37},
-  series = 	 {Proceedings of Machine Learning Research},
-  address = 	 {Lille, France},
-  month = 	 {07--09 Jul},
-  publisher =    {PMLR},
-  abstract = 	 {There has been a lot of recent interest in designing neural network models to estimate a distribution from a set of examples. We introduce a simple modification for autoencoder neural networks that yields powerful generative models. Our method masks the autoencoder’s parameters to respect autoregressive constraints: each input is reconstructed only from previous inputs in a given ordering. Constrained this way, the autoencoder outputs can be interpreted as a set of conditional probabilities, and their product, the full joint probability. We can also train a single network that can decompose the joint probability in multiple different orderings. Our simple framework can be applied to multiple architectures, including deep ones. Vectorized implementations, such as on GPUs, are simple and fast. Experiments demonstrate that this approach is competitive with state-of-the-art tractable distribution estimators. At test time, the method is significantly faster and scales better than other autoregressive estimators.}
+@INPROCEEDINGS{Germain2015,
+       author = {Germain, Mathieu and Gregor, Karol and Murray, Iain and Larochelle, Hugo},
+        title = {{MADE}: Masked Autoencoder for Distribution Estimation},
+    booktitle = {Proceedings of the 32nd International Conference on Machine Learning},
+       editor = {Bach, Francis and Blei, David},
+         year = 2015,
+       series = {Proceedings of Machine Learning Research},
+       volume = {37},
+    publisher = {PMLR},
+      address = {Lille, France},
+        month = jul,
+        pages = {881--889}
 }
 
 @ARTICLE{Gilbert2009,
@@ -3252,22 +3243,23 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{Kawata2024,
+@INPROCEEDINGS{Kawata2024,
        author = {{Kawata}, Daisuke and {Grand}, Robert J.~J. and {Hunt}, Jason A.~S. and {Ciuc{\u{a}}}, Ioana},
-        title = "{Milky Way Disk}",
-      journal = {arXiv e-prints},
+        title = "{Milky Way disk}",
      keywords = {Astrophysics - Astrophysics of Galaxies},
-         year = 2024,
-        month = dec,
-          eid = {arXiv:2412.12252},
-        pages = {arXiv:2412.12252},
-          doi = {10.48550/arXiv.2412.12252},
+    booktitle = {Encyclopedia of Astrophysics, Volume 4},
+         year = 2026,
+       volume = {4},
+        month = jan,
+        pages = {38-60},
+          doi = {10.1016/B978-0-443-21439-4.00064-X},
 archivePrefix = {arXiv},
        eprint = {2412.12252},
  primaryClass = {astro-ph.GA},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv241212252K},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2026enap....4...38K},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+
 
 @ARTICLE{Kepley2007,
        author = {{Kepley}, Amanda A. and {Morrison}, Heather L. and {Helmi}, Amina and {Kinman}, T.~D. and {Van Duyne}, Jeffrey and {Martin}, John C. and {Harding}, Paul and {Norris}, John E. and {Freeman}, Kenneth C.},
@@ -3341,16 +3333,16 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@inproceedings{Kingma2016,
- author = {{Kingma}, Durk P and {Salimans}, Tim and {Jozefowicz}, Rafal and {Chen}, Xi and {Sutskever}, Ilya and {Welling}, Max},
- booktitle = {Advances in Neural Information Processing Systems 29 (NeurIPS 2016)},
- series = {NeurIPS Proceedings},
- editor = {D. Lee and M. Sugiyama and U. Luxburg and I. Guyon and R. Garnett},
- pages = {},
- publisher = {Curran Associates, Inc.},
- title = {Improved Variational Inference with Inverse Autoregressive Flow},
- volume = {29},
- year = {2016}
+@INPROCEEDINGS{Kingma2016,
+       author = {Kingma, Diederik P. and Salimans, Tim and Jozefowicz, Rafal and Chen, Xi and Sutskever, Ilya and Welling, Max},
+        title = {Improved Variational Inference with Inverse Autoregressive Flow},
+    booktitle = {Advances in Neural Information Processing Systems 29 (NeurIPS 2016)},
+       editor = {Lee, D. and Sugiyama, M. and Luxburg, U. and Guyon, I. and Garnett, R.},
+         year = 2016,
+       series = {NeurIPS Proceedings},
+       volume = {29},
+    publisher = {Curran Associates, Inc.},
+        pages = {4743--4751}
 }
 
 @ARTICLE{Kirby2013,
@@ -3390,6 +3382,7 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
+
 @ARTICLE{Klambauer2017,
        author = {{Klambauer}, G{\"u}nter and {Unterthiner}, Thomas and {Mayr}, Andreas and {Hochreiter}, Sepp},
         title = "{Self-Normalizing Neural Networks}",
@@ -3406,6 +3399,8 @@ archivePrefix = {arXiv},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2017arXiv170602515K},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+
+
 
 @ARTICLE{Klement2009,
        author = {{Klement}, R. and {Rix}, H. -W. and {Flynn}, C. and {Fuchs}, B. and {Beers}, T.~C. and {Allende Prieto}, C. and {Bizyaev}, D. and {Brewington}, H. and {Lee}, Y.~S. and {Malanushenko}, E. and {Malanushenko}, V. and {Oravetz}, D. and {Pan}, K. and {Re Fiorentin}, P. and {Simmons}, A. and {Snedden}, S.},
@@ -3867,13 +3862,15 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@inproceedings{MacQueen1967,
-  title={Multivariate observations},
-  author={MacQueen, J},
-  booktitle={Proceedings ofthe 5th Berkeley Symposium on Mathematical Statisticsand Probability},
-  volume={1},
-  pages={281--297},
-  year={1967}
+@INPROCEEDINGS{MacQueen1967,
+       author = {MacQueen, James},
+        title = {Some Methods for Classification and Analysis of Multivariate Observations},
+    booktitle = {Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability},
+         year = 1967,
+       volume = {1},
+    publisher = {University of California Press},
+      address = {Berkeley, CA},
+        pages = {281--297}
 }
 
 @ARTICLE{Majewski2017,
@@ -4026,7 +4023,6 @@ archivePrefix = {arXiv},
 
 @misc{MartinAbadi2015,
 title={ {TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
-url={https://www.tensorflow.org/},
 note={Software available from tensorflow.org},
 author={
     Mart\'{i}n~Abadi and
@@ -4414,11 +4410,15 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@inproceedings{Moulavi2014,
-  title={Density-Based Clustering Validation},
-  author={Davoud Moulavi and Pablo A. Jaskowiak and Ricardo J. G. B. Campello and Arthur Zimek and J{\"o}rg Sander},
-  booktitle={SDM},
-  year={2014},
+@INPROCEEDINGS{Moulavi2014,
+       author = {Moulavi, Davoud and Jaskowiak, Pablo A. and Campello, Ricardo J. G. B. and Zimek, Arthur and Sander, J{\"o}rg},
+        title = {Density-Based Clustering Validation},
+    booktitle = {Proceedings of the 2014 SIAM International Conference on Data Mining (SDM)},
+         year = 2014,
+    publisher = {SIAM},
+      address = {Philadelphia, PA},
+        pages = {839--847},
+          doi = {10.1137/1.9781611973440.96}
 }
 
 @article{Murtagh2012,
@@ -4777,16 +4777,16 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@inproceedings{Papamakarios2017,
- author = {Papamakarios, George and Pavlakou, Theo and Murray, Iain},
- booktitle = {Advances in Neural Information Processing Systems 30 (NIPS 2017)},
- series = {NeurIPS Proceedings},
- editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
- pages = {},
- publisher = {Curran Associates, Inc.},
- title = {Masked Autoregressive Flow for Density Estimation},
- volume = {30},
- year = {2017}
+@INPROCEEDINGS{Papamakarios2017,
+       author = {Papamakarios, George and Pavlakou, Theo and Murray, Iain},
+        title = {Masked Autoregressive Flow for Density Estimation},
+    booktitle = {Advances in Neural Information Processing Systems 30 (NIPS 2017)},
+       editor = {Guyon, I. and Von Luxburg, U. and Bengio, S. and Wallach, H. and Fergus, R. and Vishwanathan, S. and Garnett, R.},
+         year = 2017,
+       series = {NeurIPS Proceedings},
+       volume = {30},
+    publisher = {Curran Associates, Inc.},
+        pages = {2335--2344}
 }
 
 @article{Papamakarios2021,
@@ -5260,21 +5260,15 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@inproceedings{Rosenberg2007,
-  added-at = {2021-08-06T00:00:00.000+0200},
-  author = {Rosenberg, Andrew and Hirschberg, Julia},
-  biburl = {https://www.bibsonomy.org/bibtex/2b539a96d749031504cf7f732f748b6df/dblp},
-  booktitle = {EMNLP-CoNLL},
-  editor = {Eisner, Jason},
-  ee = {https://aclanthology.org/D07-1043/},
-  interhash = {07bb9cbf44b156e34d57c40b9d2fd314},
-  intrahash = {b539a96d749031504cf7f732f748b6df},
-  keywords = {dblp},
-  pages = {410-420},
-  publisher = {ACL},
-  timestamp = {2024-04-09T22:54:11.000+0200},
-  title = {V-Measure: A Conditional Entropy-Based External Cluster Evaluation Measure.},
-  year = 2007
+@INPROCEEDINGS{Rosenberg2007,
+       author = {Rosenberg, Andrew and Hirschberg, Julia},
+        title = {{V-Measure}: A Conditional Entropy-Based External Cluster Evaluation Measure},
+    booktitle = {Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)},
+       editor = {Eisner, Jason},
+         year = 2007,
+    publisher = {Association for Computational Linguistics},
+      address = {Prague, Czech Republic},
+        pages = {410--420}
 }
 
 @article{Rubin1984,
@@ -6288,22 +6282,27 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
+
 @ARTICLE{Widmark2025,
        author = {{Widmark}, Axel and {Johnston}, Kathryn V.},
-        title = "{Using simulation based inference on tidally perturbed dwarf galaxies: the dynamics of NGC205}",
-      journal = {arXiv e-prints},
-     keywords = {Astrophysics - Astrophysics of Galaxies},
+        title = "{Using Simulation-based Inference on Tidally Perturbed Dwarf Galaxies: The Dynamics of NGC 205}",
+      journal = {\apj},
+     keywords = {Dwarf galaxies, Galaxy kinematics, Local Group, Astronomy data analysis, Computational astronomy, 416, 602, 929, 1858, 293, Astrophysics of Galaxies},
          year = 2025,
-        month = jan,
-          eid = {arXiv:2501.13148},
-        pages = {arXiv:2501.13148},
-          doi = {10.48550/arXiv.2501.13148},
+        month = jul,
+       volume = {987},
+       number = {2},
+          eid = {120},
+        pages = {120},
+          doi = {10.3847/1538-4357/add887},
 archivePrefix = {arXiv},
        eprint = {2501.13148},
  primaryClass = {astro-ph.GA},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2025arXiv250113148W},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2025ApJ...987..120W},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+
+
 
 @ARTICLE{Woody2025,
        author = {{Woody}, Turner and {Conroy}, Charlie and {Cargile}, Phillip and {Bonaca}, Ana and {Chandra}, Vedant and {Han}, Jiwon Jesse and {Johnson}, Benjamin D. and {Naidu}, Rohan P. and {Ting}, Yuan-Sen},

@@ -205,10 +205,10 @@ galaxy formation encoded in cosmological simulations to the properties of stars
 in the stellar halo. These models are tested on the \texttt{ARTEMIS} and \texttt{Auriga} suites of
 cosmological zoom-in simulations and, ultimately, applied to the Milky Way. \\
 
-At first, I derive the optimal data-driven model to separate accreted stars from background stars by 
+At first, I derive the a data-driven model to separate accreted stars from background stars by 
 comparing several machine learning algorithms and sets of stellar properties. I find that an artificial neural
 network trained on the chrono-chemo-dynamical properties of stars can recover accreted stars at 
-higher retrieval ($>90\%$) and purity ($\sim60\%$) rates than traditional selection cuts in kinematic and 
+higher retrieval ($>90\%$) and purity ($\sim60\%$) rates than observationally-motivated selection cuts in kinematic and 
 chemical space.   \\
 
 Building on this classification, I introduce a new methodology to automatically fine-tune the 
@@ -218,23 +218,23 @@ fine-tuning, the optimised \texttt{HDBSCAN} algorithm does not return spurious c
 from merging events up to $z\sim3$ for accreted-only stellar halos, with the horizon falling to $z\sim1$ 
 when accounting for in-situ contamination. \\
 
-Once stars are assigned to their parent progenitors, I pioneer the application of simulation-based inference 
+Once stars are grouped into the galaxies where they formed, I pioneer the application of simulation-based inference 
 to characterize the properties of each merger event. I introduce GalactiKit, a framework to recover the
 infall time, stellar mass, halo mass, and merger mass ratio of a progenitor galaxy at the time of accretion
 from the present-day chemo-dynamical properties of its debris. I show that kinematics alone can be used to
 constrain the lookback time to the merger event, while chemical information is essential for the mass estimates. \\
 
 Finally, I apply the GalactiKit framework to a sample of pre-identified accreted stars in the Milky Way, 
-producing the largest, self-consistent reconstruction to date of our Galaxy's assembly history. I predict that
+producing the largest, self-consistent reconstruction of our Galaxy's assembly history to date. I predict that
 the Gaia-Enceladus Sausage ($\sim43\%$) and Sagittarius ($\sim31\%$) dwarf galaxies comprise the majority of the accreted stellar content
-of the Milky Way, which is estimated in total to be $2.2^{+1.1}_{-0.6} \times 10^{9}~\rm{M_{\sun}}$. 
-I also provide an estimate of the growth of the
-Galactic halo mass between $z\sim5$ and $z\sim1$ inferring a total mass of $5.9^{+1.4}_{-1.1} \times 10^{11}~\rm{M_{\sun}}$ 
+of the Milky Way, which amounts to a total mass of $2.2^{+1.1}_{-0.6} \times 10^{9}~\rm{M_{\sun}}$. 
+I also provide an estimate of the growth of the total mass of the
+Galactic halo between mergers between $z\sim5$ and $z\sim1$ inferring a total mass of the Milky Way of $5.9^{+1.4}_{-1.1} \times 10^{11}~\rm{M_{\sun}}$ 
 after the accretion of Sagittarius.  \\
 
 Together, these methods constitute a novel, scalable framework for connecting present-day stellar populations 
 to the merger histories that produced them. The next steps involve integrating these individual components 
-into a single, fully automated, end-to-end pipeline for reconstructing the Milky Way's assembly history, and, 
+into a single, end-to-end pipeline for reconstructing the Milky Way's assembly history, and, 
 prospectively, extending this framework to other galaxies observed with upcoming large-scale surveys.
 
 
@@ -323,8 +323,21 @@ on the analysis of the simulation data for the comparison between disc and
 %--------------------------------------------------------------- acknowledgements
 \chapter*{Acknowledgements}
 \addcontentsline{toc}{chapter}{Acknowledgements}
-% TODO: acknowledgements.
-[Acknowledgements go here.]
+
+The work presented in this thesis has been possible only through the support of the amazing people I have had the pleasure of meeting in the past four years.
+I first and foremost must thank Prof. Andreea S. Font for her continuous support and trust in my academic and career decisions, even when they often took me away from Liverpool. I am very grateful for the possibility Andreea gave me to shape the course of my PhD and for being a career model and an example of academic rigour since the beginning of my studies. I am also extremely grateful to all the members of my supervisory team, Prof. Ivan Olier, Prof. Sandra Ortega-Martorell and Prof. Ian G. McCarthy, who not only shared their deep knowledge of astrophysics and AI, but taught me how to be part of a research group.
+
+\medskip
+
+My list of mentors would not be complete without mentioning Prof. Daisuke Kawata and Dr. Adrian Price-Whelan. I have had the chance of being introduced to Daisuke halfway through my PhD and the pleasure of working with him till the end. Daisuke prompted me to look into applying simulation-based techniques to the study of the properties of Milky Way mergers, which now comprise a significant part of this thesis. Adrian has been a mentor and collaborator during my time at the Center for Computational Astrophysics (CCA) at the Flatiron Institute, an experience that shaped my maturity and confidence as a researcher, qualities which I hope will be reflected in this thesis.
+
+\medskip
+
+Different parts of my PhD research were shaped through collaboration with Dr. Robert J.J. Grand, Dr. Dharmesh Mistry, and Dr. T. Lucas Makinen. I have learned so much from each of them, as they generously shared the tricks of their trades with me. Beyond my research collaborators, I want to acknowledge all the wonderful people who made my PhD journey a genuine pleasure and who made me feel welcomed in the world of research. I am grateful to all the brilliant scientists at the Astrophysics Research Institute at Liverpool John Moores University, the Alan Turing Institute, and the CCA, for the countless research discussions and for sharing their expertise with me.
+
+\medskip
+
+A final, special thought goes to all the people I have relied on. My friends Cairns, Isaac, Şakir, and Sergio accompanied me through daily life in the UK and made home feel a little less distant. My mum and my sister listened to my endless complaints and gave me the strength to carry on through the difficult moments of the relentless work behind this thesis.
 
 \clearpage
 
